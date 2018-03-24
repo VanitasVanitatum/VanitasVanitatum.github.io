@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Post: Twitter Embed"
+title: "Post: Democracy Now Run By Advertisers"
 categories:
-  - Media
+  - Politics
 tags:
   - Democracy
   - Privacy
