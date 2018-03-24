@@ -1,9 +1,15 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2018-03-24 15:22:27 +0000
-categories: jekyll update
+title: "Post: Twitter Embed"
+categories:
+  - Media
+tags:
+  - Democracy
+  - Privacy
+  - Philosophy
+last_modified_at: 2018-03-24T12:57:42-05:00
 ---
+
 "It's one thing for a pile of data to be gathered about me or you and crunched [to send us ads] designed to persuade us to buy [stuff]. It's quite another when it can potentially shift election results."
 "[Micro-targeting] cuts out the noise of all the alternative viewpoints that would otherwise complicate a person's political decision-making" oh dear
 
@@ -69,6 +75,5 @@ Share this article with your friends, and we can start making privacy (not profi
 > Conduct analytics and measurement to understand how our services are used.
 > Combining data
 > We also combine data among our services and across your devices for these purposes. For example, we show you ads based on information from your use of Search and Gmail, and we use data from trillions of search queries to build spell-correction models that we use across all of our services.
-
 
 
