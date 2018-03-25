@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Evil Error
+categories:
+  - Politics
 excerpt_separator:  <!--more-->
 ---
 
