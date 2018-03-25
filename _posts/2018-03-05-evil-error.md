@@ -5,9 +5,9 @@ excerpt_separator:  <!--more-->
 categories:
   - Politics
 tags:
-  - Post Formats
-  - readability
-  - standard
+  - Democracy
+  - Privacy
+  - Philosophy
 ---
 
 
