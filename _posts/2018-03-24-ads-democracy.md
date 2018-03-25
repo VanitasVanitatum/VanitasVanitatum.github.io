@@ -6,9 +6,11 @@ categories:
 tags:
   - Democracy
   - Privacy
-  - Philosophy
+  - Social Media
 last_modified_at: 2018-03-24T12:57:42-05:00
 ---
+
+Here's a troll edit just for my friend on Telegram. The post was originally going to be titled "Finance Fucks part 1."
 
 > "It's one thing for a pile of data to be gathered about me or you and crunched [to send us ads] designed to persuade us to buy [stuff]. It's quite another when it can potentially shift election results."
 
