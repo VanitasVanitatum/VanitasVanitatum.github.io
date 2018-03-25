@@ -6,7 +6,6 @@ categories:
 tags:
   - content
   - embeds
-  - media
   - twitter
 last_modified_at: 2017-03-09T12:57:42-05:00
 ---
