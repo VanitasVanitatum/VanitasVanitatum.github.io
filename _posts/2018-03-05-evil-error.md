@@ -3,6 +3,10 @@ layout: post
 title: Evil Error
 categories:
   - Politics
+tags:
+  - Democracy
+  - Privacy
+  - Philosophy
 excerpt_separator:  <!--more-->
 ---
 
