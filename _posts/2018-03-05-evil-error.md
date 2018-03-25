@@ -5,9 +5,9 @@ excerpt_separator:  <!--more-->
 categories:
   - Politics
 tags:
-  - Democracy
-  - Privacy
-  - Philosophy
+  - democracy
+  - privacy
+  - philosophy
 ---
 
 
