@@ -26,36 +26,36 @@ It's disgraceful to mislead people into surrendering their data, then using this
 
 Check out the barefaced lying in this [Youtube Keynote Speech](https://www.youtube.com/watch?v=6bG5ps5KdDo)
 
-> 23:15 How did you get the emotional profile of people? "There's no reason why people should give up any data at all, and there's certainly no obligation to. We managed to collect millions — hundres of thousands — or millions I should say, of emotional profiles in the US by people volounteering this information to us. We can then match these emotional profiles against the data attributes that we hold on those individuals who have taken these personality inventories."
+> 23:15 How did you get the emotional profile of people? "There's no reason why people should give up any data at all, and there's certainly no obligation to. We managed to collect millions — hundreds of thousands — or millions I should say, of emotional profiles in the US by people volunteering this information to us. We can then match these emotional profiles against the data attributes that we hold on those individuals who have taken these personality inventories."
 
 > 25:00 "They're voluntarily giving up their data, they're doing this in full knowledge of what's happening here, this is not anything Machiavellian or out-of-order.
 
-This is a lie. The US data-set Cambridge Analytica used was largley harvested without consent, using an exploit that, if one person volounteered themselves through a survey, the rest of their [entire friends-list data](https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election) would be scraped as well.
+This is a lie! The US data-set Cambridge Analytica used was largely harvested without consent, using an exploit that, if one person volunteered themselves through a survey, the rest of their [entire friends-list data](https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election) would be scraped as well.
 
 Nix defends Trump's election as "free and fair ... the will of the people" after having spent 20 minutes taking credit for manipulating people into voting for Trump.
 Can ANY advertising exec say in good conscience that their adverts exist to provide "fair representation" of their product? The very act of targeting the delivery to exploit people's specific personality faults is coercive.
 
 Back to the Article:
-> "[Nix] doesn't resile from Cambridge Analytica's contribution to the Trump campaign. "We're a service provider and we're just trying to provide the best possible service for our clients."
+> "[Nix] doesn't [shy] from Cambridge Analytica's contribution to the Trump campaign. "We're a service provider and we're just trying to provide the best possible service for our clients."
 
 Nix acts like a respectable professional, but he's really just a mercenary, willing to exploit people's data for the highest bidder.
 
-Taking a step back, it needn't be all dooms-day. Your data is out there, including psychometric tests and shopping habits (if not even porn habits). But can they REALLY use that already? Surely that'd take too much effort and processing-power. Surely Cambridge Analytica would profit if they exaggerated their effectivness, so they can't be as powerful as they claim.
-We can debate about today's data-hotshots; how nice, nasty, naieve, or nefarious they are. That doesn't matter. It's the NEXT round of predatory advertisers who'll buy (or steal) your data that we should be concerned about.
+Taking a step back, it needn't be all dooms-day. Your data is out there, including psychometric tests and shopping habits (if not even porn habits). But can they REALLY use that already? Surely that'd take too much effort and processing-power. Surely Cambridge Analytica would profit if they exaggerated their effectiveness, so they can't be as powerful as they claim.
+We can debate about today's data-hotshots; how nice, nasty, naive, or nefarious they are. That doesn't matter. It's the NEXT round of predatory advertisers who'll buy (or steal) your data that we should be concerned about.
 Even if the data can't be abused today, the fact that it's ALREADY out there means we have no way of preventing it from being abused tomorrow.
 
 I want to be able to live a quiet life, where I control "who knows me" and I opt-in to any political choices I make.
-That's no longer possible. You can't browse, shop, or communicate online without your clicks and eyeballs being tracked, manipulated, and monetized.
+That's no longer possible. You can't browse, shop, or communicate online without your clicks and eyeballs being tracked, manipulated, and monetised.
 
 > ""Remember, Google's customers are advertisers, not users," says academic Vanessa Teague. "So the service to Google's customers is that they can get good data about how effective their ads are.""
 
 From now on, I refuse to consent to Google violating my privacy. Recently I was making a new email account.
-I've attached Google's current Gmail ToS (dated 2018.03.20). After reading that, I closed the Gmail signup window immeduately, and made this account instead Vanitas.V@protonmail.com
+I've attached Google's current Gmail ToS (dated 2018.03.20). After reading that, I closed the Gmail signup window immediately, and made this account instead Vanitas.V@protonmail.com
 
-The cat's largley already out-of-the-bag, but there are still some basic improvenets you can make today.
+The cat's largely already out-of-the-bag, but there are still some basic improvements you can make today.
 There exist other, high-quality, free Email providers, beyond Google (e.g. Proton Mail).
 Same for Instant Messaging, screw FaceBook (which also includes WhatsApp and Instagram), use Telegram instead!
-Consider saccrificing some of the convenience of Google Chrome, to switching to Mozilla (or even TOR) and using a VPN.
+Consider sacrificing some of the convenience of Google Chrome, to switching to Mozilla (or even TOR) and using a VPN.
 
 The bad news is our default, free, convenient web options are abusive.
 The good news is we can still do something about it.
