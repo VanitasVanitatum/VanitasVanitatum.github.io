@@ -2,7 +2,7 @@
 layout: post
 title: "Democracy Now Run By Advertisers"
 categories:
-  - Markup
+  - media
 tags:
   - Democracy
   - Privacy
