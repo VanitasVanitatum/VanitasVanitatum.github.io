@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Democracy Now Run By Advertisers"
+title: Democracy Now Run By Advertisers
 categories:
   - Politics
 tags:
