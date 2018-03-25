@@ -6,7 +6,7 @@ categories:
 tags:
   - Democracy
   - Privacy
-  - Philosophy
+  - Philosophy
 last_modified_at: 2018-03-24T12:57:42-05:00
 ---
 
