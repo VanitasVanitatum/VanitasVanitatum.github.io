@@ -2,9 +2,9 @@
 layout: post
 title: "Sublime Text 3 Best Settings"
 categories:
-  - Computers
+  - Computers Science and Math
 tags:
-  - Computers
+  - Computers Science and Math
   - Sublime Text 3
   - Fonts
   - PowerUser
