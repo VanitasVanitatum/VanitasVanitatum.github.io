@@ -1,0 +1,562 @@
+// Identify which command is being executed when you select it from the menu, by entering 「sublime.log_commands(True)」 into the console, then selecting the command.
+[
+
+//TODO: include preceeding/scueeding line in selection
+
+// Unbound
+	{"keys": ["ctrl+1"], "command": "unbound" },		// Is meant to disabe 'focus tab 1 in pane' but doesn't work for some reason
+	{"keys": ["alt+ctrl+down"], "command": "unbound" },
+	{"keys": ["alt+ctrl+up"], "command": "unbound" },
+	// {"keys": ["alt+left"], "command": "unbound" },         // Implemented these as Home in AHK
+	// {"keys": ["alt+right"], "command" : "unbound" },       // Implemented these as End in AHK
+	{"keys": ["ctrl+f4"], "command": "unbound" },         // Redundant
+	{"keys": ["ctrl+k", "ctrl+k"], "command": "unbound"}, // Kills Line
+	{"keys": ["ctrl+shift+c"], "command": "unbound"},      // Color Highlighter trigger for color picker
+	{"keys": ["ctrl+shift+enter"], "command": "unbound" }, // Insert preceeding line, replaced with ctrl+enter
+	{"keys": ["ctrl+shift+k"], "command": "unbound"},      // Kills Line
+	{"keys": ["ctrl+shift+w"], "command": "unbound" },     // Close whole window
+	{"keys": ["shift+backspace"], "command": "unbound" },  // Duplicate with ctrl+backspace
+	{"keys": ["shift+delete"], "command": "unbound" },     // Duplicate with ctrl+delete
+	{"keys": ["f5"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },    // Opens Console, solves conflict with my AHK script that reserves ` for global hotkey VLC play/pause
+	{ "keys": ["f12"], "command": "unbound"},    //   "side_bar_open_in_browser" , "args":{"paths":[], "type":"testing", "browser":""} },   //These are unnecessairy, and conflict with ctrl+alt+b open_in_browser
+	{ "keys": ["alt+f12"], "command": "unbound"},    //   "side_bar_open_in_browser", "args":{"paths":[], "type":"production", "browser":""} },   //These are unnecessairy, and conflict with ctrl+alt+b open_in_browser
+
+
+
+// Display
+	{"keys": ["alt+ctrl+q"], "command": "toggle_full_screen"},
+	{"keys": ["alt+ctrl+w"], "command": "toggle_setting", "args": {"setting": "auto_complete"} },
+
+	{"keys": ["alt+ctrl+a"], "command": "toggle_tabs"},
+	{"keys": ["alt+ctrl+s"], "command": "toggle_status_bar"},
+	{"keys": ["alt+ctrl+d"], "command": "toggle_setting", "args": {"setting": "line_numbers"} },
+	{"keys": ["alt+ctrl+f"], "command": "toggle_menu"},
+
+	{"keys": ["alt+ctrl+z"], "command": "toggle_side_bar"},
+	{"keys": ["alt+ctrl+x"], "command": "toggle_setting", "args": {"setting": "word_wrap"} },
+	{"keys": ["alt+ctrl+c"], "command": "toggle_minimap"},
+	{"keys": ["alt+ctrl+v"], "command": "toggle_setting", "args": {"setting": "gutter"} },
+
+	{"keys": ["alt+super+j"], "command": "set_file_type", "args": {"syntax": "Packages/JavaScript/JSON.tmLanguage"} },
+	{"keys": ["alt+super+p"], "command": "set_file_type", "args": {"syntax": "Packages/Text/Plain Text.tmLanguage"} },
+
+	{"keys": ["alt+ctrl+super+u"], "command": "set_setting", "args": {"setting": "font_face", "value": "Futura LtCn Bt"}},		//Reading mode
+	{"keys": ["alt+ctrl+super+i"], "command": "set_setting", "args": {"setting": "rulers", "value": [0, 0.3, 4, 20, 40, 60 ]}},		//Reading mode
+	{"keys": ["alt+ctrl+super+o"], "command": "set_setting", "args": {"setting": "font_face", "value": "PragmataPro"}},		//Coding mode
+	{"keys": ["alt+ctrl+super+p"], "command": "set_setting", "args": {"setting": "rulers", "value": [0, 0.3, 4, 80 ]}},		//Coding mode
+
+
+
+// Navigation
+	// {"keys": ["ctrl+tab"], "command": "next_view" },   //Duplicate with ctrl+pgUp
+	// {"keys": ["ctrl+shift+tab"], "command": "prev_view" },   //Duplicate with ctrl+pgDn
+	{"keys": ["ctrl+shift+z"], "command": "reveal_in_side_bar" },
+	{"keys": ["ctrl+space"], "command": "show_at_center" },
+	{"keys": ["ctrl+alt+b"], "command": "open_in_browser"},
+	// {"keys": ["alt+down"], "command": "scroll_width", "args": {"amount": 30, "by_character": true } }, //These are actually implemented in "Default (Windows).sublime-mousemap"
+	// {"keys": ["alt+up"],   "command": "scroll_width", "args": {"amount": -30, "by_character": true } }, //These are actually implemented in "Default (Windows).sublime-mousemap"
+	
+	{"keys": ["alt+up"], "command": "scroll_lines", "args": {"amount": 1.0 } },		// Remapped from Ctrl+Up, which now (via AHK) sends Home
+	{"keys": ["alt+down"], "command": "scroll_lines", "args": {"amount": -1.0 } },		// Remapped from Ctrl+Down, which now (via AHK) sends End
+	{"keys": ["alt+k"], "command": "scroll_lines", "args": {"amount": 1.0 } },		// Remapped from Ctrl+Up, which now (via AHK) sends Home
+	{"keys": ["alt+j"], "command": "scroll_lines", "args": {"amount": -1.0 } },		// Remapped from Ctrl+Down, which now (via AHK) sends End
+	{"keys": ["alt+l"], "command": "move", "args": {"by": "pages", "forward": false} },
+	{"keys": ["alt+h"], "command": "move", "args": {"by": "pages", "forward": true} },
+
+	{"keys": ["ctrl+alt+shift+p"], "command": "prompt_switch_project_or_workspace"},
+	{"keys": ["ctrl+k", "ctrl+y"], "command": "permute_lines", "args": {"operation": "unique"} },
+	{"keys": ["ctrl+k", "ctrl+r"], "command": "permute_lines", "args": {"operation": "reverse"} },
+	{"keys": ["ctrl+k", "ctrl+p"], "command": "open_file", "args": {"file": "${project}"} },
+	{"keys": ["alt+m", "alt+m"], "command": "open_file", "args": {"file": "${packages}/User/Default ($platform).sublime-keymap"} },		//Remember which one does which with: 「First letter」=M for 'Mine', 【,】 for Default. 「Second letter」
+	{"keys": ["alt+m", "alt+,"], "command": "open_file", "args": {"file": "${packages}/User/Preferences.sublime-settings"} },   // Sick of having the menu pop down unnecessairly, since 〈Alt+n〉 is a mnemonic for the 「Preferences」
+	{"keys": ["alt+,", "alt+m"], "command": "open_file", "args": {"file": "${packages}/Default/Default ($platform).sublime-keymap"} },
+	{"keys": ["alt+,", "alt+,"], "command": "open_file", "args": {"file": "${packages}/Default/Preferences.sublime-settings"} },
+
+	{"keys": ["f6"], "command": "unbound" }, // Using AHK (what else?) I remap the Function keys to useful tasks, or even application shortcuts, so Shift+  F6 returns F6.
+	{"keys": ["alt+ctrl+shift+f6"], "command": "toggle_setting", "args": {"setting": "spell_check"} },
+	{"keys": ["ctrl+f6"], "command": "next_misspelling" },
+	{"keys": ["ctrl+shift+f6"], "command": "prev_misspelling" },
+	{"keys": ["alt+ctrl+p"], "command": "prompt_select_workspace"},
+
+
+	// Tab Mods
+	// {"keys": ["tab"], "command": "unbound" },
+	// {"keys": ["tab"], "command": "unbound" },
+	// {"keys": ["tab"], "command": "next_field", "context": [{ "key": "has_next_field", "operator": "equal", "operand": true } ] },
+	// {"keys": ["shift+tab"], "command": "unbound" },
+	// {"keys": ["shift+tab"], "command": "prev_field", "context": [{ "key": "has_prev_field", "operator": "equal", "operand": true } ] },
+	{"keys": ["ctrl+tab"], "command": "unbound" },
+	{"keys": ["ctrl+shift+tab"], "command": "unbound" },
+	{"keys": ["ctrl+["], "command": "unbound" },
+	{"keys": ["ctrl+]"], "command": "unbound" },
+	{"keys": ["ctrl+\\", "ctrl+]"], "command": "insert_best_completion", "args": {"default": "\t", "exact": true} },
+	{"keys": ["]"], "command": "indent" },		// Default keybindings, merely augmented
+	{"keys": ["]"], "command": "indent", "context": [{ "key": "text", "operator": "regex_contains", "operand": "\n" } ] },
+	{"keys": ["]"], "command": "reindent", "context": [{ "key": "setting.auto_indent", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true }, { "key": "preceding_text", "operator": "regex_match", "operand": "^$", "match_all": true }, { "key": "following_text", "operator": "regex_match", "operand": "^$", "match_all": true } ] },
+	{"keys": ["["], "command": "unindent" },		// Default keybindings, merely augmented
+	{"keys": ["ctrl+["], "command": "insert_snippet", "args": {"contents": "[$0"} },
+	{"keys": ["ctrl+]"], "command": "insert_snippet", "args": {"contents": "]$0"} },
+
+	{"keys": ["ctrl+["], "command": "insert_snippet", "args": {"contents": "[$0]"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true }, { "key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\)|]|;|\\}|$)", "match_all": true } ] },
+	{"keys": ["ctrl+["], "command": "insert_snippet", "args": {"contents": "[${0:$SELECTION}]"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true } ] },
+	{"keys": ["ctrl+]"], "command": "move", "args": {"by": "characters", "forward": true}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true }, { "key": "following_text", "operator": "regex_contains", "operand": "^\\]", "match_all": true } ] },
+	{"keys": ["backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Left Right.sublime-macro"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true }, { "key": "preceding_text", "operator": "regex_contains", "operand": "\\[$", "match_all": true }, { "key": "following_text", "operator": "regex_contains", "operand": "^\\]", "match_all": true } ] },
+
+
+	{"keys": ["alt+shift+super+ctrl+tab"], "command": "commit_completion", "context": [{ "key": "auto_complete_visible" }, { "key": "setting.auto_complete_commit_on_tab" } ] },
+	{"keys": ["alt+shift+super+ctrl+tab"], "command": "insert_best_completion", "args": {"default": "", "exact": false}, "context": [{ "key": "setting.tab_completion", "operator": "equal", "operand": true } ] },
+	{"keys": ["alt+shift+super+ctrl+tab"], "command": "replace_completion_with_next_completion", "context": [{ "key": "last_command", "operator": "equal", "operand": "insert_best_completion" }, { "key": "setting.tab_completion", "operator": "equal", "operand": true } ] },    // This guy needs to be last
+	{"keys": ["ctrl+right"], "command": "unbound" },    // works in conjunction with the other tab-mods
+	{"keys": ["ctrl+right"], "command": "move", "args": {"by": "words", "forward": true} },
+	{"keys": ["ctrl+right"], "command": "move", "args": {"by": "characters", "forward": true}, "context": [     //gratefully gotten from http://www.codejury.com/fixing-some-of-sublime-texts-annoyances/
+		{ "key": "following_text", "operator": "regex_contains", "operand": "^[)\\]'\">}」〉』》┤】╣〗〕☽%]", "match_all": true },
+		{ "key": "preceding_text", "operator": "regex_contains", "operand": "[(\\['\"<{「〈『《├【╠〖〔☾%]", "match_all": true },
+		{ "key": "auto_complete_visible", "operator": "equal", "operand": false } ] },
+
+// TMP, NEED TO DELETE THESE
+	{"keys": ["tab"], "command": "move", "args": {"by": "characters", "forward": true},
+	"context": [     //gratefully gotten from http://www.codejury.com/fixing-some-of-sublime-texts-annoyances/
+		{ "key": "following_text", "operator": "regex_contains", "operand": "^[)\\]`'\">}」〉』》┤】╣〗〕☽%\\$(\\[<{「〈『《├【╠〖〔☾%]", "match_all": true },
+		// { "key": "following_text", "operator": "regex_contains", "operand": "^[)\\]`'\">}」〉』》┤】╣〗〕☽%\\$]", "match_all": true },
+		// { "key": "preceding_text", "operator": "regex_contains", "operand": "[(\\[`'\"<{「〈『《├【╠〖〔☾%\\$]", "match_all": true },
+		{ "key": "auto_complete_visible", "operator": "equal", "operand": false } ] },
+	// {"keys": ["ctrl+tab"], "command": "move", "args": {"by": "characters", "forward": false}},
+	// {"keys": ["shift+tab"], "command": "move", "args": {"by": "characters", "forward": true, "extend": true} },
+	// {"keys": ["ctrl+shift+tab"], "command": "move", "args": {"by": "characters", "forward": false, "extend": true} },
+
+
+
+// Plugins
+	{"keys": ["alt+ctrl+shift+super+t"], "command": "toggle_setting", "args": {"setting": "enable_table_editor"} },
+	{"keys": ["ctrl+alt+n"], "command": "advanced_new_file_new"},   //Create New
+	{"keys": ["ctrl+alt+r"], "command": "advanced_new_file_move"},    //Rename
+	{"keys": ["alt+super+d"], "command": "advanced_new_file_delete"},   //Ask who to delete
+	{"keys": ["alt+super+shift+d"], "command": "advanced_new_file_delete", "args": {"current": true} },   //Force Delete Current
+	{"keys": ["alt+a"], "command": "alignment" },   //This is such a brutally simple hotkey (:
+	// { "keys": ["alt+ctrl+w"], "command": "toggle_colorhighlighter_enabled"},
+	{"keys": ["alt+d", "alt+d"], "command": "color_picker", "context": [{"key": "color_highlighter.color_picker"} ] },
+	{"keys": ["ctrl+shift+,"], "command": "color_convert_prev", "context": [{"key": "color_highlighter.color_convert_prev"} ] },
+	{"keys": ["ctrl+shift+."], "command": "color_convert_next", "context": [{"key": "color_highlighter.color_convert_next"} ] },
+	// {"keys": ["alt+shift+c"], "command": "super_calculator"},   //This happens to also be something else in Foxit Reader, but don't worry, it's more forwards compatible than Super+c which pulls up charms in Win8(.1)    Not needed, since Alt+c works just fine!
+
+	//Autohotkey
+	// {"keys": ["super+f2"], "command":"goto_documentation"},    //doesn't work for some reason
+	{"keys": ["ctrl+b"], "command":"ahkrun"},
+	// {"keys": ["ctrl+shift+b"], "command":"ahkcompile "},   //You don't want this one, it sends it to AHK2exe
+	{"keys": ["ctrl+shift+b"], "command":"ahkrunpiped"},
+
+	//MoveTab
+	{"keys": ["ctrl+f1"], "command": "move_tab", "args": { "position": "0" } },
+	{"keys": ["ctrl+f3"], "command": "move_tab", "args": { "position": "999" } },
+	{"keys": ["ctrl+shift+pageup"], "command": "move_tab", "args": { "position": "-1" } },
+	{"keys": ["ctrl+shift+pagedown"], "command": "move_tab", "args": { "position": "+1" } },
+
+	//Bracket Highlighter
+	{"keys": ["ctrl+alt+super+w"], "command": "wrap_brackets"},
+	{"keys": ["alt+shift+super+w"], "command": "bh_key", "args": {"plugin": {"type": ["cfml", "html", "angle"], "command": "bh_modules.tagnameselect"} } }, // Select tag name of HTML/XML tag (both opening name and closing)      //Meant to be similar to Alt+Shift+W=wrap in tag
+	{"keys": ["ctrl+alt+shift+v"], "command": "bh_toggle_high_visibility"},
+	{"keys": ["alt+ctrl+m"], "command": "toggle_setting", "args": {"setting": "no_outside_adj"} },
+	{"keys": ["ctrl+shift+space"], "command": "unbound" },		// To make space for VLC, which ideally would use Alt+Space, but the GUI doesn't permit it
+	{"no_outside_adj": true, "keys": ["ctrl+alt+space"], "command": "bh_key", "args": {"lines" : true, "plugin": {"type": ["__all__"], "command": "bh_modules.bracketselect"} } }, // Select text between brackets      //This sequence is origionally assigned to  "command": "expand_selection", "args": {"to": "scope"}, and does the same thing, except for a wider array of braces.
+	{"keys": ["ctrl+alt+super+["], "command": "bh_key", "args": {"plugin": {"type": ["__all__"], "command" : "bh_modules.foldbracket"} } }, // Fold contents between brackets
+	{"keys": ["ctrl+alt+super+q"], "command": "bh_key", "args": {"lines" : true, "plugin": {"type": ["single_quote", "double_quote", "py_single_quote", "py_double_quote"], "command": "bh_modules.swapquotes"} } }, // Will handle escaping or unescaping quotes within the string // Convert single quote string to double quoted string and vice versa
+	{"keys": ["ctrl+alt+super+e"], "command": "swap_brackets"}, // Swap brackets with another type
+
+	//LaTeχing
+	{"keys": ["ctrl+q"], "command": "ltx_jump_to_pdf", "context": [{"key": "selector", "operand": "text.tex.latex", "operator": "equal"} ] },
+
+
+// Bookmarks and Marks
+	{"keys": ["ctrl+shift+f2"], "command": "sublime_bookmark", "args" : { "type" : "add" } },
+	{"keys": ["f2"], "command": "sublime_bookmark", "args" : { "type" : "goto_next" } },
+	{"keys": ["shift+f2"], "command": "sublime_bookmark", "args" : { "type" : "goto_prev" } },
+	{"keys": ["ctrl+f2"], "command": "sublime_bookmark", "args" : { "type" : "toggle_line" } },
+
+	{"keys": ["ctrl+k", "ctrl+space"], "command": "set_mark" },
+	{"keys": ["ctrl+k", "ctrl+a"], "command": "select_to_mark" },
+	{"keys": ["ctrl+k", "ctrl+w"], "command": "delete_to_mark" },
+	{"keys": ["ctrl+k", "ctrl+x"], "command": "swap_with_mark" },
+	{"keys": ["ctrl+k", "ctrl+g"], "command": "clear_bookmarks", "args": {"name": "mark"} },
+
+
+// Selection/Editing
+	{"keys": ["alt+shift+up"], "command": "swap_line_up" },		// Remapped from default Ctrl+Shift+Up since Ctrl+Up now sends Home (thanks AHK)
+	{"keys": ["alt+shift+down"], "command": "swap_line_down" },		// Remapped from default Ctrl+Shift+Down since Ctrl+Down now sends End (thanks AHK)
+	{"keys": ["ctrl+."], "command": "expand_selection", "args": {"to": "line"} },
+	{"keys": ["alt+ctrl+i"], "command": "invert_selection" },
+	{"keys": ["ctrl+shift+w"], "command": "find_all_under" },
+	{"keys": ["ctrl+k", "ctrl+j"], "command": "title_case" },   //K,U for upper   K,L for lower
+	{"keys": ["ctrl+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} }, //Put these back to normal, since I realized I remember it by logical consistency, and having the button above making line below didn't make sense
+	{"keys": ["shift+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line Before.sublime-macro"} }, //Put these back to normal, since I realized I remember it by logical consistency, and having the button above making line below didn't make sense
+	{"keys": ["ctrl+shift+x"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+	// {"keys": ["shift+super+pgup"], "command": "move wholelines -1 extend" },   //I want to extend my selection
+	// {"keys": ["shift+super+pgdown"], "command": "move wholelines 1 extend" },    //I want to extend my selection
+	{"keys": ["super+pageup"], "command": "select_lines", "args": {"forward": false} },
+	{"keys": ["super+pagedown"], "command": "select_lines", "args": {"forward": true} },
+	// { "keys": ["shift+super+pageup"], "command": "select_lines", "args": {"forward": false} },   //Redundant with shift+super+pgup
+	// { "keys": ["shift+super+pagedown"], "command": "select_lines", "args": {"forward": true} },    //Redundant with shift+super+pgdown
+	{"keys": ["alt+super+up"], "command": "select_lines", "args": {"forward": false} },
+	{"keys": ["alt+super+down"], "command": "select_lines", "args": {"forward": true} },
+	// { "keys": ["shift+super+up"], "command": "select_lines", "args": {"forward": false} },   //Don't work for some reason
+	// { "keys": ["shift+super+down"], "command": "select_lines", "args": {"forward": true} },    //Don't work for some reason
+	{"keys": ["ctrl+shift+0"],  "command": "unexpand_tabs", "args": {"set_translate_tabs": true} },   //Convert Indentation to Tabs
+	{"keys": ["ctrl+shift+9"],  "command": "expand_tabs", "args": {"set_translate_tabs": true} },   //Convert Indentation to Spaces
+	{"keys": ["ctrl+shift+v"], "command": "paste" },        //Default behavior is these swapped
+	{"keys": ["ctrl+v"], "command": "paste_and_indent" },   //Default behavior is these swapped
+
+
+
+
+// Snippets
+	{ "keys": ["ctrl+alt+/"], "command": "insert_snippet", "args": {"contents": "\t\t// $0"} },		// JSON and C comments
+	{ "keys": ["ctrl+alt+l"], "command": "insert_snippet", "args": {"contents": "\t\t\\\\\\\\ $0"} }, 		// Latex Endline
+	{ "keys": ["super+alt+/"], "command": "insert_snippet", "args": {"contents": ":\t\t// $0"} },		// ??
+	{ "keys": ["ctrl+alt+."], "command": "insert_snippet", "args": {"contents": "\t\t;; $0"} },		// AHK comments
+	{ "keys": ["ctrl+alt+,"], "command": "insert_snippet", "args": {"contents": "\t\t## $0"} },		// Bash comments
+	{ "keys": ["alt+shift+l"], "command": "insert_snippet", "args": {"contents": " 《Alt,a,$0》"}, },
+
+	// { "keys": ["ctrl+9"], "command": "insert_snippet", "args": {"contents": "↓$0"} },
+	// { "keys": ["ctrl+0"], "command": "insert_snippet", "args": {"contents": "↑$0"} },
+
+	// { "keys": ["9"], "command": "move", "args": {"by": "characters", "forward": true}, "context":
+	//  [
+	//    { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
+	//    { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+	//    { "key": "following_text", "operator": "regex_contains", "operand": "^」", "match_all": true }
+	//  ]
+	// },
+
+
+	{"keys": ["ctrl+3"], "command": "unbound" },		// I made this when I was working on a guide using software (MP3tag) which denoted variables %between percents%.
+	{"keys": ["ctrl+3"], "command": "insert_snippet", "args": {"contents": "%$0%"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true } ] }, 
+	{"keys": ["ctrl+3"], "command": "insert_snippet", "args": {"contents": "%${0:$SELECTION}%"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true } ] },
+
+	{"keys": ["ctrl+4"], "command": "unbound" },
+	{"keys": ["ctrl+4"], "command": "insert_snippet", "args": {"contents": "[i]$0[/i]"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true } ] }, 
+	{"keys": ["ctrl+4"], "command": "insert_snippet", "args": {"contents": "[i]${0:$SELECTION}[/i]"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true } ] },
+
+	{"keys": ["ctrl+shift+super+alt+1"], "command": "insert_snippet", "args": {"contents": "「$0」"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true }, ] }, 
+	{"keys": ["ctrl+shift+super+alt+1"], "command": "insert_snippet", "args": {"contents": "「${0:$SELECTION}」"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true } ] },
+	{"keys": ["backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Left Right.sublime-macro"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true }, { "key": "preceding_text", "operator": "regex_contains", "operand": "\\「$", "match_all": true }, { "key": "following_text", "operator": "regex_contains", "operand": "^\\」", "match_all": true } ] },
+
+	{"keys": ["ctrl+shift+super+alt+2"], "command": "insert_snippet", "args": {"contents": "『$0』"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true }, ] }, 
+	{"keys": ["ctrl+shift+super+alt+2"], "command": "insert_snippet", "args": {"contents": "『${0:$SELECTION}』"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true } ] },
+	{"keys": ["backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Left Right.sublime-macro"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true }, { "key": "preceding_text", "operator": "regex_contains", "operand": "\\『$", "match_all": true }, { "key": "following_text", "operator": "regex_contains", "operand": "^\\』", "match_all": true } ] },
+
+	{"keys": ["ctrl+shift+super+alt+3"], "command": "insert_snippet", "args": {"contents": "〈$0〉"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true }, ] }, 
+	{"keys": ["ctrl+shift+super+alt+3"], "command": "insert_snippet", "args": {"contents": "〈${0:$SELECTION}〉"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true } ] },
+	{"keys": ["backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Left Right.sublime-macro"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true }, { "key": "preceding_text", "operator": "regex_contains", "operand": "\\〈$", "match_all": true }, { "key": "following_text", "operator": "regex_contains", "operand": "^\\〉", "match_all": true } ] },
+
+	{"keys": ["ctrl+shift+super+alt+4"], "command": "insert_snippet", "args": {"contents": "《$0》"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true }, ] }, 
+	{"keys": ["ctrl+shift+super+alt+4"], "command": "insert_snippet", "args": {"contents": "《${0:$SELECTION}》"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true } ] },
+	{"keys": ["backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Left Right.sublime-macro"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true }, { "key": "preceding_text", "operator": "regex_contains", "operand": "\\《$", "match_all": true }, { "key": "following_text", "operator": "regex_contains", "operand": "^\\》", "match_all": true } ] },
+
+	{"keys": ["ctrl+shift+super+alt+5"], "command": "insert_snippet", "args": {"contents": "├$0┤"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true }, ] }, 
+	{"keys": ["ctrl+shift+super+alt+5"], "command": "insert_snippet", "args": {"contents": "├${0:$SELECTION}┤"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true } ] },
+	{"keys": ["backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Left Right.sublime-macro"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true }, { "key": "preceding_text", "operator": "regex_contains", "operand": "\\├$", "match_all": true }, { "key": "following_text", "operator": "regex_contains", "operand": "^\\┤", "match_all": true } ] },
+
+	{"keys": ["ctrl+shift+super+alt+6"], "command": "insert_snippet", "args": {"contents": "╠$0╣"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true }, ] }, 
+	{"keys": ["ctrl+shift+super+alt+6"], "command": "insert_snippet", "args": {"contents": "╠${0:$SELECTION}╣"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true } ] },
+	{"keys": ["backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Left Right.sublime-macro"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true }, { "key": "preceding_text", "operator": "regex_contains", "operand": "\\╠$", "match_all": true }, { "key": "following_text", "operator": "regex_contains", "operand": "^\\╣", "match_all": true } ] },
+
+	{"keys": ["ctrl+shift+super+alt+7"], "command": "insert_snippet", "args": {"contents": "【$0】"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true }, ] }, 
+	{"keys": ["ctrl+shift+super+alt+7"], "command": "insert_snippet", "args": {"contents": "【${0:$SELECTION}】"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true } ] },
+	{"keys": ["backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Left Right.sublime-macro"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true }, { "key": "preceding_text", "operator": "regex_contains", "operand": "\\【$", "match_all": true }, { "key": "following_text", "operator": "regex_contains", "operand": "^\\】", "match_all": true } ] },
+
+	{"keys": ["ctrl+shift+super+alt+8"], "command": "insert_snippet", "args": {"contents": "〖$0〗"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true }, ] }, 
+	{"keys": ["ctrl+shift+super+alt+8"], "command": "insert_snippet", "args": {"contents": "〖${0:$SELECTION}〗"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true } ] },
+	{"keys": ["backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Left Right.sublime-macro"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true }, { "key": "preceding_text", "operator": "regex_contains", "operand": "\\〖$", "match_all": true }, { "key": "following_text", "operator": "regex_contains", "operand": "^\\〗", "match_all": true } ] },
+
+	{"keys": ["ctrl+shift+super+alt+9"], "command": "insert_snippet", "args": {"contents": "〔$0〕"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true }, ] }, 
+	{"keys": ["ctrl+shift+super+alt+9"], "command": "insert_snippet", "args": {"contents": "〔${0:$SELECTION}〕"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true } ] },
+	{"keys": ["backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Left Right.sublime-macro"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true }, { "key": "preceding_text", "operator": "regex_contains", "operand": "\\〔$", "match_all": true }, { "key": "following_text", "operator": "regex_contains", "operand": "^\\〕", "match_all": true } ] },
+
+	{"keys": ["ctrl+shift+super+alt+0"], "command": "insert_snippet", "args": {"contents": "☾$0☽"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true }, ] }, 
+	{"keys": ["ctrl+shift+super+alt+0"], "command": "insert_snippet", "args": {"contents": "☾${0:$SELECTION}☽"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true } ] },
+	{"keys": ["backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Left Right.sublime-macro"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true }, { "key": "preceding_text", "operator": "regex_contains", "operand": "\\☾$", "match_all": true }, { "key": "following_text", "operator": "regex_contains", "operand": "^\\☽", "match_all": true } ] },
+
+
+
+
+	// Panes
+		// Alt is basically the "movement key", a super fast combo is alt+left/right/number
+		{"keys": ["alt+left"], "command": "unbound" },
+		{"keys": ["alt+right"], "command": "unbound" },
+		{"keys": ["ctrl+shift+alt+0"], "command": "clone_file" },
+		// {"keys": ["ctrl+q", "alt+up"], "command": "new_pane" },		// These ruin my mega setup (and any other setup) and revers to the stupid cols [0,1,2] rows [0,0.n,0.nn,0.nnn,1] [0,0,1,nnnn],[1,0,nnnn,0.n],[1,0.n,nnnn,0.nn],[1,0.nn,nnnn,0.nnn],[1,0.nnn,nnnn,0.nnnn]
+		// {"keys": ["ctrl+q", "alt+down"], "command": "close_pane" },		// These ruin my mega setup (and any other setup) and revers to the stupid cols [0,1,2] rows [0,0.n,0.nn,0.nnn,1] [0,0,1,nnnn],[1,0,nnnn,0.n],[1,0.n,nnnn,0.nn],[1,0.nn,nnnn,0.nnn],[1,0.nnn,nnnn,0.nnnn]
+		// {"keys": ["ctrl+q", "ctrl+shift+up"], "command": "new_pane", "args": {"move": false} },    // No difference to Ctrl+Alt+2
+		{"keys": ["ctrl+q", "ctrl+q"], "command": "move_to_group", "args": {"group": 3} },
+		{"keys": ["ctrl+e", "ctrl+e"], "command": "move_to_group", "args": {"group": 4} },
+		{"keys": ["alt+left"], "command": "focus_neighboring_group", "args": {"forward": false} },
+		{"keys": ["alt+right"], "command": "focus_neighboring_group" },
+		{"keys": ["alt+ctrl+left"], "command": "move_to_neighboring_group", "args": {"forward": false} },		// Annoyingly, you need to be leaving a pane already containing a window, otherwise your cursor won't follow you :/ This, of course, is solved by putting a dummy window in every pane, meaning you don't have any empty panes, and can move around uninhibited
+		{"keys": ["alt+ctrl+right"], "command": "move_to_neighboring_group" },		// Annoyingly, you need to be leaving a pane already containing a window, otherwise your cursor won't follow you :/ This, of course, is solved by putting a dummy window in every pane, meaning you don't have any empty panes, and can move around uninhibited
+
+		// commands "next_view_in_stack" and "next_view_in_stack" is a terribly unreliable way to switch between panes, don't do it! Only useful if you want a way to 「go back to most recent window」 if you're scripting something
+				{"keys": ["ctrl+alt+shift+9"], "command": "next_view_in_stack" },
+
+		/* Make Duplicate view(of current pane) to specified pane
+		Easy solution is super+alt+0, ctrl+alt+left ... but depends on all panes containing a dummy
+		http://stackoverflow.com/questions/13388477/multiple-commands-in-a-single-sublime-text-2-user-keymap-shortcut
+
+		TODO combine these into a single ST3 command, to not need AHK  
+		{"keys": ["super+alt+0"], "command": "clone_file" , "command": "toggle_full_screen","command": "show_at_center", "command": "clone_file" },
+				!#1:: SendInput ^2!+1^w!^+9 return      ;Removes clone from window 2 by using #9 for "next_view_in_stack"
+				!#2:: SendInput !^+{0}+!{2}^{q}^{Left}^{q}+^{Right} return      ;Clones current file in ST3 new window, uses !^+0 as hotkey for "clone_file"
+				!#3:: SendInput !^+{0}^+!{Down}^{q}^{Left}^{q}+^{Right} return      ;Clones current file in ST3 new window, uses !^+0 as hotkey for "clone_file"
+		*/
+
+
+				{"keys": ["ctrl+1"], "command": "unbound" },
+				{"keys": ["ctrl+2"], "command": "unbound" },
+				{"keys": ["ctrl+1"], "command": "select_by_index", "args": { "index": 0 } },
+				{"keys": ["ctrl+2"], "command": "focus_side_bar" },
+
+
+			// The default keys get in the way, and I want Shift+Alt reserved for AHK, and Ctrl+Alt reserved for ST3. I Add +Shift as a Pane-Layout modifier to Ctrl+Alt
+				{"keys": ["alt+shift+1"], "command": "unbound" },
+				{"keys": ["alt+shift+2"], "command": "unbound" },
+				{"keys": ["alt+shift+3"], "command": "unbound" },
+				{"keys": ["alt+shift+4"], "command": "unbound" },
+				{"keys": ["alt+shift+5"], "command": "unbound" },
+				{"keys": ["alt+shift+6"], "command": "unbound" },
+				{"keys": ["alt+shift+7"], "command": "unbound" },
+				{"keys": ["alt+shift+8"], "command": "unbound" },
+				{"keys": ["alt+shift+9"], "command": "unbound" },
+				{"keys": ["alt+shift+10"], "command": "unbound" },
+				
+				// DEFAULT { "keys": ["alt+shift+1"], "command": "move_to_group", "args": { "group": 0 } },
+				{ "keys": ["alt+1"], "command": "focus_group", "args": { "group": 0 } },
+				{ "keys": ["alt+2"], "command": "focus_group", "args": { "group": 1 } },
+				{ "keys": ["alt+3"], "command": "focus_group", "args": { "group": 2 } },
+				{ "keys": ["alt+4"], "command": "focus_group", "args": { "group": 3 } },
+				{ "keys": ["alt+5"], "command": "focus_group", "args": { "group": 4 } },
+				{ "keys": ["alt+6"], "command": "focus_group", "args": { "group": 5 } },
+				{ "keys": ["alt+7"], "command": "focus_group", "args": { "group": 6 } },
+				{ "keys": ["alt+8"], "command": "focus_group", "args": { "group": 7 } },
+				{ "keys": ["alt+9"], "command": "focus_group", "args": { "group": 8 } },
+
+
+		// Default Single Pane, THIS WILL MESS UP THE PANE ALLOCATION OF OTHER SETUPS
+		{"keys": ["alt+ctrl+shift+super+r"],"command": "set_layout","args": {
+			"cols": [0.0, 1.0],
+			"rows": [0.0, 1.0],
+			"cells": [
+			[0, 0, 1, 1]
+			] } },
+
+		// The Ultra, Default
+		{"keys": ["alt+ctrl+1"],"command": "set_layout","args": {
+						// 0,1,2,       3,4,       5,       6,     7,      8,9,     10
+			"cols": [0,0,0.9985,1,1.000],   // change 2 to 0.9985 to make 2 and 3 not glued. Change the last number from 1 to 1.037 to be able to flush windows back against the wall, except it'll cutoff if you don't have minimap on
+			"rows": [0,0,1,1.066003,2,1.066005,1.066006,0.9985,1.06008,0.9975,1.06610],    // I reccomend enabling "overlay_scroll_bars" and scroll_past_end"
+			"cells": [
+			[3,0,4,9],    // R2 Farmost Right		// short list to quicly refer to
+			[1,2,4,5],    // D1 Down		// usually clone view
+			[3,9,4,10],   // S2 Farmost Right Sub-Window		// Tmp Tmp
+			[1,1,2,2],    // M  Main  // While It'd be nice to have the main window be first, R2 must go ahead of it to overwrite, and D1 must be immediately followed by S2 to get that 'controlable fade' effect
+			[2,1,3,7],    // R1 Directly to right of Main		// Not urgent TODO, here rather than R2 so that you have minimap
+			[2,7,3,8],    // S1 Directly to right of Main Sub-Window		// Rarely-used files which are still useful to have around i.e. Reference Docs (e.g. documentation files for a specific lanugage syntax)
+			[1,0,3,1],    // U Up		// ??
+			[0,0,1,6],    // L Left		// Urgent TODO, as in, this is the next document you must work on within this workspace
+			[1,0,3,4],    // Ubg		// This happened accidentaly. For some reason, having a window rendering in the background allows you to have horizontal disontinuities. That is, without this pane being rendered, R2 S2 wouldn't be able to go beyond the left border of R1 S1. So it's a bit strange to be rendering an un-used pane, but if you're already rendering 8 panes, might as well render 9 (memory hit will have already happened). Only annoyance is when you're moving windows between panes and get a discontinuity
+			]}},
+
+
+		// The Ultra with spanning sub-window
+			// use with a 2nd view into the same file, to write notes to a different part of the file, instead of having to hop back and forth with bookmarks
+		{"keys": ["alt+ctrl+shift+1"],"command": "set_layout","args": {
+						// 0,1,2,       3,4,       5,       6,     7,      8,9,     10
+			"cols": [0,0,0.9985,1,1.000],   // change 2 to 0.9985 to make 2 and 3 not glued. Change the last number from 1 to 1.037 to be able to flush windows back against the wall, except it'll cutoff if you don't have minimap on
+			"rows": [0,0,0.835,1.066003,2,1.066005,1.066006,0.9985,1.06008,0.9975,1.06610],    // I reccomend enabling "overlay_scroll_bars" and scroll_past_end"
+			"cells": [
+			[3,0,4,9],    // R2 Farmost Right		// short list to quicly refer to
+			[1,2,4,5],    // D1 Down		// usually clone view
+			[3,9,4,10],   // S2 Farmost Right Sub-Window		// Tmp Tmp
+			[1,1,2,2],    // M  Main  // While It'd be nice to have the main window be first, R2 must go ahead of it to overwrite, and D1 must be immediately followed by S2 to get that 'controlable fade' effect
+			[2,1,3,7],    // R1 Directly to right of Main		// Not urgent TODO, here rather than R2 so that you have minimap
+			[2,7,3,8],    // S1 Directly to right of Main Sub-Window		// Rarely-used files which are still useful to have around i.e. Reference Docs (e.g. documentation files for a specific lanugage syntax)
+			[1,0,3,1],    // U Up		// ??
+			[0,0,1,6],    // L Left		// Urgent TODO, as in, this is the next document you must work on within this workspace
+			[1,0,3,4],    // Ubg		// This happened accidentaly. For some reason, having a window rendering in the background allows you to have horizontal disontinuities. That is, without this pane being rendered, R2 S2 wouldn't be able to go beyond the left border of R1 S1. So it's a bit strange to be rendering an un-used pane, but if you're already rendering 8 panes, might as well render 9 (memory hit will have already happened). Only annoyance is when you're moving windows between panes and get a discontinuity
+			]}},
+
+
+
+
+		// Two Columns, cols '3' is hardcoded to make pane M 80 chars wide on my 1336x768 laptop display INCLUDING THE MINI-MAP
+		{"keys": ["alt+ctrl+2"],"command": "set_layout","args": {
+						// 0,1,2,       3,4,       5,       6,     7,      8,9,     10
+			"cols": [0,0,0.5337,1,1.000],   // change 2 to 0.9985 to make 2 and 3 not glued. Change the last number from 1 to 1.037 to be able to flush windows back against the wall, except it'll cutoff if you don't have minimap on
+			"rows": [0,0,1,1.066003,2,1.066005,1.066006,0.9985,1.06008,0.9975,1.06610],    // I reccomend enabling "overlay_scroll_bars" and scroll_past_end"
+			"cells": [
+			[3,0,4,9],    // R2 Farmost Right		// short list to quicly refer to
+			[1,2,4,5],    // D1 Down		// usually clone view
+			[3,9,4,10],   // S2 Farmost Right Sub-Window		// Tmp Tmp
+			[1,1,2,2],    // M  Main  // While It'd be nice to have the main window be first, R2 must go ahead of it to overwrite, and D1 must be immediately followed by S2 to get that 'controlable fade' effect
+			[2,1,3,7],    // R1 Directly to right of Main		// Not urgent TODO, here rather than R2 so that you have minimap
+			[2,7,3,8],    // S1 Directly to right of Main Sub-Window		// Rarely-used files which are still useful to have around i.e. Reference Docs (e.g. documentation files for a specific lanugage syntax)
+			[1,0,3,1],    // U Up		// ??
+			[0,0,1,6],    // L Left		// Urgent TODO, as in, this is the next document you must work on within this workspace
+			[1,0,3,4],    // Ubg		// This happened accidentaly. For some reason, having a window rendering in the background allows you to have horizontal disontinuities. That is, without this pane being rendered, R2 S2 wouldn't be able to go beyond the left border of R1 S1. So it's a bit strange to be rendering an un-used pane, but if you're already rendering 8 panes, might as well render 9 (memory hit will have already happened). Only annoyance is when you're moving windows between panes and get a discontinuity
+			]}},
+
+
+
+			// Two Columns, cols '3' is hardcoded to make pane M 80 chars wide on my 1336x768 laptop display
+			{"keys": ["alt+ctrl+shift+2"],"command": "set_layout","args": {
+							// 0,1,2,       3,4,       5,       6,     7,      8,9,     10
+				"cols": [0,0,0.481,1,1.000],   // change '2' to 0.9985 to make 2 and 3 not glued. Change the last number from 1 to 1.037 to be able to flush windows back against the wall, except it'll cutoff if you don't have minimap on
+				"rows": [0,0,1,1.066003,2,1.066005,1.066006,0.9985,1.06008,0.9975,1.06610],    // I reccomend enabling "overlay_scroll_bars" and scroll_past_end"
+				"cells": [
+				[3,0,4,9],    // R2 Farmost Right		// short list to quicly refer to
+				[1,2,4,5],    // D1 Down		// usually clone view
+				[3,9,4,10],   // S2 Farmost Right Sub-Window		// Tmp Tmp
+				[1,1,2,2],    // M  Main  // While It'd be nice to have the main window be first, R2 must go ahead of it to overwrite, and D1 must be immediately followed by S2 to get that 'controlable fade' effect
+				[2,1,3,7],    // R1 Directly to right of Main		// Not urgent TODO, here rather than R2 so that you have minimap
+				[2,7,3,8],    // S1 Directly to right of Main Sub-Window		// Rarely-used files which are still useful to have around i.e. Reference Docs (e.g. documentation files for a specific lanugage syntax)
+				[1,0,3,1],    // U Up		// ??
+				[0,0,1,6],    // L Left		// Urgent TODO, as in, this is the next document you must work on within this workspace
+				[1,0,3,4],    // Ubg		// This happened accidentaly. For some reason, having a window rendering in the background allows you to have horizontal disontinuities. That is, without this pane being rendered, R2 S2 wouldn't be able to go beyond the left border of R1 S1. So it's a bit strange to be rendering an un-used pane, but if you're already rendering 8 panes, might as well render 9 (memory hit will have already happened). Only annoyance is when you're moving windows between panes and get a discontinuity
+				]}},
+
+
+
+
+
+		// The Ultra Focused on R1 (sort of 'TODO' view)
+			// use with a 2nd view into the same file, to write notes to a different part of the file, instead of having to hop back and forth with bookmarks
+		{"keys": ["alt+ctrl+3"],"command": "set_layout","args": {
+						// 0,1,2,       3,4,       5,       6,     7,      8,9,     10
+			"cols": [0,0,0.0,1,1.000],   // change 2 to 0.9985 to make 2 and 3 not glued. Change the last number from 1 to 1.037 to be able to flush windows back against the wall, except it'll cutoff if you don't have minimap on
+			"rows": [0,0,1.0,1.066003,2,1.066005,1.066006,0.9985,1.06008,0.9975,1.06610],    // I reccomend enabling "overlay_scroll_bars" and scroll_past_end"
+			"cells": [
+			[3,0,4,9],    // R2 Farmost Right		// short list to quicly refer to
+			[1,2,4,5],    // D1 Down		// usually clone view
+			[3,9,4,10],   // S2 Farmost Right Sub-Window		// Tmp Tmp
+			[1,1,2,2],    // M  Main  // While It'd be nice to have the main window be first, R2 must go ahead of it to overwrite, and D1 must be immediately followed by S2 to get that 'controlable fade' effect
+			[2,1,3,7],    // R1 Directly to right of Main		// Not urgent TODO, here rather than R2 so that you have minimap
+			[2,7,3,8],    // S1 Directly to right of Main Sub-Window		// Rarely-used files which are still useful to have around i.e. Reference Docs (e.g. documentation files for a specific lanugage syntax)
+			[1,0,3,1],    // U Up		// ??
+			[0,0,1,6],    // L Left		// Urgent TODO, as in, this is the next document you must work on within this workspace
+			[1,0,3,4],    // Ubg		// This happened accidentaly. For some reason, having a window rendering in the background allows you to have horizontal disontinuities. That is, without this pane being rendered, R2 S2 wouldn't be able to go beyond the left border of R1 S1. So it's a bit strange to be rendering an un-used pane, but if you're already rendering 8 panes, might as well render 9 (memory hit will have already happened). Only annoyance is when you're moving windows between panes and get a discontinuity
+			]}},
+
+
+		// Middle Column with covered 2nd column
+		{"keys": ["alt+ctrl+4"],"command": "set_layout","args": {
+						// 0,1,2,       3,4,       5,       6,     7,      8,9,     10
+			"cols": [0,0.155,0.84,0.84,1.000],   // change 2 to 0.9985 to make 2 and 3 not glued. Change the last number from 1 to 1.037 to be able to flush windows back against the wall, except it'll cutoff if you don't have minimap on
+			"rows": [0,0,1,1.066003,2,1.066005,1.066006,0.9985,1.06008,0.9975,1.06610],    // I reccomend enabling "overlay_scroll_bars" and scroll_past_end"
+			"cells": [
+			[3,0,4,9],    // R2 Farmost Right		// short list to quicly refer to
+			[1,2,4,5],    // D1 Down		// usually clone view
+			[3,9,4,10],   // S2 Farmost Right Sub-Window		// Tmp Tmp
+			[1,1,2,2],    // M  Main  // While It'd be nice to have the main window be first, R2 must go ahead of it to overwrite, and D1 must be immediately followed by S2 to get that 'controlable fade' effect
+			[2,1,3,7],    // R1 Directly to right of Main		// Not urgent TODO, here rather than R2 so that you have minimap
+			[2,7,3,8],    // S1 Directly to right of Main Sub-Window		// Rarely-used files which are still useful to have around i.e. Reference Docs (e.g. documentation files for a specific lanugage syntax)
+			[1,0,3,1],    // U Up		// ??
+			[0,0,1,6],    // L Left		// Urgent TODO, as in, this is the next document you must work on within this workspace
+			[1,0,3,4],    // Ubg		// This happened accidentaly. For some reason, having a window rendering in the background allows you to have horizontal disontinuities. That is, without this pane being rendered, R2 S2 wouldn't be able to go beyond the left border of R1 S1. So it's a bit strange to be rendering an un-used pane, but if you're already rendering 8 panes, might as well render 9 (memory hit will have already happened). Only annoyance is when you're moving windows between panes and get a discontinuity
+			]}},
+
+
+
+]
+
+
+
+
+	// Pixel
+	// "font_face": "inconsolata-dz",
+	// "font_face": "pragmatapro",
+
+
+// Experimental!
+/*  {"keys"alt+"ctrl+v"], "command": "pasteColumn" },
+
+
+	// {"keys": ["super+alt+z"], "command": "copy_path" },
+	// {"keys": ["super+alt+z"], "command": "redoOrRepeat"},
+	// {"keys": ["alt+."], "command": "openInBroswer"},
+	// {"keys": ["alt+`"], "command": "repeat"},
+
+
+
+
+
+// { "keys": ["ctrl+k", "ctrl+y"], "command": "yank" },     What's the use/purpose of this!?
+
+
+// { "keys": ["ctrl+i"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse": false} },
+// { "keys": ["ctrl+shift+i"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse": true} },
+// { "keys": ["ctrl+f"], "command": "show_panel", "args": {"panel": "find", "reverse": false} },
+// { "keys": ["ctrl+h"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
+// { "keys": ["ctrl+shift+h"], "command": "replace_next" },
+// { "keys": ["f3"], "command": "find_next" },
+// { "keys": ["shift+f3"], "command": "find_prev" },
+// { "keys": ["ctrl+f3"], "command": "find_under" },
+// { "keys": ["ctrl+shift+f3"], "command": "find_under_prev" },
+// { "keys": ["alt+f3"], "command": "find_all_under" },
+// { "keys": ["ctrl+e"], "command": "slurp_find_string" },
+// { "keys": ["ctrl+shift+e"], "command": "slurp_replace_string" },
+// { "keys": ["ctrl+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+// { "keys": ["f4"], "command": "next_result" },
+// { "keys": ["shift+f4"], "command": "prev_result" },
+
+
+// { "keys": ["enter"], "command": "find_next", "context":
+//  [{"key": "panel", "operand": "find"}, {"key": "panel_has_focus"}]
+// },
+// { "keys": ["shift+enter"], "command": "find_prev", "context":
+//  [{"key": "panel", "operand": "find"}, {"key": "panel_has_focus"}]
+// },
+// { "keys": ["alt+enter"], "command": "find_all", "args": {"close_panel": true},
+//   "context": [{"key": "panel", "operand": "find"}, {"key": "panel_has_focus"}]
+// },
+
+// // Replace panel key bindings
+// { "keys": ["enter"], "command": "find_next", "context":
+//  [{"key": "panel", "operand": "replace"}, {"key": "panel_has_focus"}]
+// },
+// { "keys": ["shift+enter"], "command": "find_prev", "context":
+//  [{"key": "panel", "operand": "replace"}, {"key": "panel_has_focus"}]
+// },
+// { "keys": ["alt+enter"], "command": "find_all", "args": {"close_panel": true},
+//  "context": [{"key": "panel", "operand": "replace"}, {"key": "panel_has_focus"}]
+// },
+// { "keys": ["ctrl+alt+enter"], "command": "replace_all", "args": {"close_panel": true},
+//   "context": [{"key": "panel", "operand": "replace"}, {"key": "panel_has_focus"}]
+// },
+
+// // Incremental find panel key bindings
+// { "keys": ["enter"], "command": "hide_panel", "context":
+//  [{"key": "panel", "operand": "incremental_find"}, {"key": "panel_has_focus"}]
+// },
+// { "keys": ["shift+enter"], "command": "find_prev", "context":
+//  [{"key": "panel", "operand": "incremental_find"}, {"key": "panel_has_focus"}]
+// },
+// { "keys": ["alt+enter"], "command": "find_all", "args": {"close_panel": true},
+//  "context": [{"key": "panel", "operand": "incremental_find"}, {"key": "panel_has_focus"}]
+// },
+
+
+
+
+// // Find panel key bindings
+// { "command": "set_line_ending", "args": {"type": "windows"}, "caption": "Windows", "checkbox": true },
+// { "command": "set_line_ending", "args": {"type": "unix"}, "caption": "Unix", "checkbox": true },
+// { "command": "set_line_ending", "args": {"type": "cr"}, "caption": "Mac OS 9", "checkbox": true }
+
+
+
+// Color Themes to try out:
+// #1E81D8FF
+
+// rgb(35, 42, 47)
+// rgb(69, 76, 82)
+// rgb(74, 81, 86)
+// rgb(249, 183, 88)
+
+
