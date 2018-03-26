@@ -2,8 +2,9 @@
 layout: post
 title: "Democracy Now Run By Advertisers"
 categories:
-  - Politics
+  - Corruption
 tags:
+  - Corruption
   - Democracy
   - Privacy
   - Social Media

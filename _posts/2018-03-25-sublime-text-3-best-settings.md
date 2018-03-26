@@ -4,6 +4,7 @@ title: "Sublime Text 3 Best Settings"
 categories:
   - Computers
 tags:
+  - Computers
   - Sublime Text 3
   - Fonts
   - PowerUser

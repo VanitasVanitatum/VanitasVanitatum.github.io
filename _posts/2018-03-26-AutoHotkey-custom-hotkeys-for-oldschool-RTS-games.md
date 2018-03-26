@@ -4,6 +4,7 @@ title: "AutoHotkey Custom Hotkeys for Oldschool RTS Games"
 categories:
   - Computers
 tags:
+  - Computers
   - Hotkeys
   - AHK
   - Gaming
