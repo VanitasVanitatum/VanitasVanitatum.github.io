@@ -1,6 +1,13 @@
 ---
 layout: post
-title: 8 Clickbait
+title: "Set Up Your Own Free Blog in 8 Steps Using GitHub and Jekyll!"
+categories:
+  - Computers
+tags:
+  - Computers
+  - GitHub
+  - Future Academy
+last_modified_at: 2018-03-20T12:57:42-05:00
 ---
 
 
