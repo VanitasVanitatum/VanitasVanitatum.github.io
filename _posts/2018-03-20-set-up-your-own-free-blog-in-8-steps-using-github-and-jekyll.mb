@@ -19,20 +19,19 @@ Put all your own details into `/_config.yml`
 
 
 
+
 Hydeout introduced an easy way to customize the biggest layout changes, by modifying /assets/css/main.scss
 
-```
-	---
-	# Use a comment to ensure Jekyll reads the file to be transformed into CSS later
-	# only main files contain this front matter, not partials.
-	---
-
-	$sidebar-bg-color: #E5BB00;
-	$link-color: #ac4142;
-	$layout-reverse: true;
-	$sidebar-sticky: false;
-	@import "hydeout";
-```
+> ---
+> # Use a comment to ensure Jekyll reads the file to be transformed into CSS later
+> # only main files contain this front matter, not partials.
+> ---
+> 
+> $sidebar-bg-color: #E5BB00;
+> $link-color: #ac4142;
+> $layout-reverse: true;
+> $sidebar-sticky: false;
+> @import "hydeout";
 
 Preserve the comment at the beginning.
 I left the links with the default 'alternate' colour, but picked my own custom 'gold' sidebar-bg-colour, and enabled layout-reverse.
@@ -41,6 +40,7 @@ I left the links with the default 'alternate' colour, but picked my own custom '
 
 
 To make pages show up in the sidebar, add sidebar_link: true to the front matter.
+
 ```
 excerpt: "put custom text in here to over-ride default generated excerpts"
 excerpt_separator: "<!--fla-->"
