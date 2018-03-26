@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AutoHotkey Oldschool RTS Custom Hotkeys"
+title: "AutoHotkey Custom Hotkeys for Oldschool RTS Games"
 categories:
   - Computers
 tags:
