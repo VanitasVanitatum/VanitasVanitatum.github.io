@@ -1,0 +1,87 @@
+---
+layout: post
+title: "Set Up Your Own Free Blog in 8 Steps Using GitHub and Jekyll!"
+excerpt_separator: "<!--fla-->"
+categories:
+  - Computers, Science, and Math
+tags:
+  - Computers
+  - Sublime Text 3
+  - GitHub
+  - Future Academy
+last_modified_at: 2018-03-20T12:57:42-05:00
+---
+
+I picked 8 because that sounds like a good click-bait-y title
+
+
+
+
+Put all your own details into /_config.yml
+
+
+
+Hydeout introduced an easy way to customize the biggest layout changes, by modifying /assets/css/main.scss
+
+```scss
+	---
+	# Use a comment to ensure Jekyll reads the file to be transformed into CSS later
+	# only main files contain this front matter, not partials.
+	---
+
+	$sidebar-bg-color: #E5BB00;
+	$link-color: #ac4142;
+	$layout-reverse: true;
+	$sidebar-sticky: false;
+	@import "hydeout";
+```
+
+Preserve the comment at the beginning.
+I left the links with the default 'alternate' colour, but picked my own custom 'gold' sidebar-bg-colour, and enabled layout-reverse.
+
+
+
+
+To make pages show up in the sidebar, add sidebar_link: true to the front matter.
+excerpt: "put custom text in here to over-ride default generated excerpts"
+excerpt_separator: "<!--fla-->"
+	This post has a manual excerpt `<!--fla-->` set after the second paragraph. The following YAML Front Matter has also be applied:
+
+This post has been updated and should show a modified date if `last_modified_at` is used in the layout.
+	last_modified_at: 2017-03-09T13:01:27-05:00
+	Plugins like [**jekyll-sitemap**](https://github.com/jekyll/jekyll-feed) use this field to add a `<lastmod>` tag your `sitemap.xml`.
+
+
+
+This post tests YouTube video embeds.
+	<div class="embed-responsive embed-responsive-16by9">
+	  <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/l2Of1-d5E5o?controls=0&amp;" frameborder="0" allowfullscreen></iframe>
+	</div>
+
+
+This post tests Twitter Embeds.
+	<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Oh I dunno. It&#39;s probably been over 15 years since I smudged out a face with a pencil and kneaded eraser. <a href="https://twitter.com/hashtag/WIP?src=hash">#WIP</a> <a href="https://twitter.com/hashtag/Sktchy?src=hash">#Sktchy</a> <a href="https://t.co/PwqbMddyVK">pic.twitter.com/PwqbMddyVK</a></p>&mdash; Michael Rose (@mmistakes) <a href="https://twitter.com/mmistakes/status/826644109670612997">February 1, 2017</a></blockquote>
+	<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+advanced content
+	| Header1 | Header2 | Header3 |
+	|:--------|:-------:|--------:|
+	| cell1   | cell2   | cell3   |
+	| cell4   | cell5   | cell6   |
+	|-----------------------------|
+	| cell1   | cell2   | cell3   |
+	| cell4   | cell5   | cell6   |
+	|=============================|
+	| Foot1   | Foot2   | Foot3   |
+
+<strike>strikeout text</strike>
+_italicize_ text
+<kbd>keyboard text</kbd>, which is usually styled like the `<code>` element.
+<pre>
+		line-height: 1.2;
+		and here's a line of some really, really, really, really long text, just to see how the PRE element handles it and to find out how it overflows;
+	</pre>
+**bold text**
+H<sub>2</sub>O
+E = MC<sup>2</sup>
+
