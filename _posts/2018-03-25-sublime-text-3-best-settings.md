@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Top Sublime Text 3 Settings"
+title: "Sublime Text 3 Best Settings"
 categories:
   - Computers
 tags:

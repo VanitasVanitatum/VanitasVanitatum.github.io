@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Top Sublime Text 3 Hotkeys"
+title: "Sublime Text 3 Best Hotkeys"
 categories:
   - Computers
 tags:
