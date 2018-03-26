@@ -2,9 +2,9 @@
 layout: post
 title: "AutoHotkey Custom Hotkeys for Oldschool RTS Games"
 categories:
-  - Computers Science and Math
+  - Computers, Science, and Math
 tags:
-  - Computers Science and Math
+  - Computers
   - Hotkeys
   - AHK
   - Gaming

@@ -2,9 +2,9 @@
 layout: post
 title: "AutoHotkey Useful Extra Scripts"
 categories:
-  - Computers Science and Math
+  - Computers, Science, and Math
 tags:
-  - Computers Science and Math
+  - Computers
   - Hotkeys
   - AHK
   - PowerUser
