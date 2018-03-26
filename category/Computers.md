@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Computers, Science, and Math
+title: "Computers, Science, and Math"
 tags:
   - Computers
 ---

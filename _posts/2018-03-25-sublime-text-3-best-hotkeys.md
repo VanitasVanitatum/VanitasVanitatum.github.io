@@ -2,7 +2,7 @@
 layout: post
 title: "Sublime Text 3 Best Hotkeys"
 categories:
-  - Computers, Science, and Math
+  - Computers
 tags:
   - Computers
   - Sublime Text 3

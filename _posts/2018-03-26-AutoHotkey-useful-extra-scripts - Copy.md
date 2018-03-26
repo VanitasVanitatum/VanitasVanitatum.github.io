@@ -2,7 +2,7 @@
 layout: post
 title: "AutoHotkey Useful Extra Scripts"
 categories:
-  - Computers, Science, and Math
+  - Computers
 tags:
   - Computers
   - Hotkeys
