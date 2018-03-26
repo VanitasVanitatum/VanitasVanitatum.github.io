@@ -11,11 +11,13 @@ last_modified_at: 2018-03-20T12:57:42-05:00
 ---
 
 
+Here's where I'm dumping all the how-to customization info.
 
 
-Put all your own details into `/_config.yml`
+Mention where the find the right files (i.e. about, 404, categories)
 
 
+Put all your own details into `_config.yml`
 
 
 Hydeout introduced an easy way to customize the biggest layout changes, by modifying /assets/css/main.scss
