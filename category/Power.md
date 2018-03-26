@@ -1,5 +1,5 @@
 ---
 layout: category
-title: Code
+title: Power
 ---
 
