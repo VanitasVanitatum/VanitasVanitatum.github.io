@@ -3,79 +3,76 @@ layout: post
 title: 8 Clickbait
 ---
 
-Hydeout updates the original [Hyde](https://github.com/poole/hyde)
-theme for [Jekyll](http://jekyllrb.com) 3.x and adds new functionality.
 
-### Keep It Simple
 
-In keeping with the original Hyde theme, Hydeout aims to keep the overall
-design lightweight and plugin-free. JavaScript is currently limited only
-to Disqus and Google Analytics (and is only loaded if you provide configuration
-variables).
 
-Hydeout makes heavy use of Flexbox in its CSS. If Flexbox is not available,
-the CSS degrades into a single column layout.
+Put all your own details into `/_config.yml`
 
-### Customization
 
-Hydeout replaces Hyde's class-based theming with the use
-of the following SASS variables:
 
-```scss
-$sidebar-bg-color: #202020 !default;
-$sidebar-sticky: true !default;
-$layout-reverse: false !default;
-$link-color: #268bd2 !default;
-```
 
-To override these variables, create your own `assets/css/main.scss` file.
-Define your own variables, then import in Hydeout's SCSS, like so:
+Hydeout introduced an easy way to customize the biggest layout changes, by modifying /assets/css/main.scss
 
-```
----
-# Jekyll needs front matter for SCSS files
----
+> ---
+> # Use a comment to ensure Jekyll reads the file to be transformed into CSS later
+> # only main files contain this front matter, not partials.
+> ---
+> 
+> $sidebar-bg-color: #E5BB00;
+> $link-color: #ac4142;
+> $layout-reverse: true;
+> $sidebar-sticky: false;
+> @import "hydeout";
 
-$sidebar-bg-color: #ac4142;
-$link-color: #ac4142;
-$sidebar-sticky: false;
-@import "hydeout";
-```
+Preserve the comment at the beginning.
+I left the links with the default 'alternate' colour, but picked my own custom 'gold' sidebar-bg-colour, and enabled layout-reverse.
 
-See the [_variables](_sass/hydeout/_variables.scss) file for other variables
-you can override.
 
-You can also insert custom head tags (e.g. to load your own stylesheets) by
-defining your own `_includes/custom-head.html` or insert tags at the end
-of the body (e.g. for custom JS) by defining your own
-`_includes/custom-foot.html`.
 
-### New Features
 
-* Hydeout also adds a new tags page (accessible in the sidebar) and a new
-  "category" layout for dedicated category pages.
+To make pages show up in the sidebar, add sidebar_link: true to the front matter.
 
-* Category pages are automatically added to the sidebar. All other pages
-  must have `sidebar_link: true` in their front matter to show up in
-  the sidebar.
+> excerpt: "put custom text in here to over-ride default generated excerpts"
+> excerpt_separator: "<!--fla-->"
 
-* A simple redirect-to-Google search is available. If you want to use
-  Google Custom Search or Algolia or something with more involved,
-  override the `search.html`.
+This post has a manual excerpt `<!--fla-->` set after the second paragraph. The following YAML Front Matter has also be applied:
 
-* Disqus integration is ready out of the box. Just add the following to
-  your config file:
+This post has been updated and should show a modified date if `last_modified_at` is used in the layout.
+  last_modified_at: 2017-03-09T13:01:27-05:00
+  Plugins like [**jekyll-sitemap**](https://github.com/jekyll/jekyll-feed) use this field to add a `<lastmod>` tag your `sitemap.xml`.
 
-  ```yaml
-  disqus:
-    shortname: my-disqus-shortname
-  ```
 
-  If you don't want Disqus or want to use something else, override
-  `comments.html`.
 
-* For Google Analytics support, define a `google_analytics` variable with
-  your property ID in your config file.
+This post tests YouTube video embeds.
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/l2Of1-d5E5o?controls=0&amp;" frameborder="0" allowfullscreen></iframe>
+  </div>
 
-There's also a bunch of minor tweaks and adjustments throughout the
-theme. Hope this works for you!
+
+This post tests Twitter Embeds.
+  <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Oh I dunno. It&#39;s probably been over 15 years since I smudged out a face with a pencil and kneaded eraser. <a href="https://twitter.com/hashtag/WIP?src=hash">#WIP</a> <a href="https://twitter.com/hashtag/Sktchy?src=hash">#Sktchy</a> <a href="https://t.co/PwqbMddyVK">pic.twitter.com/PwqbMddyVK</a></p>&mdash; Michael Rose (@mmistakes) <a href="https://twitter.com/mmistakes/status/826644109670612997">February 1, 2017</a></blockquote>
+  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+advanced content
+  | Header1 | Header2 | Header3 |
+  |:--------|:-------:|--------:|
+  | cell1   | cell2   | cell3   |
+  | cell4   | cell5   | cell6   |
+  |-----------------------------|
+  | cell1   | cell2   | cell3   |
+  | cell4   | cell5   | cell6   |
+  |=============================|
+  | Foot1   | Foot2   | Foot3   |
+
+<strike>strikeout text</strike>
+_italicize_ text
+<kbd>keyboard text</kbd>, which is usually styled like the `<code>` element.
+<pre>
+    line-height: 1.2;
+    and here's a line of some really, really, really, really long text, just to see how the PRE element handles it and to find out how it overflows;
+  </pre>
+**bold text**
+H<sub>2</sub>O
+E = MC<sup>2</sup>
+
+
