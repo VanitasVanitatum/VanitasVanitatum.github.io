@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Hello Hydeout
-excerpt_separator:  <!--more-->
+title: 8 Clickbait
 ---
 
 Hydeout updates the original [Hyde](https://github.com/poole/hyde)
