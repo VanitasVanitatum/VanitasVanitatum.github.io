@@ -13,16 +13,18 @@ Put all your own details into `/_config.yml`
 
 Hydeout introduced an easy way to customize the biggest layout changes, by modifying /assets/css/main.scss
 
-> ---
-> # Use a comment to ensure Jekyll reads the file to be transformed into CSS later
-> # only main files contain this front matter, not partials.
-> ---
-> 
-> $sidebar-bg-color: #E5BB00;
-> $link-color: #ac4142;
-> $layout-reverse: true;
-> $sidebar-sticky: false;
-> @import "hydeout";
+```
+---
+# Use a comment to ensure Jekyll reads the file to be transformed into CSS later
+# only main files contain this front matter, not partials.
+---
+
+$sidebar-bg-color: #E5BB00;
+$link-color: #ac4142;
+$layout-reverse: true;
+$sidebar-sticky: false;
+@import "hydeout";
+```
 
 Preserve the comment at the beginning.
 I left the links with the default 'alternate' colour, but picked my own custom 'gold' sidebar-bg-colour, and enabled layout-reverse.
@@ -54,15 +56,16 @@ This post tests Twitter Embeds.
   <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 advanced content
-  | Header1 | Header2 | Header3 |
-  |:--------|:-------:|--------:|
-  | cell1   | cell2   | cell3   |
-  | cell4   | cell5   | cell6   |
-  |-----------------------------|
-  | cell1   | cell2   | cell3   |
-  | cell4   | cell5   | cell6   |
-  |=============================|
-  | Foot1   | Foot2   | Foot3   |
+
+| Header1 | Header2 | Header3 |
+|:--------|:-------:|--------:|
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|-----------------------------|
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|=============================|
+| Foot1   | Foot2   | Foot3   |
 
 <strike>strikeout text</strike>
 _italicize_ text
