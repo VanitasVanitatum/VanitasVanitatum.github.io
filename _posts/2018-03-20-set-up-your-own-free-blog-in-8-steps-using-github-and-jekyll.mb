@@ -41,9 +41,12 @@ I left the links with the default 'alternate' colour, but picked my own custom '
 
 
 To make pages show up in the sidebar, add sidebar_link: true to the front matter.
+```
 excerpt: "put custom text in here to over-ride default generated excerpts"
 excerpt_separator: "<!--fla-->"
-	This post has a manual excerpt `<!--fla-->` set after the second paragraph. The following YAML Front Matter has also be applied:
+```
+
+This post has a manual excerpt `<!--fla-->` set after the second paragraph. The following YAML Front Matter has also be applied:
 
 This post has been updated and should show a modified date if `last_modified_at` is used in the layout.
 	last_modified_at: 2017-03-09T13:01:27-05:00
