@@ -4,7 +4,7 @@ title: "AutoHotkey Custom Hotkeys for Oldschool RTS Games"
 categories:
   - Computers
 tags:
-  - &#x1f4bb; Computers
+  - &blk14; Computers
   - Hotkeys
   - AHK
   - Gaming

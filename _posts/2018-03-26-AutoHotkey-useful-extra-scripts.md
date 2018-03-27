@@ -4,7 +4,7 @@ title: "AutoHotkey Useful Extra Scripts"
 categories:
   - Computers
 tags:
-  - Computers
+  - ░ Computers
   - Hotkeys
   - AHK
   - PowerUser
