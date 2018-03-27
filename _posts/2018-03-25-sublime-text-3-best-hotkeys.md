@@ -4,7 +4,7 @@ title: "Sublime Text 3 Best Hotkeys"
 categories:
   - Computers
 tags:
-  - Computers
+  - &#x1f4bb; Computers
   - Sublime Text 3
   - Hotkeys
   - PowerUser

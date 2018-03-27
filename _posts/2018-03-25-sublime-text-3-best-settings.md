@@ -4,7 +4,7 @@ title: "Sublime Text 3 Best Settings"
 categories:
   - Computers
 tags:
-  - Computers
+  - &#x1f4bb; Computers
   - Sublime Text 3
   - Fonts
   - PowerUser
