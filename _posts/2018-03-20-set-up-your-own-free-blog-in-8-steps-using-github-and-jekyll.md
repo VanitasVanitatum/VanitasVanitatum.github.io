@@ -12,31 +12,40 @@ last_modified_at: 2018-03-20T12:57:42-05:00
 
 
 Here's where I'm dumping all the how-to customization info.
+Instead of having lots of code in quotes, I'm going to expect you to <a href="{{ site.github.repo }}/blob/master/_posts/2018-03-20-set-up-your-own-free-blog-in-8-steps-using-github-and-jekyll">examine this page's code</a> on my GitHub.
+
 
 
 Mention where the find the right files (i.e. about, 404, categories)
 
-
 Put all your own details into `_config.yml`
-
 
 Hydeout introduced an easy way to customize the biggest layout changes, by modifying /assets/css/main.scss
 
-```sass
----
-# Use a comment to ensure Jekyll reads the file to be transformed into CSS later
-# only main files contain this front matter, not partials.
----
 
-$sidebar-bg-color: #E5BB00;
-$link-color: #ac4142;
-$layout-reverse: true;
-$sidebar-sticky: false;
-@import "hydeout";
-```
+If you want to use a code indent block with a list, make sure the first character of the code block is aligned with the first text characters AFTER the list numbers.
 
-Preserve the comment at the beginning.
-I left the links with the default 'alternate' colour, but picked my own custom 'gold' sidebar-bg-colour, and enabled layout-reverse.
+
+1. For example
+2. Here you need exactly 3 spaces
+
+   ```sass
+   ---
+   # Use a comment to ensure Jekyll reads the file to be transformed into CSS later
+   # only main files contain this front matter, not partials.
+   ---
+   $sidebar-bg-color: #E5BB00;
+   $link-color: #ac4142;
+   $layout-reverse: true;
+   $sidebar-sticky: false;
+   @import "hydeout";
+   ```
+
+3. You can specify which language rouge syntax highlights right after the opening of a block quote's first 3 back-ticks. Preserve the comment at the beginning. I left the links with the default 'alternate' colour, but picked my own custom 'gold' sidebar-bg-colour, and enabled layout-reverse.
+
+
+
+
 
 
 
@@ -87,4 +96,16 @@ _italicize_ text
 H<sub>2</sub>O
 E = MC<sup>2</sup>
 
+Create an endnote with this code:
+[^1]: <http://en.wikipedia.org/wiki/Syntax_highlighting>
+
+
+GitHub Gist embeds can also be used:
+
+```html
+<script src="https://gist.github.com/mmistakes/77c68fbb07731a456805a7b473f47841.js"></script>
+```
+
+Which outputs as:
+<script src="https://gist.github.com/mmistakes/77c68fbb07731a456805a7b473f47841.js"></script>
 
