@@ -6,7 +6,7 @@ categories:
 tags:
   - Computers
   - GitHub
-  - Future Academy
+  - Future Writing Tools
 last_modified_at: 2018-03-20T12:57:42-05:00
 ---
 
@@ -22,7 +22,7 @@ Put all your own details into `_config.yml`
 
 Hydeout introduced an easy way to customize the biggest layout changes, by modifying /assets/css/main.scss
 
-```
+```sass
 ---
 # Use a comment to ensure Jekyll reads the file to be transformed into CSS later
 # only main files contain this front matter, not partials.
