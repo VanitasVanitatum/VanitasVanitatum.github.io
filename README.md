@@ -1,6 +1,6 @@
 <h1><a href="http://vanitasvanitatum.github.io">Vanitas Vanitatum</a></h1>
 
-This is the code for my <a href="http://vanitasvanitatum.github.io">website</a>. It's a static site hosted (for free!) from its [VanitasVanitatum.GitHub.io repository](https://github.com/VanitasVanitatum/VanitasVanitatum.github.io) by [GitHub Pages](https://pages.github.com/), generated in Rails by [Jekyll](https://github.com/mojombo/jekyll) using the [Hydeout](https://github.com/fongandrew/hydeout) theme, and released by VanitasVanitatum under the 
+This repository is the code for my <a href="http://vanitasvanitatum.github.io">website</a>. It's a static site hosted (for free!) from its [VanitasVanitatum.GitHub.io repository](https://github.com/VanitasVanitatum/VanitasVanitatum.github.io) by [GitHub Pages](https://pages.github.com/), generated in Rails by [Jekyll](https://github.com/mojombo/jekyll) using the [Hydeout](https://github.com/fongandrew/hydeout) theme, and released by VanitasVanitatum under the 
   <a href="{{ site.baseurl }}/LICENSE.md">MIT License</a>
   &copy; 2018.
 
