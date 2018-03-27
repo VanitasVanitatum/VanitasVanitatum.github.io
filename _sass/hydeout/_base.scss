@@ -15,7 +15,7 @@ body {
 }
 
 html {
-  font-family: Palatino, serif;
+  font-family: $root-font-family;
   font-size: $root-font-size;
   line-height: $root-line-height;
 
