@@ -45,7 +45,12 @@ If you want to use a code indent block with a list, make sure the first characte
 
 
 
+adding Disqus is SUPER easy, simply register your site and an account on Disqus.com , get your shortname, and put it into your `_config.yml` file
 
+```yaml
+disqus:
+  shortname: your-short-name
+```
 
 
 
