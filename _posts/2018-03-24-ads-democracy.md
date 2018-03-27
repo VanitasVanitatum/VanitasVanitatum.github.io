@@ -2,12 +2,12 @@
 layout: post
 title: "Democracy Now Run By Advertisers"
 categories:
-  - Corruption
+  - ▒ Corruption
 tags:
-  - Corruption
-  - Democracy
-  - Privacy
-  - Social Media
+  - ▒ Corruption
+  - ▒ Democracy
+  - ▒ Privacy
+  - ▒ Social Media
 last_modified_at: 2018-03-24T12:57:42-05:00
 ---
 

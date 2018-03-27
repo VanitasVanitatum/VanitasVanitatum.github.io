@@ -2,11 +2,11 @@
 layout: post
 title: "Set Up Your Own Free Blog in 8 Steps Using GitHub and Jekyll!"
 categories:
-  - Computers
+  - ° Computers
 tags:
-  - &#x1f4bb; Computers
-  - GitHub
-  - Future Writing Tools
+  - ° Computers
+  - ° GitHub
+  - ° Future Writing Tools
 last_modified_at: 2018-03-20T12:57:42-05:00
 ---
 

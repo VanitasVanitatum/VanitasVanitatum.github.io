@@ -2,12 +2,12 @@
 layout: post
 title: "AutoHotkey Custom Hotkeys for Oldschool RTS Games"
 categories:
-  - Computers
+  - ° Computers
 tags:
-  - &blk14; Computers
-  - Hotkeys
-  - AHK
-  - Gaming
+  - ° Computers
+  - ° Hotkeys
+  - ° AHK
+  - ° Gaming
 last_modified_at: 2018-03-26T12:57:42-05:00
 ---
 
