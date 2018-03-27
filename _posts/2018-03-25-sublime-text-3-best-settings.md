@@ -2,12 +2,12 @@
 layout: post
 title: "Sublime Text 3 Best Settings"
 categories:
-  - Computers
+  - ° Computers
 tags:
-  - Computers
-  - Sublime Text 3
-  - Fonts
-  - PowerUser
+  - ° Computers
+  - ° Sublime Text 3
+  - ° Fonts
+  - ° PowerUser
 last_modified_at: 2018-03-25T12:57:42-05:00
 ---
 <a href="{{ site.baseurl }}/downloads/Preferences.sublime-settings">Download</a> and use my Settings for Sublime Text 3.
