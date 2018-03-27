@@ -207,6 +207,169 @@
 
 
 
+
+
+
+
+	// Panes
+		// Alt is basically the "movement key", a super fast combo is alt+left/right/number
+		{"keys": ["alt+left"], "command": "unbound" },
+		{"keys": ["alt+right"], "command": "unbound" },
+		{"keys": ["ctrl+shift+alt+0"], "command": "clone_file" },
+		{"keys": ["ctrl+q", "ctrl+q"], "command": "move_to_group", "args": {"group": 3} },
+		{"keys": ["ctrl+e", "ctrl+e"], "command": "move_to_group", "args": {"group": 4} },
+		{"keys": ["alt+left"], "command": "focus_neighboring_group", "args": {"forward": false} },
+		{"keys": ["alt+right"], "command": "focus_neighboring_group" },
+		{"keys": ["alt+ctrl+left"], "command": "move_to_neighboring_group", "args": {"forward": false} },		// Annoyingly, you need to be leaving a pane already containing a window, otherwise your cursor won't follow you :/ This, of course, is solved by putting a dummy window in every pane, meaning you don't have any empty panes, and can move around uninhibited
+		{"keys": ["alt+ctrl+right"], "command": "move_to_neighboring_group" },		// Annoyingly, you need to be leaving a pane already containing a window, otherwise your cursor won't follow you :/ This, of course, is solved by putting a dummy window in every pane, meaning you don't have any empty panes, and can move around uninhibited
+
+
+		// The default keys get in the way, and I want Shift+Alt reserved for AHK, and Ctrl+Alt reserved for ST3. I Add +Shift as a Pane-Layout modifier to Ctrl+Alt
+			{"keys": ["alt+shift+1"], "command": "unbound" },
+			{"keys": ["alt+shift+2"], "command": "unbound" },
+			{"keys": ["alt+shift+3"], "command": "unbound" },
+			{"keys": ["alt+shift+4"], "command": "unbound" },
+			{"keys": ["alt+shift+5"], "command": "unbound" },
+			{"keys": ["alt+shift+6"], "command": "unbound" },
+			{"keys": ["alt+shift+7"], "command": "unbound" },
+			{"keys": ["alt+shift+8"], "command": "unbound" },
+			{"keys": ["alt+shift+9"], "command": "unbound" },
+			{"keys": ["alt+shift+10"], "command": "unbound" },
+			
+			// DEFAULT { "keys": ["alt+shift+1"], "command": "move_to_group", "args": { "group": 0 } },
+			{ "keys": ["alt+1"], "command": "focus_group", "args": { "group": 0 } },
+			{ "keys": ["alt+2"], "command": "focus_group", "args": { "group": 1 } },
+			{ "keys": ["alt+3"], "command": "focus_group", "args": { "group": 2 } },
+			{ "keys": ["alt+4"], "command": "focus_group", "args": { "group": 3 } },
+			{ "keys": ["alt+5"], "command": "focus_group", "args": { "group": 4 } },
+			{ "keys": ["alt+6"], "command": "focus_group", "args": { "group": 5 } },
+			{ "keys": ["alt+7"], "command": "focus_group", "args": { "group": 6 } },
+			{ "keys": ["alt+8"], "command": "focus_group", "args": { "group": 7 } },
+			{ "keys": ["alt+9"], "command": "focus_group", "args": { "group": 8 } },
+
+
+	// Default Single Pane, THIS WILL MESS UP THE PANE ALLOCATION OF OTHER SETUPS
+		{"keys": ["alt+ctrl+shift+super+r"],"command": "set_layout","args": {
+			"cols": [0,1],
+			"rows": [0,1],
+			"cells": [
+			[0,0,1,1]    // M  Main
+			] } },
+
+
+
+
+
+
+	// The New Ultra, L and M
+		{"keys": ["alt+ctrl+1"],"command": "set_layout","args": {
+			"cols": [0,0.465,1,1],   // 
+			"rows": [0,0,1,1.005,0.9985,1],    // I reccomend enabling the settings "overlay_scroll_bars" and scroll_past_end"
+			"cells": [
+			[1,1,2,2],    // M  Main
+			[1,2,3,3],    // D Down		// sub-view of M, needs to come before R1 to overlap it
+			[2,1,3,4],    // R1		// Directly to right of Main
+			[2,4,3,5],    // S1		// Directly to right of Main Sub-Window, once R1 is visible, drag up from the bottom of the screen, even works if D is already open. Since this pane declration comes AFTER D, S1 is behind D. If you don't want D to overlap R1 and S1, change D's 2nd colum from 3→2 (same columns as M).
+			[0,0,1,5],    // L Left		//
+			[1,0,3,1],    // U Up		//
+			]}},
+
+
+	// The New Ultra, M centered
+		{"keys": ["alt+ctrl+2"],"command": "set_layout","args": {
+			"cols": [0,0,1,1],   // 
+			"rows": [0,0,1,1.005,0.9985,1],    // I reccomend enabling the settings "overlay_scroll_bars" and scroll_past_end"
+			"cells": [
+			[1,1,2,2],    // M  Main
+			[1,2,3,3],    // D Down		// sub-view of M, needs to come before R1 to overlap it
+			[2,1,3,4],    // R1		// Directly to right of Main
+			[2,4,3,5],    // S1		// Directly to right of Main Sub-Window, once R1 is visible, drag up from the bottom of the screen, even works if D is already open. Since this pane declration comes AFTER D, S1 is behind D. If you don't want D to overlap R1 and S1, change D's 2nd colum from 3→2 (same columns as M).
+			[0,0,1,5],    // L Left		//
+			[1,0,3,1],    // U Up		//
+			]}},
+
+
+	// The New Ultra, M centered with sub-view D
+		{"keys": ["alt+ctrl+shift+2"],"command": "set_layout","args": {
+			"cols": [0,0,1,1],   // 
+			"rows": [0,0,0.84,1.005,0.9985,1],    // I reccomend enabling the settings "overlay_scroll_bars" and scroll_past_end"
+			"cells": [
+			[1,1,2,2],    // M  Main
+			[1,2,3,3],    // D Down		// sub-view of M, needs to come before R1 to overlap it
+			[2,1,3,4],    // R1		// Directly to right of Main
+			[2,4,3,5],    // S1		// Directly to right of Main Sub-Window, once R1 is visible, drag up from the bottom of the screen, even works if D is already open. Since this pane declration comes AFTER D, S1 is behind D. If you don't want D to overlap R1 and S1, change D's 2nd colum from 3→2 (same columns as M).
+			[0,0,1,5],    // L Left		//
+			[1,0,3,1],    // U Up		//
+			]}},
+
+
+	// The New Ultra, M and R1
+		{"keys": ["alt+ctrl+3"],"command": "set_layout","args": {
+			"cols": [0,0,0.465,1],   // 
+			"rows": [0,0,1,1.005,0.9985,1],    // I reccomend enabling the settings "overlay_scroll_bars" and scroll_past_end"
+			"cells": [
+			[1,1,2,2],    // M  Main
+			[1,2,3,3],    // D Down		// sub-view of M, needs to come before R1 to overlap it
+			[2,1,3,4],    // R1		// Directly to right of Main
+			[2,4,3,5],    // S1		// Directly to right of Main Sub-Window, once R1 is visible, drag up from the bottom of the screen, even works if D is already open. Since this pane declration comes AFTER D, S1 is behind D. If you don't want D to overlap R1 and S1, change D's 2nd colum from 3→2 (same columns as M).
+			[0,0,1,5],    // L Left		//
+			[1,0,3,1],    // U Up		//
+			]}},
+
+
+	// The New Ultra, M and R1 with S1
+		{"keys": ["alt+ctrl+shift+3"],"command": "set_layout","args": {
+			"cols": [0,0,0.465,1],   // 
+			"rows": [0,0,1,1.005,0.55,1],    // I reccomend enabling the settings "overlay_scroll_bars" and scroll_past_end"
+			"cells": [
+			[1,1,2,2],    // M  Main
+			[1,2,3,3],    // D Down		// sub-view of M, needs to come before R1 to overlap it
+			[2,1,3,4],    // R1		// Directly to right of Main
+			[2,4,3,5],    // S1		// Directly to right of Main Sub-Window, once R1 is visible, drag up from the bottom of the screen, even works if D is already open. Since this pane declration comes AFTER D, S1 is behind D. If you don't want D to overlap R1 and S1, change D's 2nd colum from 3→2 (same columns as M).
+			[0,0,1,5],    // L Left		//
+			[1,0,3,1],    // U Up		//
+			]}},
+
+
+	// The New Ultra, R1
+		{"keys": ["alt+ctrl+4"],"command": "set_layout","args": {
+			"cols": [0,0,0,1],   // 
+			"rows": [0,0,1,1.005,0.9985,1],    // I reccomend enabling the settings "overlay_scroll_bars" and scroll_past_end"
+			"cells": [
+			[1,1,2,2],    // M  Main
+			[1,2,3,3],    // D Down		// sub-view of M, needs to come before R1 to overlap it
+			[2,1,3,4],    // R1		// Directly to right of Main
+			[2,4,3,5],    // S1		// Directly to right of Main Sub-Window, once R1 is visible, drag up from the bottom of the screen, even works if D is already open. Since this pane declration comes AFTER D, S1 is behind D. If you don't want D to overlap R1 and S1, change D's 2nd colum from 3→2 (same columns as M).
+			[0,0,1,5],    // L Left		//
+			[1,0,3,1],    // U Up		//
+			]}},
+
+
+
+		// The Ultra, this is how bloated it used to be
+		{"keys": ["alt+ctrl+shift+super+5"],"command": "set_layout","args": {
+						// 0,1,2,       3,4,       5,       6,     7,      8,9,     10
+			"cols": [0,0,0.9985,1,1.000],   // change 2 to 0.9985 to make 2 and 3 not glued. Change the last number from 1 to 1.037 to be able to flush windows back against the wall, except it'll cutoff if you don't have minimap on
+			"rows": [0,0,1,1.066003,2,1.066005,1.066006,0.9985,1.06008,0.9975,1.06610],    // I reccomend enabling "overlay_scroll_bars" and scroll_past_end"
+			"cells": [
+			[3,0,4,9],    // R2 Farmost Right		// short list to quicly refer to
+			[1,2,4,5],    // D1 Down		// usually clone view
+			[3,9,4,10],   // S2 Farmost Right Sub-Window		// Tmp Tmp
+			[1,1,2,2],    // M  Main  // While It'd be nice to have the main window be first, R2 must go ahead of it to overwrite, and D1 must be immediately followed by S2 to get that 'controlable fade' effect
+			[2,1,3,7],    // R1 Directly to right of Main		// Not urgent TODO, here rather than R2 so that you have minimap
+			[2,7,3,8],    // S1 Directly to right of Main Sub-Window		// Rarely-used files which are still useful to have around i.e. Reference Docs (e.g. documentation files for a specific lanugage syntax)
+			[1,0,3,1],    // U Up		// ??
+			[0,0,1,6],    // L Left		// Urgent TODO, as in, this is the next document you must work on within this workspace
+			[1,0,3,4],    // Ubg		// This happened accidentaly. For some reason, having a window rendering in the background allows you to have horizontal disontinuities. That is, without this pane being rendered, R2 S2 wouldn't be able to go beyond the left border of R1 S1. So it's a bit strange to be rendering an un-used pane, but if you're already rendering 8 panes, might as well render 9 (memory hit will have already happened). Only annoyance is when you're moving windows between panes and get a discontinuity
+			]}},
+
+
+
+
+
+
+
+
 // Snippets
 	{ "keys": ["ctrl+alt+/"], "command": "insert_snippet", "args": {"contents": "\t\t// $0"} },		// JSON and C comments
 	{ "keys": ["ctrl+alt+l"], "command": "insert_snippet", "args": {"contents": "\t\t\\\\\\\\ $0"} }, 		// Latex Endline
@@ -226,7 +389,7 @@
 	//  ]
 	// },
 
-
+	// I know this is long and grossly repettitive, but it works, and I don't know how to code it properly, so screw it.
 	{"keys": ["ctrl+3"], "command": "unbound" },		// I made this when I was working on a guide using software (MP3tag) which denoted variables %between percents%.
 	{"keys": ["ctrl+3"], "command": "insert_snippet", "args": {"contents": "%$0%"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true } ] }, 
 	{"keys": ["ctrl+3"], "command": "insert_snippet", "args": {"contents": "%${0:$SELECTION}%"}, "context": [{ "key": "setting.auto_match_enabled", "operator": "equal", "operand": true }, { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true } ] },
@@ -278,285 +441,8 @@
 
 
 
-	// Panes
-		// Alt is basically the "movement key", a super fast combo is alt+left/right/number
-		{"keys": ["alt+left"], "command": "unbound" },
-		{"keys": ["alt+right"], "command": "unbound" },
-		{"keys": ["ctrl+shift+alt+0"], "command": "clone_file" },
-		// {"keys": ["ctrl+q", "alt+up"], "command": "new_pane" },		// These ruin my mega setup (and any other setup) and revers to the stupid cols [0,1,2] rows [0,0.n,0.nn,0.nnn,1] [0,0,1,nnnn],[1,0,nnnn,0.n],[1,0.n,nnnn,0.nn],[1,0.nn,nnnn,0.nnn],[1,0.nnn,nnnn,0.nnnn]
-		// {"keys": ["ctrl+q", "alt+down"], "command": "close_pane" },		// These ruin my mega setup (and any other setup) and revers to the stupid cols [0,1,2] rows [0,0.n,0.nn,0.nnn,1] [0,0,1,nnnn],[1,0,nnnn,0.n],[1,0.n,nnnn,0.nn],[1,0.nn,nnnn,0.nnn],[1,0.nnn,nnnn,0.nnnn]
-		// {"keys": ["ctrl+q", "ctrl+shift+up"], "command": "new_pane", "args": {"move": false} },    // No difference to Ctrl+Alt+2
-		{"keys": ["ctrl+q", "ctrl+q"], "command": "move_to_group", "args": {"group": 3} },
-		{"keys": ["ctrl+e", "ctrl+e"], "command": "move_to_group", "args": {"group": 4} },
-		{"keys": ["alt+left"], "command": "focus_neighboring_group", "args": {"forward": false} },
-		{"keys": ["alt+right"], "command": "focus_neighboring_group" },
-		{"keys": ["alt+ctrl+left"], "command": "move_to_neighboring_group", "args": {"forward": false} },		// Annoyingly, you need to be leaving a pane already containing a window, otherwise your cursor won't follow you :/ This, of course, is solved by putting a dummy window in every pane, meaning you don't have any empty panes, and can move around uninhibited
-		{"keys": ["alt+ctrl+right"], "command": "move_to_neighboring_group" },		// Annoyingly, you need to be leaving a pane already containing a window, otherwise your cursor won't follow you :/ This, of course, is solved by putting a dummy window in every pane, meaning you don't have any empty panes, and can move around uninhibited
-
-		// commands "next_view_in_stack" and "next_view_in_stack" is a terribly unreliable way to switch between panes, don't do it! Only useful if you want a way to 「go back to most recent window」 if you're scripting something
-				{"keys": ["ctrl+alt+shift+9"], "command": "next_view_in_stack" },
-
-		/* Make Duplicate view(of current pane) to specified pane
-		Easy solution is super+alt+0, ctrl+alt+left ... but depends on all panes containing a dummy
-		http://stackoverflow.com/questions/13388477/multiple-commands-in-a-single-sublime-text-2-user-keymap-shortcut
-
-		TODO combine these into a single ST3 command, to not need AHK  
-		{"keys": ["super+alt+0"], "command": "clone_file" , "command": "toggle_full_screen","command": "show_at_center", "command": "clone_file" },
-				!#1:: SendInput ^2!+1^w!^+9 return      ;Removes clone from window 2 by using #9 for "next_view_in_stack"
-				!#2:: SendInput !^+{0}+!{2}^{q}^{Left}^{q}+^{Right} return      ;Clones current file in ST3 new window, uses !^+0 as hotkey for "clone_file"
-				!#3:: SendInput !^+{0}^+!{Down}^{q}^{Left}^{q}+^{Right} return      ;Clones current file in ST3 new window, uses !^+0 as hotkey for "clone_file"
-		*/
-
-
-				{"keys": ["ctrl+1"], "command": "unbound" },
-				{"keys": ["ctrl+2"], "command": "unbound" },
-				{"keys": ["ctrl+1"], "command": "select_by_index", "args": { "index": 0 } },
-				{"keys": ["ctrl+2"], "command": "focus_side_bar" },
-
-
-			// The default keys get in the way, and I want Shift+Alt reserved for AHK, and Ctrl+Alt reserved for ST3. I Add +Shift as a Pane-Layout modifier to Ctrl+Alt
-				{"keys": ["alt+shift+1"], "command": "unbound" },
-				{"keys": ["alt+shift+2"], "command": "unbound" },
-				{"keys": ["alt+shift+3"], "command": "unbound" },
-				{"keys": ["alt+shift+4"], "command": "unbound" },
-				{"keys": ["alt+shift+5"], "command": "unbound" },
-				{"keys": ["alt+shift+6"], "command": "unbound" },
-				{"keys": ["alt+shift+7"], "command": "unbound" },
-				{"keys": ["alt+shift+8"], "command": "unbound" },
-				{"keys": ["alt+shift+9"], "command": "unbound" },
-				{"keys": ["alt+shift+10"], "command": "unbound" },
-				
-				// DEFAULT { "keys": ["alt+shift+1"], "command": "move_to_group", "args": { "group": 0 } },
-				{ "keys": ["alt+1"], "command": "focus_group", "args": { "group": 0 } },
-				{ "keys": ["alt+2"], "command": "focus_group", "args": { "group": 1 } },
-				{ "keys": ["alt+3"], "command": "focus_group", "args": { "group": 2 } },
-				{ "keys": ["alt+4"], "command": "focus_group", "args": { "group": 3 } },
-				{ "keys": ["alt+5"], "command": "focus_group", "args": { "group": 4 } },
-				{ "keys": ["alt+6"], "command": "focus_group", "args": { "group": 5 } },
-				{ "keys": ["alt+7"], "command": "focus_group", "args": { "group": 6 } },
-				{ "keys": ["alt+8"], "command": "focus_group", "args": { "group": 7 } },
-				{ "keys": ["alt+9"], "command": "focus_group", "args": { "group": 8 } },
-
-
-		// Default Single Pane, THIS WILL MESS UP THE PANE ALLOCATION OF OTHER SETUPS
-		{"keys": ["alt+ctrl+shift+super+r"],"command": "set_layout","args": {
-			"cols": [0.0, 1.0],
-			"rows": [0.0, 1.0],
-			"cells": [
-			[0, 0, 1, 1]
-			] } },
-
-		// The Ultra, Default
-		{"keys": ["alt+ctrl+1"],"command": "set_layout","args": {
-						// 0,1,2,       3,4,       5,       6,     7,      8,9,     10
-			"cols": [0,0,0.9985,1,1.000],   // change 2 to 0.9985 to make 2 and 3 not glued. Change the last number from 1 to 1.037 to be able to flush windows back against the wall, except it'll cutoff if you don't have minimap on
-			"rows": [0,0,1,1.066003,2,1.066005,1.066006,0.9985,1.06008,0.9975,1.06610],    // I reccomend enabling "overlay_scroll_bars" and scroll_past_end"
-			"cells": [
-			[3,0,4,9],    // R2 Farmost Right		// short list to quicly refer to
-			[1,2,4,5],    // D1 Down		// usually clone view
-			[3,9,4,10],   // S2 Farmost Right Sub-Window		// Tmp Tmp
-			[1,1,2,2],    // M  Main  // While It'd be nice to have the main window be first, R2 must go ahead of it to overwrite, and D1 must be immediately followed by S2 to get that 'controlable fade' effect
-			[2,1,3,7],    // R1 Directly to right of Main		// Not urgent TODO, here rather than R2 so that you have minimap
-			[2,7,3,8],    // S1 Directly to right of Main Sub-Window		// Rarely-used files which are still useful to have around i.e. Reference Docs (e.g. documentation files for a specific lanugage syntax)
-			[1,0,3,1],    // U Up		// ??
-			[0,0,1,6],    // L Left		// Urgent TODO, as in, this is the next document you must work on within this workspace
-			[1,0,3,4],    // Ubg		// This happened accidentaly. For some reason, having a window rendering in the background allows you to have horizontal disontinuities. That is, without this pane being rendered, R2 S2 wouldn't be able to go beyond the left border of R1 S1. So it's a bit strange to be rendering an un-used pane, but if you're already rendering 8 panes, might as well render 9 (memory hit will have already happened). Only annoyance is when you're moving windows between panes and get a discontinuity
-			]}},
-
-
-		// The Ultra with spanning sub-window
-			// use with a 2nd view into the same file, to write notes to a different part of the file, instead of having to hop back and forth with bookmarks
-		{"keys": ["alt+ctrl+shift+1"],"command": "set_layout","args": {
-						// 0,1,2,       3,4,       5,       6,     7,      8,9,     10
-			"cols": [0,0,0.9985,1,1.000],   // change 2 to 0.9985 to make 2 and 3 not glued. Change the last number from 1 to 1.037 to be able to flush windows back against the wall, except it'll cutoff if you don't have minimap on
-			"rows": [0,0,0.835,1.066003,2,1.066005,1.066006,0.9985,1.06008,0.9975,1.06610],    // I reccomend enabling "overlay_scroll_bars" and scroll_past_end"
-			"cells": [
-			[3,0,4,9],    // R2 Farmost Right		// short list to quicly refer to
-			[1,2,4,5],    // D1 Down		// usually clone view
-			[3,9,4,10],   // S2 Farmost Right Sub-Window		// Tmp Tmp
-			[1,1,2,2],    // M  Main  // While It'd be nice to have the main window be first, R2 must go ahead of it to overwrite, and D1 must be immediately followed by S2 to get that 'controlable fade' effect
-			[2,1,3,7],    // R1 Directly to right of Main		// Not urgent TODO, here rather than R2 so that you have minimap
-			[2,7,3,8],    // S1 Directly to right of Main Sub-Window		// Rarely-used files which are still useful to have around i.e. Reference Docs (e.g. documentation files for a specific lanugage syntax)
-			[1,0,3,1],    // U Up		// ??
-			[0,0,1,6],    // L Left		// Urgent TODO, as in, this is the next document you must work on within this workspace
-			[1,0,3,4],    // Ubg		// This happened accidentaly. For some reason, having a window rendering in the background allows you to have horizontal disontinuities. That is, without this pane being rendered, R2 S2 wouldn't be able to go beyond the left border of R1 S1. So it's a bit strange to be rendering an un-used pane, but if you're already rendering 8 panes, might as well render 9 (memory hit will have already happened). Only annoyance is when you're moving windows between panes and get a discontinuity
-			]}},
-
-
-
-
-		// Two Columns, cols '3' is hardcoded to make pane M 80 chars wide on my 1336x768 laptop display INCLUDING THE MINI-MAP
-		{"keys": ["alt+ctrl+2"],"command": "set_layout","args": {
-						// 0,1,2,       3,4,       5,       6,     7,      8,9,     10
-			"cols": [0,0,0.5337,1,1.000],   // change 2 to 0.9985 to make 2 and 3 not glued. Change the last number from 1 to 1.037 to be able to flush windows back against the wall, except it'll cutoff if you don't have minimap on
-			"rows": [0,0,1,1.066003,2,1.066005,1.066006,0.9985,1.06008,0.9975,1.06610],    // I reccomend enabling "overlay_scroll_bars" and scroll_past_end"
-			"cells": [
-			[3,0,4,9],    // R2 Farmost Right		// short list to quicly refer to
-			[1,2,4,5],    // D1 Down		// usually clone view
-			[3,9,4,10],   // S2 Farmost Right Sub-Window		// Tmp Tmp
-			[1,1,2,2],    // M  Main  // While It'd be nice to have the main window be first, R2 must go ahead of it to overwrite, and D1 must be immediately followed by S2 to get that 'controlable fade' effect
-			[2,1,3,7],    // R1 Directly to right of Main		// Not urgent TODO, here rather than R2 so that you have minimap
-			[2,7,3,8],    // S1 Directly to right of Main Sub-Window		// Rarely-used files which are still useful to have around i.e. Reference Docs (e.g. documentation files for a specific lanugage syntax)
-			[1,0,3,1],    // U Up		// ??
-			[0,0,1,6],    // L Left		// Urgent TODO, as in, this is the next document you must work on within this workspace
-			[1,0,3,4],    // Ubg		// This happened accidentaly. For some reason, having a window rendering in the background allows you to have horizontal disontinuities. That is, without this pane being rendered, R2 S2 wouldn't be able to go beyond the left border of R1 S1. So it's a bit strange to be rendering an un-used pane, but if you're already rendering 8 panes, might as well render 9 (memory hit will have already happened). Only annoyance is when you're moving windows between panes and get a discontinuity
-			]}},
-
-
-
-			// Two Columns, cols '3' is hardcoded to make pane M 80 chars wide on my 1336x768 laptop display
-			{"keys": ["alt+ctrl+shift+2"],"command": "set_layout","args": {
-							// 0,1,2,       3,4,       5,       6,     7,      8,9,     10
-				"cols": [0,0,0.481,1,1.000],   // change '2' to 0.9985 to make 2 and 3 not glued. Change the last number from 1 to 1.037 to be able to flush windows back against the wall, except it'll cutoff if you don't have minimap on
-				"rows": [0,0,1,1.066003,2,1.066005,1.066006,0.9985,1.06008,0.9975,1.06610],    // I reccomend enabling "overlay_scroll_bars" and scroll_past_end"
-				"cells": [
-				[3,0,4,9],    // R2 Farmost Right		// short list to quicly refer to
-				[1,2,4,5],    // D1 Down		// usually clone view
-				[3,9,4,10],   // S2 Farmost Right Sub-Window		// Tmp Tmp
-				[1,1,2,2],    // M  Main  // While It'd be nice to have the main window be first, R2 must go ahead of it to overwrite, and D1 must be immediately followed by S2 to get that 'controlable fade' effect
-				[2,1,3,7],    // R1 Directly to right of Main		// Not urgent TODO, here rather than R2 so that you have minimap
-				[2,7,3,8],    // S1 Directly to right of Main Sub-Window		// Rarely-used files which are still useful to have around i.e. Reference Docs (e.g. documentation files for a specific lanugage syntax)
-				[1,0,3,1],    // U Up		// ??
-				[0,0,1,6],    // L Left		// Urgent TODO, as in, this is the next document you must work on within this workspace
-				[1,0,3,4],    // Ubg		// This happened accidentaly. For some reason, having a window rendering in the background allows you to have horizontal disontinuities. That is, without this pane being rendered, R2 S2 wouldn't be able to go beyond the left border of R1 S1. So it's a bit strange to be rendering an un-used pane, but if you're already rendering 8 panes, might as well render 9 (memory hit will have already happened). Only annoyance is when you're moving windows between panes and get a discontinuity
-				]}},
-
-
-
-
-
-		// The Ultra Focused on R1 (sort of 'TODO' view)
-			// use with a 2nd view into the same file, to write notes to a different part of the file, instead of having to hop back and forth with bookmarks
-		{"keys": ["alt+ctrl+3"],"command": "set_layout","args": {
-						// 0,1,2,       3,4,       5,       6,     7,      8,9,     10
-			"cols": [0,0,0.0,1,1.000],   // change 2 to 0.9985 to make 2 and 3 not glued. Change the last number from 1 to 1.037 to be able to flush windows back against the wall, except it'll cutoff if you don't have minimap on
-			"rows": [0,0,1.0,1.066003,2,1.066005,1.066006,0.9985,1.06008,0.9975,1.06610],    // I reccomend enabling "overlay_scroll_bars" and scroll_past_end"
-			"cells": [
-			[3,0,4,9],    // R2 Farmost Right		// short list to quicly refer to
-			[1,2,4,5],    // D1 Down		// usually clone view
-			[3,9,4,10],   // S2 Farmost Right Sub-Window		// Tmp Tmp
-			[1,1,2,2],    // M  Main  // While It'd be nice to have the main window be first, R2 must go ahead of it to overwrite, and D1 must be immediately followed by S2 to get that 'controlable fade' effect
-			[2,1,3,7],    // R1 Directly to right of Main		// Not urgent TODO, here rather than R2 so that you have minimap
-			[2,7,3,8],    // S1 Directly to right of Main Sub-Window		// Rarely-used files which are still useful to have around i.e. Reference Docs (e.g. documentation files for a specific lanugage syntax)
-			[1,0,3,1],    // U Up		// ??
-			[0,0,1,6],    // L Left		// Urgent TODO, as in, this is the next document you must work on within this workspace
-			[1,0,3,4],    // Ubg		// This happened accidentaly. For some reason, having a window rendering in the background allows you to have horizontal disontinuities. That is, without this pane being rendered, R2 S2 wouldn't be able to go beyond the left border of R1 S1. So it's a bit strange to be rendering an un-used pane, but if you're already rendering 8 panes, might as well render 9 (memory hit will have already happened). Only annoyance is when you're moving windows between panes and get a discontinuity
-			]}},
-
-
-		// Middle Column with covered 2nd column
-		{"keys": ["alt+ctrl+4"],"command": "set_layout","args": {
-						// 0,1,2,       3,4,       5,       6,     7,      8,9,     10
-			"cols": [0,0.155,0.84,0.84,1.000],   // change 2 to 0.9985 to make 2 and 3 not glued. Change the last number from 1 to 1.037 to be able to flush windows back against the wall, except it'll cutoff if you don't have minimap on
-			"rows": [0,0,1,1.066003,2,1.066005,1.066006,0.9985,1.06008,0.9975,1.06610],    // I reccomend enabling "overlay_scroll_bars" and scroll_past_end"
-			"cells": [
-			[3,0,4,9],    // R2 Farmost Right		// short list to quicly refer to
-			[1,2,4,5],    // D1 Down		// usually clone view
-			[3,9,4,10],   // S2 Farmost Right Sub-Window		// Tmp Tmp
-			[1,1,2,2],    // M  Main  // While It'd be nice to have the main window be first, R2 must go ahead of it to overwrite, and D1 must be immediately followed by S2 to get that 'controlable fade' effect
-			[2,1,3,7],    // R1 Directly to right of Main		// Not urgent TODO, here rather than R2 so that you have minimap
-			[2,7,3,8],    // S1 Directly to right of Main Sub-Window		// Rarely-used files which are still useful to have around i.e. Reference Docs (e.g. documentation files for a specific lanugage syntax)
-			[1,0,3,1],    // U Up		// ??
-			[0,0,1,6],    // L Left		// Urgent TODO, as in, this is the next document you must work on within this workspace
-			[1,0,3,4],    // Ubg		// This happened accidentaly. For some reason, having a window rendering in the background allows you to have horizontal disontinuities. That is, without this pane being rendered, R2 S2 wouldn't be able to go beyond the left border of R1 S1. So it's a bit strange to be rendering an un-used pane, but if you're already rendering 8 panes, might as well render 9 (memory hit will have already happened). Only annoyance is when you're moving windows between panes and get a discontinuity
-			]}},
-
 
 
 ]
-
-
-
-
-	// Pixel
-	// "font_face": "inconsolata-dz",
-	// "font_face": "pragmatapro",
-
-
-// Experimental!
-/*  {"keys"alt+"ctrl+v"], "command": "pasteColumn" },
-
-
-	// {"keys": ["super+alt+z"], "command": "copy_path" },
-	// {"keys": ["super+alt+z"], "command": "redoOrRepeat"},
-	// {"keys": ["alt+."], "command": "openInBroswer"},
-	// {"keys": ["alt+`"], "command": "repeat"},
-
-
-
-
-
-// { "keys": ["ctrl+k", "ctrl+y"], "command": "yank" },     What's the use/purpose of this!?
-
-
-// { "keys": ["ctrl+i"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse": false} },
-// { "keys": ["ctrl+shift+i"], "command": "show_panel", "args": {"panel": "incremental_find", "reverse": true} },
-// { "keys": ["ctrl+f"], "command": "show_panel", "args": {"panel": "find", "reverse": false} },
-// { "keys": ["ctrl+h"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
-// { "keys": ["ctrl+shift+h"], "command": "replace_next" },
-// { "keys": ["f3"], "command": "find_next" },
-// { "keys": ["shift+f3"], "command": "find_prev" },
-// { "keys": ["ctrl+f3"], "command": "find_under" },
-// { "keys": ["ctrl+shift+f3"], "command": "find_under_prev" },
-// { "keys": ["alt+f3"], "command": "find_all_under" },
-// { "keys": ["ctrl+e"], "command": "slurp_find_string" },
-// { "keys": ["ctrl+shift+e"], "command": "slurp_replace_string" },
-// { "keys": ["ctrl+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
-// { "keys": ["f4"], "command": "next_result" },
-// { "keys": ["shift+f4"], "command": "prev_result" },
-
-
-// { "keys": ["enter"], "command": "find_next", "context":
-//  [{"key": "panel", "operand": "find"}, {"key": "panel_has_focus"}]
-// },
-// { "keys": ["shift+enter"], "command": "find_prev", "context":
-//  [{"key": "panel", "operand": "find"}, {"key": "panel_has_focus"}]
-// },
-// { "keys": ["alt+enter"], "command": "find_all", "args": {"close_panel": true},
-//   "context": [{"key": "panel", "operand": "find"}, {"key": "panel_has_focus"}]
-// },
-
-// // Replace panel key bindings
-// { "keys": ["enter"], "command": "find_next", "context":
-//  [{"key": "panel", "operand": "replace"}, {"key": "panel_has_focus"}]
-// },
-// { "keys": ["shift+enter"], "command": "find_prev", "context":
-//  [{"key": "panel", "operand": "replace"}, {"key": "panel_has_focus"}]
-// },
-// { "keys": ["alt+enter"], "command": "find_all", "args": {"close_panel": true},
-//  "context": [{"key": "panel", "operand": "replace"}, {"key": "panel_has_focus"}]
-// },
-// { "keys": ["ctrl+alt+enter"], "command": "replace_all", "args": {"close_panel": true},
-//   "context": [{"key": "panel", "operand": "replace"}, {"key": "panel_has_focus"}]
-// },
-
-// // Incremental find panel key bindings
-// { "keys": ["enter"], "command": "hide_panel", "context":
-//  [{"key": "panel", "operand": "incremental_find"}, {"key": "panel_has_focus"}]
-// },
-// { "keys": ["shift+enter"], "command": "find_prev", "context":
-//  [{"key": "panel", "operand": "incremental_find"}, {"key": "panel_has_focus"}]
-// },
-// { "keys": ["alt+enter"], "command": "find_all", "args": {"close_panel": true},
-//  "context": [{"key": "panel", "operand": "incremental_find"}, {"key": "panel_has_focus"}]
-// },
-
-
-
-
-// // Find panel key bindings
-// { "command": "set_line_ending", "args": {"type": "windows"}, "caption": "Windows", "checkbox": true },
-// { "command": "set_line_ending", "args": {"type": "unix"}, "caption": "Unix", "checkbox": true },
-// { "command": "set_line_ending", "args": {"type": "cr"}, "caption": "Mac OS 9", "checkbox": true }
-
-
-
-// Color Themes to try out:
-// #1E81D8FF
-
-// rgb(35, 42, 47)
-// rgb(69, 76, 82)
-// rgb(74, 81, 86)
-// rgb(249, 183, 88)
 
 
