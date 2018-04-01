@@ -41,7 +41,7 @@ Install the Chrome extension by clicking [here](https://chrome.google.com/websto
 
 Once installed, click on the extension's Chrome icon, go to `Options` and Copy+Paste these custom commands into the `Custom Key Mappings` field:
 
-<pre>
+```
 map j scrollDown
 map k scrollUp
 map h scrollPageDown
@@ -63,7 +63,7 @@ map Q restoreTab
 
 map u Marks.activateCreateMode
 map i Marks.activate
-</pre>
+```
 
 I also recommend setting `Keyboard settings:` to <small>[0,33]</small> under `Show Advanced Options` (at the bottom) to get instant keystroke feedback.
 
