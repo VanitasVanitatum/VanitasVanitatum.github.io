@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            Vanitas Vanitatum
 tagline:          'Simple'
-description:      "People can't even <em>imagine</em> what's possible until you show them better options"
+description:      "They can't even <em>imagine</em> what's possible until you show them better options"
 url:              https://VanitasVanitatum.github.io
 excerpt_separator: "<!--more-->"
 baseurl:          # the optional subpath of your site, e.g. "/blog"
