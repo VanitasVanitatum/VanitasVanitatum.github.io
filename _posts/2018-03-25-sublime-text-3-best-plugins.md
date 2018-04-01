@@ -7,7 +7,7 @@ tags:
   - °Computers
   - °Sublime Text 3
   - °PowerUser
-last_modified_at: 2018-03-2512:57:42-05:00
+last_modified_at: 2018-03-26T12:57:42-05:00
 ---
 
 I recommend installing these plugins (using PackageControl)
