@@ -20,14 +20,15 @@ Vimium++ enables much better ways to interact with your web browser. Do basic th
 
 <!--fla-->
 
+<h5>Table of Contents</h5>
 
-<h2><a href="#Setu">Setup</a></h2>
-<h2><a href="#Scro">Scrolling</a></h2>
-<h2><a href="#Clic">Clicking Things</a></h2>
-<h2><a href="#Open">Open, Close, and Switch Tabs</a></h2>
-<h2><a href="#Page">Page Navigation Bookmarks</a></h2>
-<h2><a href="#Misc">Miscellaneous</a></h2>
-<h2><a href="#Gmai">Gmail</a></h2>
+<a href="#Setu">Setup</a><br>
+<a href="#Scro">Scrolling</a><br>
+<a href="#Clic">Clicking Things</a><br>
+<a href="#Open">Open, Close, and Switch Tabs</a><br>
+<a href="#Page">Page Navigation Bookmarks</a><br>
+<a href="#Misc">Miscellaneous</a><br>
+<a href="#Gmai">Gmail</a><br>
 
 
 
@@ -165,4 +166,4 @@ Finally, in the general settings also enable `Keyboard Shortcuts` to do the same
 ___
 
 
-And that's it, enjoy ultra-efficient browser navigation!
+And that's it, better input methods → better usage, so enjoy ultra-efficient browser navigation!
