@@ -16,6 +16,8 @@ Web browsers are the future. Software and Document Storage is moving online. Soo
 
 Vimium++ enables much better ways to interact with your web browser. Do basic things _faster_, do _new_ things, and combine it with AHK scripts to automate repetitive tasks.
 
+<!--more-->
+
 ___
 
 ## Setup
