@@ -11,7 +11,7 @@ tags:
 last_modified_at: 2018-03-30T12:57:42-05:00
 ---
 
-```
+<pre>
 map j scrollDown
 map k scrollUp
 map h scrollPageDown
@@ -30,7 +30,6 @@ map a previousTab
 map s nextTab
 map u Marks.activateCreateMode
 map i Marks.activate
-```
+</pre>
 
-Scroll step size: 100
-Use Smooth Scrolling: ☑
+Keyboard settings: [0,33]
