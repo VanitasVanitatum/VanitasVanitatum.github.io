@@ -14,37 +14,37 @@ Vimium++ is a Chrome extension to <em>type navigation commands</em> like you do 
 
 Web browsers are the future. Software and Document Storage is moving online. Soon, most Apps you run, or files you read, will be via a web browser.
 
-Vimium++ enables **much better** ways to interact with your web browser. Do basic things _faster_, do _new_ things, and combine it with AHK scripts to automate repettitive tasks.
+Vimium++ enables **much better** ways to interact with your web browser. Do basic things _faster_, do _new_ things, and combine it with AHK scripts to automate repetitive tasks.
 
 
 ## Setup
 
-Install the Chrome extension by clicking [here](https://chrome.google.com/webstore/detail/vimium%20%20/hfjbmagddngcpeloejdejnfgbamkjaeg)
+Install the Chrome extension by clicking [here](https://chrome.google.com/webstore/detail/vimium%20%20/hfjbmagddngcpeloejdejnfgbamkjaeg).
 
 Once installed, click on the extension's Chrome icon, go to `Options` and Copy+Paste these custom commands into the `Custom Key Mappings` field:
 
 <pre>
-	map j scrollDown
-	map k scrollUp
-	map h scrollPageDown
-	map l scrollPageUp
-	map H scrollToBottom
-	map L scrollToTop
-	map c scrollPxDown
-	map v scrollPxUp
+map j scrollDown
+map k scrollUp
+map h scrollPageDown
+map l scrollPageUp
+map H scrollToBottom
+map L scrollToTop
+map c scrollPxDown
+map v scrollPxUp
 
-	map n previousTab
-	map m nextTab
-	map , removeTab
-	map < restoreTab
+map n previousTab
+map m nextTab
+map , removeTab
+map < restoreTab
 
-	map a previousTab
-	map s nextTab
-	map q removeTab
-	map Q restoreTab
+map a previousTab
+map s nextTab
+map q removeTab
+map Q restoreTab
 
-	map u Marks.activateCreateMode
-	map i Marks.activate
+map u Marks.activateCreateMode
+map i Marks.activate
 </pre>
 
 I also recommend setting `Keyboard settings`: [0,33] under `Show Advanced Options` (at the bottom) to get instant keystroke feedback.
@@ -70,7 +70,7 @@ Tiny Up — v
 
 Hit *f* and a bunch of letters in yellow boxes will appear, one for each clickable link. Type the string of letters to click on the link. Hit *F* for the same command, but the link will open in a new tab.
 
-You can limit which letters are used in the Vimium++ settings. This is super useful to click-through repettitive forms or dialogs, provided the layout of the page is consistent, meaning the same string of commands (e.g. *fa*) will always hit the right link.
+You can limit which letters are used in the Vimium++ settings. This is super useful to click-through repetitive forms or dialogs, provided the layout of the page is consistent, meaning the same string of commands (e.g. *fa*) will always hit the right link.
 
 *gi* selects the page's first text field, useful for selecting 'Search' boxes.
 
@@ -117,7 +117,7 @@ map Q restoreTab
 	You can store as many booksmarks you want with any letters, even letters that would usually send other commands (e.g. *j*). Careful though, if you hit *u* or *i* and it's waiting for input, other hotkeys won't work until you complete the sequence, or hit *Esc* to cancel.
 
 
-## Misclaneous
+## Miscellaneous
 
 I'm sure there are plenty more hotkeys you can use if you look through the documentation (found in the settings page under `Show Available Commands`), but I don't use them. *yy* copies the website's URL (equivalent to *Alt+d* *Ctrl+c*).
 
@@ -125,7 +125,7 @@ I'm sure there are plenty more hotkeys you can use if you look through the docum
 
 If you use Gmail (not ideal), I recommend adding the URL as an exception, so that your Vimium++ commands don't screw with your inbox.
 
-I also reccomend tightening-up the layout of your inbox with [Gmail Compact](https://chrome.google.com/webstore/detail/gmail-compact/ocgmlabbjbpfjcalgnhhffadjhenhlkp), going into your Gmail settings and under the `Labs` tab enabling `Preview Pane` and `Unread Message Icon`.
+I also recommend tightening-up the layout of your inbox with [Gmail Compact](https://chrome.google.com/webstore/detail/gmail-compact/ocgmlabbjbpfjcalgnhhffadjhenhlkp), going into your Gmail settings and under the `Labs` tab enabling `Preview Pane` and `Unread Message Icon`.
 
 Finally, in the settings also enable `Keyboard Shortcuts` to do the same sort of thing Vimum++ does:
 
@@ -135,4 +135,4 @@ Go to Inbox — *gi*
 Go to Sent — *gt*
 
 
-And that's it!
+And that's it, enjoy ultra-efficient browser navigation!
