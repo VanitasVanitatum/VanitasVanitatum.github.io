@@ -6,7 +6,7 @@ categories:
 tags:
   - ° Computers
   - ° Hotkeys
-  - ° Browser
+  - ° Chrome
   - ° PowerUser
 last_modified_at: 2018-03-30T12:57:42-05:00
 ---

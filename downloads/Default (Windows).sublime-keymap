@@ -1,7 +1,6 @@
 // Identify which command is being executed when you select it from the menu, by entering 「sublime.log_commands(True)」 into the console, then selecting the command.
 [
 
-//TODO: include preceeding/scueeding line in selection
 
 // Unbound
 	{"keys": ["ctrl+1"], "command": "unbound" },		// Is meant to disabe 'focus tab 1 in pane' but doesn't work for some reason
@@ -266,8 +265,8 @@
 			"cols": [0,0.465,1,1],   // 
 			"rows": [0,0,1,1.005,0.9985,1],    // I reccomend enabling the settings "overlay_scroll_bars" and scroll_past_end"
 			"cells": [
-			[1,1,2,2],    // M  Main
 			[1,2,3,3],    // D Down		// sub-view of M, needs to come before R1 to overlap it
+			[1,1,2,2],    // M Main		// I put this after D so that it'd be immediately adjacent to R1, since I toggle between M and R1 most often.
 			[2,1,3,4],    // R1		// Directly to right of Main
 			[2,4,3,5],    // S1		// Directly to right of Main Sub-Window, once R1 is visible, drag up from the bottom of the screen, even works if D is already open. Since this pane declration comes AFTER D, S1 is behind D. If you don't want D to overlap R1 and S1, change D's 2nd colum from 3→2 (same columns as M).
 			[0,0,1,5],    // L Left		//
@@ -280,8 +279,8 @@
 			"cols": [0,0,1,1],   // 
 			"rows": [0,0,1,1.005,0.9985,1],    // I reccomend enabling the settings "overlay_scroll_bars" and scroll_past_end"
 			"cells": [
-			[1,1,2,2],    // M  Main
 			[1,2,3,3],    // D Down		// sub-view of M, needs to come before R1 to overlap it
+			[1,1,2,2],    // M Main		// I put this after D so that it'd be immediately adjacent to R1, since I toggle between M and R1 most often.
 			[2,1,3,4],    // R1		// Directly to right of Main
 			[2,4,3,5],    // S1		// Directly to right of Main Sub-Window, once R1 is visible, drag up from the bottom of the screen, even works if D is already open. Since this pane declration comes AFTER D, S1 is behind D. If you don't want D to overlap R1 and S1, change D's 2nd colum from 3→2 (same columns as M).
 			[0,0,1,5],    // L Left		//
@@ -294,8 +293,8 @@
 			"cols": [0,0,1,1],   // 
 			"rows": [0,0,0.84,1.005,0.9985,1],    // I reccomend enabling the settings "overlay_scroll_bars" and scroll_past_end"
 			"cells": [
-			[1,1,2,2],    // M  Main
 			[1,2,3,3],    // D Down		// sub-view of M, needs to come before R1 to overlap it
+			[1,1,2,2],    // M Main		// I put this after D so that it'd be immediately adjacent to R1, since I toggle between M and R1 most often.
 			[2,1,3,4],    // R1		// Directly to right of Main
 			[2,4,3,5],    // S1		// Directly to right of Main Sub-Window, once R1 is visible, drag up from the bottom of the screen, even works if D is already open. Since this pane declration comes AFTER D, S1 is behind D. If you don't want D to overlap R1 and S1, change D's 2nd colum from 3→2 (same columns as M).
 			[0,0,1,5],    // L Left		//
@@ -308,8 +307,8 @@
 			"cols": [0,0,0.465,1],   // 
 			"rows": [0,0,1,1.005,0.9985,1],    // I reccomend enabling the settings "overlay_scroll_bars" and scroll_past_end"
 			"cells": [
-			[1,1,2,2],    // M  Main
 			[1,2,3,3],    // D Down		// sub-view of M, needs to come before R1 to overlap it
+			[1,1,2,2],    // M Main		// I put this after D so that it'd be immediately adjacent to R1, since I toggle between M and R1 most often.
 			[2,1,3,4],    // R1		// Directly to right of Main
 			[2,4,3,5],    // S1		// Directly to right of Main Sub-Window, once R1 is visible, drag up from the bottom of the screen, even works if D is already open. Since this pane declration comes AFTER D, S1 is behind D. If you don't want D to overlap R1 and S1, change D's 2nd colum from 3→2 (same columns as M).
 			[0,0,1,5],    // L Left		//
@@ -322,8 +321,8 @@
 			"cols": [0,0,0.465,1],   // 
 			"rows": [0,0,1,1.005,0.55,1],    // I reccomend enabling the settings "overlay_scroll_bars" and scroll_past_end"
 			"cells": [
-			[1,1,2,2],    // M  Main
 			[1,2,3,3],    // D Down		// sub-view of M, needs to come before R1 to overlap it
+			[1,1,2,2],    // M Main		// I put this after D so that it'd be immediately adjacent to R1, since I toggle between M and R1 most often.
 			[2,1,3,4],    // R1		// Directly to right of Main
 			[2,4,3,5],    // S1		// Directly to right of Main Sub-Window, once R1 is visible, drag up from the bottom of the screen, even works if D is already open. Since this pane declration comes AFTER D, S1 is behind D. If you don't want D to overlap R1 and S1, change D's 2nd colum from 3→2 (same columns as M).
 			[0,0,1,5],    // L Left		//
@@ -336,8 +335,8 @@
 			"cols": [0,0,0,1],   // 
 			"rows": [0,0,1,1.005,0.9985,1],    // I reccomend enabling the settings "overlay_scroll_bars" and scroll_past_end"
 			"cells": [
-			[1,1,2,2],    // M  Main
 			[1,2,3,3],    // D Down		// sub-view of M, needs to come before R1 to overlap it
+			[1,1,2,2],    // M Main		// I put this after D so that it'd be immediately adjacent to R1, since I toggle between M and R1 most often.
 			[2,1,3,4],    // R1		// Directly to right of Main
 			[2,4,3,5],    // S1		// Directly to right of Main Sub-Window, once R1 is visible, drag up from the bottom of the screen, even works if D is already open. Since this pane declration comes AFTER D, S1 is behind D. If you don't want D to overlap R1 and S1, change D's 2nd colum from 3→2 (same columns as M).
 			[0,0,1,5],    // L Left		//
@@ -444,5 +443,6 @@
 
 
 ]
+
 
 
