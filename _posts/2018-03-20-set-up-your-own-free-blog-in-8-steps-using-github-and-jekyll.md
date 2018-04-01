@@ -16,7 +16,7 @@ Instead of having lots of code in quotes, I'm going to expect you to <a href="{{
 
 
 
-Mention where the find the right files (i.e. about, 404, categories)
+Mention where to find the right files (i.e. about, 404, categories)
 
 Put all your own details into `_config.yml`
 
@@ -47,7 +47,7 @@ If you want to use a code indent block with a list, make sure the first characte
 
 
 
-adding Disqus is SUPER easy, simply register your site and an account on Disqus.com , get your shortname, and put it into your `_config.yml` file
+adding Disqus is SUPER easy, simply register your site and make an account on Disqus.com , get your shortname, and put it into your `_config.yml` file
 
 ```yaml
 disqus:
@@ -57,12 +57,12 @@ disqus:
 
 
 
-To make pages show up in the sidebar, add sidebar_link: true to the front matter.
+To make pages show up in the sidebar, add sidebar_link: true to their front matter.
+
+This post has a manual excerpt `<!--fla-->` set after the second paragraph. The following YAML Front Matter has also be applied:
 
 > excerpt: "put custom text in here to over-ride default generated excerpts"
 > excerpt_separator: "<!--fla-->"
-
-This post has a manual excerpt `<!--fla-->` set after the second paragraph. The following YAML Front Matter has also be applied:
 
 This post has been updated and should show a modified date if `last_modified_at` is used in the layout.
   last_modified_at: 2017-03-09T13:01:27-05:00

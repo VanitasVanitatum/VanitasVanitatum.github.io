@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AutoHotkey Useful Extra Scripts"
+title: "AutoHotkey: Useful Extra Scripts"
 categories:
   - °Computers
 tags:

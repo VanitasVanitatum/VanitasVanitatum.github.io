@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sublime Text 3 Best Plugins"
+title: "Sublime Text 3: Best Plugins"
 categories:
   - °Computers
 tags:
