@@ -16,6 +16,7 @@ Web browsers are the future. Software and Document Storage is moving online. Soo
 
 Vimium++ enables **much better** ways to interact with your web browser. Do basic things _faster_, do _new_ things, and combine it with AHK scripts to automate repetitive tasks.
 
+***
 
 ## Setup
 
@@ -47,8 +48,9 @@ map u Marks.activateCreateMode
 map i Marks.activate
 </pre>
 
-I also recommend setting `Keyboard settings`: [0,33] under `Show Advanced Options` (at the bottom) to get instant keystroke feedback.
+I also recommend setting `Keyboard settings:` [0,33] under `Show Advanced Options` (at the bottom) to get instant keystroke feedback.
 
+***
 
 ## Scrolling
 VIM is famous for using the keyboard to navigate your page. My first block of commands covers scrolling.
@@ -65,6 +67,7 @@ Top of Page — L (or gg)
 Tiny Down — c
 Tiny Up — v
 ```
+***
 
 ## Clicking Things
 
@@ -75,10 +78,12 @@ You can limit which letters are used in the Vimium++ settings. This is super use
 *gi* selects the page's first text field, useful for selecting 'Search' boxes.
 
 *o* lets you quickly search your history and change the current window to that tab. *O* opens it as a new-tab
+***
 
 ## Open, Close, and Switch Tabs
 
 If you thought it was effortless to use *Ctrl+w*, or use AHK and *F1* to send *Ctrl+w*, well, this is even better!
+***
 
 #### Right-handed browsing (combines with the scrolling keys)
 
@@ -86,6 +91,7 @@ Switch Tab to the left — *n*
 Switch Tab to the right — *m*
 Close tab – *,*
 Re-open tab – *>* (*shift+,*)
+***
 
 #### Left-Handed browsing
 
@@ -107,6 +113,7 @@ map q removeTab
 map Q restoreTab
 ```
 
+***
 
 ## Navigation Bookmarks
 
@@ -116,10 +123,12 @@ map Q restoreTab
 
 	You can store as many booksmarks you want with any letters, even letters that would usually send other commands (e.g. *j*). Careful though, if you hit *u* or *i* and it's waiting for input, other hotkeys won't work until you complete the sequence, or hit *Esc* to cancel.
 
+***
 
 ## Miscellaneous
 
 I'm sure there are plenty more hotkeys you can use if you look through the documentation (found in the settings page under `Show Available Commands`), but I don't use them. *yy* copies the website's URL (equivalent to *Alt+d* *Ctrl+c*).
+***
 
 ## Gmail
 
