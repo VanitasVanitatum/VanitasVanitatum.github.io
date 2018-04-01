@@ -1,14 +1,15 @@
 ---
 layout: post
 title: "Chrome Extension: Vimium++"
+
 excerpt_separator: "<!--fla-->"
 categories:
-  - ° Computers
+  - °Computers
 tags:
-  - ° Computers
-  - ° Hotkeys
-  - ° Chrome
-  - ° PowerUser
+  - °Computers
+  - °Hotkeys
+  - °Chrome
+  - °PowerUser
 last_modified_at: 2018-03-30T12:57:42-05:00
 ---
 Vimium++ is a Chrome extension to <em>type navigation commands</em> like you do in the text editor VIM (there's also a Beta version for Firefox). 

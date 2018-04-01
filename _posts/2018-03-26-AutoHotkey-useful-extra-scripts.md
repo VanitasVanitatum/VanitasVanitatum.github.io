@@ -2,12 +2,12 @@
 layout: post
 title: "AutoHotkey Useful Extra Scripts"
 categories:
-  - ° Computers
+  - °Computers
 tags:
-  - ° Computers
-  - ° Hotkeys
-  - ° AHK
-  - ° PowerUser
+  - °Computers
+  - °Hotkeys
+  - °AHK
+  - °PowerUser
 last_modified_at: 2018-03-26T12:57:42-05:00
 ---
 
