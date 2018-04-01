@@ -20,9 +20,21 @@ Vimium++ enables much better ways to interact with your web browser. Do basic th
 
 <!--fla-->
 
+
+<h2><a href="#Setu">Setup</a></h2>
+<h2><a href="#Scro">Scrolling</a></h2>
+<h2><a href="#Clic">Clicking Things</a></h2>
+<h2><a href="#Open">Open, Close, and Switch Tabs</a></h2>
+<h2><a href="#Page">Page Navigation Bookmarks</a></h2>
+<h2><a href="#Misc">Miscellaneous</a></h2>
+<h2><a href="#Gmai">Gmail</a></h2>
+
+
+
+
 ___
 
-## Setup
+<h2><a id="Setu">Setup</a></h2>
 
 Install the Chrome extension by clicking [here](https://chrome.google.com/webstore/detail/vimium%20%20/hfjbmagddngcpeloejdejnfgbamkjaeg).
 
@@ -56,7 +68,7 @@ I also recommend setting `Keyboard settings:` to <small>[0,33]</small> under `Sh
 
 ___
 
-## Scrolling
+<h2><a id="Scro">Scrolling</a></h2>
 VIM is famous for using the keyboard to navigate your page. My first block of commands covers scrolling.
 
 Simply open a web-page (make sure your cursor isn't in a text field), and press lowercase **j** to scroll down. Uppercase letters like **G** are typed **Shift+g** (**G** is one of Vimium++'s default commands). **gg** is simply **g+g** strung together.
@@ -73,7 +85,7 @@ v — Tiny Up
 ```
 ___
 
-## Clicking Things
+<h2><a id="Clic">Clicking Things</a></h2>
 
 Hit **f** and a bunch of letters in yellow boxes will appear, one for each clickable link. Type the string of letters to click on the link. Hit **F** for the same command, but the link will open in a new tab.
 
@@ -85,7 +97,7 @@ This is super useful to click-through repetitive forms or dialogs, provided the 
 
 ___
 
-## Open, Close, and Switch Tabs
+<h2><a id="Open">Open, Close, and Switch Tabs</a></h2>
 
 If you thought it was effortless to use **Ctrl+w**, or AHK+**F1** to send **Ctrl+w**, well, this is even better!
 
@@ -111,7 +123,9 @@ I find these are the hotkeys I use the most, their convenience alone justifies i
 
 ___
 
-## Navigation Bookmarks
+<h2><a id="Page">Page Navigation Bookmarks</a></h2>
+
+When you want to scroll-ahead, or quickly check the top of a page, it's easy to lose time over-shooting. This solves that. [Technically these are called `Marks`, because browser bookmarks are the same as 'saved tab addreses'.]
 
 Type **u** to set a bookmark. This will display `Create Mark ...` as a little note at the bottom right. Now type any letter you want, I usually use **i**.
 
@@ -119,9 +133,13 @@ Now scroll down the page, and type **i+[your letter]** to scroll back up to the 
 
 You can store as many booksmarks you want with any letters, even letters that would usually send other commands (e.g. **j**). Careful though, if you hit **u** or **i** and it's waiting for input, other hotkeys won't work until you complete the sequence, or hit **Esc** to cancel.
 
+This feature is amazing for reading long documents. Set a bookmark at the beginning (e.g. where some important term is defined at the start of an encyclopedia page), then you're free to move around, skip back to it, and return to where you were.
+
+Even better is when you're reading a news website, and you know that the side scrollbar doesn't give a realistic estimate of 'how long is the rest of the article' (because the bottom-half of the page is comments and links). Set a bookmark, scroll-down to check what you're getting yourself into, then skip right back to were you were! This is a great example showing how our user input methods dictate our usage. You'd lose more time thant you saved (checking-ahead, then needing to scroll back) unless you could set a bookmark. Better input methods → better usage!
+
 ___
 
-## Miscellaneous
+<h2><a id="Misc">Miscellaneous</a></h2>
 
 **yy** copies the website's URL (equivalent to **Alt+d** **Ctrl+c**).
 
@@ -129,7 +147,7 @@ I'm sure there are plenty more hotkeys you can use if you look through the docum
 
 ___
 
-## Gmail
+<h2><a id="Gmai">Gmail</a></h2>
 
 If you use Gmail (not ideal), I recommend adding that website as an exception to Vimiumm++, so that your Vimium++ commands don't screw with your inbox. Do this by clicking on the Chrome icon then `Add Rule` and `Save Changes`.
 
