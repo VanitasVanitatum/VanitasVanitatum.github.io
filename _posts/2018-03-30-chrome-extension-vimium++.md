@@ -78,12 +78,12 @@ You can limit which letters are used in the Vimium++ settings. This is super use
 *gi* selects the page's first text field, useful for selecting 'Search' boxes.
 
 *o* lets you quickly search your history and change the current window to that tab. *O* opens it as a new-tab
+
 ***
 
 ## Open, Close, and Switch Tabs
 
 If you thought it was effortless to use *Ctrl+w*, or use AHK and *F1* to send *Ctrl+w*, well, this is even better!
-***
 
 #### Right-handed browsing (combines with the scrolling keys)
 
@@ -91,7 +91,6 @@ If you thought it was effortless to use *Ctrl+w*, or use AHK and *F1* to send *C
 *m* — Switch Tab to the right
 *,* — Close tab
 *>* (*shift+,*) — Re-open tab
-***
 
 #### Left-Handed browsing
 
@@ -128,6 +127,7 @@ map Q restoreTab
 ## Miscellaneous
 
 I'm sure there are plenty more hotkeys you can use if you look through the documentation (found in the settings page under `Show Available Commands`), but I don't use them. *yy* copies the website's URL (equivalent to *Alt+d* *Ctrl+c*).
+
 ***
 
 ## Gmail
