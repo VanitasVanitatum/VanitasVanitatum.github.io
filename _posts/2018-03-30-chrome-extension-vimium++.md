@@ -58,14 +58,14 @@ VIM is famous for using the keyboard to navigate your page. My first block of co
 Simply open a web-page (make sure your cursor isn't in a text field), and press lowercase *j* to scroll down. Uppercase letters like *G* are typed *Shift+g* (*G* is one of Vimium++'s default commands). *gg* is simply *g+g* strung together.
 
 ```
-Down — j
-Up — k
-PgDown — h
-PgUp — l
-Bottom of page — H (or G)
-Top of Page — L (or gg)
-Tiny Down — c
-Tiny Up — v
+j — Down
+k — Up
+h — PgDown
+l — PgUp
+H (or G) — Bottom of page
+L (or gg) — Top of Page
+c — Tiny Down
+v — Tiny Up
 ```
 ***
 
@@ -87,18 +87,18 @@ If you thought it was effortless to use *Ctrl+w*, or use AHK and *F1* to send *C
 
 #### Right-handed browsing (combines with the scrolling keys)
 
-Switch Tab to the left — *n*
-Switch Tab to the right — *m*
-Close tab – *,*
-Re-open tab – *>* (*shift+,*)
+*n* — Switch Tab to the left
+*m* — Switch Tab to the right
+*,* — Close tab
+*>* (*shift+,*) — Re-open tab
 ***
 
 #### Left-Handed browsing
 
-Switch Tab to the left — *a*
-Tab to the right — *s*
-Close tab – *q* (Vimium++ default)
-Re-open tab – *Q* (*shift+q*)
+*a* — Switch Tab to the left
+*s* — Tab to the right
+*q* (Vimium++ default) — Close tab
+*Q* (*shift+q*) — Re-open tab
 
 
 ```
@@ -138,10 +138,10 @@ I also recommend tightening-up the layout of your inbox with [Gmail Compact](htt
 
 Finally, in the settings also enable `Keyboard Shortcuts` to do the same sort of thing Vimum++ does:
 
-Compose new draft — *c*
-Go to Drafts — *gd*
-Go to Inbox — *gi*
-Go to Sent — *gt*
+*c* — Compose new draft
+*gd* — Go to Drafts
+*gi* — Go to Inbox
+*gt* — Go to Sent
 
 
 And that's it, enjoy ultra-efficient browser navigation!
