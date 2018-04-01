@@ -8,7 +8,7 @@ categories:
 tags:
   - °Computers
   - °Hotkeys
-  - °Chrome
+  - °Chrome Extension
   - °PowerUser
 last_modified_at: 2018-03-30T12:57:42-05:00
 ---
@@ -91,35 +91,20 @@ If you thought it was effortless to use **Ctrl+w**, or AHK+**F1** to send **Ctrl
 
 #### Right-handed browsing (combines with the scrolling keys)
 
+```
 **n** — Switch Tab to the left
-
 **m** — Switch Tab to the right
-
 **,** — Close tab
-
 **>** (**shift+,**) — Re-open tab
+```
 
 #### Left-Handed browsing
 
-**a** — Switch Tab to the left
-
-**s** — Tab to the right
-
-**q** (Vimium++ default) — Close tab
-
-**Q** (**shift+q**) — Re-open tab
-
-
 ```
-map n previousTab
-map m nextTab
-map , removeTab
-map < restoreTab
-
-map a previousTab
-map s nextTab
-map q removeTab
-map Q restoreTab
+**a** — Switch Tab to the left
+**s** — Tab to the right
+**q** (Vimium++ default) — Close tab
+**Q** (**shift+q**) — Re-open tab
 ```
 
 I find these are the hotkeys I use the most, their convenience alone justifies installing Vimium++, anything from here on is awesome extras.
@@ -152,13 +137,12 @@ I also recommend tightening-up the layout of your inbox with the [Gmail Compact]
 
 Finally, in the general settings also enable `Keyboard Shortcuts` to do the same sort of thing Vimum++ does:
 
+```
 **c** — Compose new draft
-
 **gd** — Go to Drafts
-
 **gi** — Go to Inbox
-
 **gt** — Go to Sent
+```
 
 ___
 
