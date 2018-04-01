@@ -20,6 +20,8 @@ Mention where the find the right files (i.e. about, 404, categories)
 
 Put all your own details into `_config.yml`
 
+GitHub Pages builds your site, so if there's an error, it will say what it is when you click on a file's history and hover over the ✗ red error mark.
+
 Hydeout introduced an easy way to customize the biggest layout changes, by modifying /assets/css/main.scss
 
 
