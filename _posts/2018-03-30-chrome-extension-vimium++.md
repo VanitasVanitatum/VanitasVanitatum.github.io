@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Chrome Extension: Vimium++"
+excerpt_separator: "<!--fla-->"
 categories:
   - ° Computers
 tags:
@@ -16,7 +17,7 @@ Web browsers are the future. Software and Document Storage is moving online. Soo
 
 Vimium++ enables much better ways to interact with your web browser. Do basic things _faster_, do _new_ things, and combine it with AHK scripts to automate repetitive tasks.
 
-<!--more-->
+<!--fla-->
 
 ___
 
@@ -50,7 +51,7 @@ map u Marks.activateCreateMode
 map i Marks.activate
 </pre>
 
-I also recommend setting `Keyboard settings:` [0,33] under `Show Advanced Options` (at the bottom) to get instant keystroke feedback.
+I also recommend setting `Keyboard settings:` to <small>[0,33]</small> under `Show Advanced Options` (at the bottom) to get instant keystroke feedback.
 
 ___
 
