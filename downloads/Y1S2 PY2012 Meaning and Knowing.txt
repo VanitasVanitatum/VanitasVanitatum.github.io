@@ -1,0 +1,325 @@
+narrow in that field
+2018.01.29 Mon 14h20m 〖1A〗 Lecture 1
+	Some type of Epitemlogy is very closley linked with Emprical study: empirical study, neuroscience, cognitive science, developmental psychology
+
+
+	What is the difference beteen 「Factual Knowledge」, 「Practical Knowledge」, 「Wisdom」, 「Moral Knowledge」
+
+	「Moral Knowledge」
+		Is the validity of some moral claims put-into-question depending on 'how it is transmitted' (at first it seems that 'simply being told the ethics thing' insn't sufficient for us to hold it as 'knowledge')
+
+	Knowledge ☜☞ Social (Identity?) Power
+		Are we abdicating intellectual responsibility if we accept expert testimony?
+		Are we being a terribe terribe person if we believe testifier A, not B, but A>B in social identity power :O
+
+	Descriptive
+		What is the nature of the current case
+
+	Normative
+		How things SHOULD be, what we OUGHT to believe
+		Many epistemelogical questions are not merely descriptive, they are also normative
+
+	「Philosophical Scepticism」: Maybe there isn't any knowledge
+		A normal approach to most subjects is to establish the claims, then show their connections. In epistemology, we'll first address 'entering the first door' i.e. skepticism (how can we even being to embark on this journey of dealing-with-knowledge)
+		Rather than contesting specific claims, Philosophical Scepticism contests the entire practice of MAKING knowledge claims
+		Typical subjects are scpetical about: knowledge of the external world / other minds / the past / the unobserved / the moral / the mathematical / the spiritual
+
+		"Oh you don't really know that" isn't a particularly impressive challenge, it's not terribly compelling. There need to be some skeptical arguments.
+			What precisely is the sceptic's argument? What can be said for or against the premises?
+
+	Descartes' Scepticism
+		We usually stereotype Descartes as a super sceptic, which is ironic, because actually, we owe him lots of our CERTAINTY (esp. including in math)
+		"To-day….since I have procured for myself an assured leisure in a peaceable retirement, I shall at last seriously and freely address myself to the general upheaval of all my former opinions" (Descartes, Meditation I, 1641)
+
+	Distrusting the senses - Descartes first worries that this could all be a dream
+		There is no CERTAIN indicator by which we can CLEARLY distinguish wakefulness from sleep
+		He latches onto things that he trusts WOULD be true REGARDLESS if it's a dream or not
+		I dreampt that the number 71, expressed in base-7, was 56. It is not (it's actually 131) - in dreams you lack the clarity and strength of thought to rationally CHECK things
+
+
+
+	The Matrix = Brain in a Vat
+		The nuclear option: some powerful deciever is trying to trick me
+		Descartes isn't claiming that BiV IS the case, merely that: if this WAS the case, we wouldn't be able to know the difference
+
+	It's a rather strange argument: the mere POSSIBLITY that we're in this strange situation is meant to make us think we don't know anything? Strange
+
+	Descartes' arguments depend on the "Principle of closure" = 〈if I know P & "if P then ¬Q" ∴ I know ¬Q〉, reasoning from small to big by depending on there being a link between P and 
+
+
+
+Nagel, J. (2014). Knowledge: A Very Short Introduction. Oxford: Oxford University Press.
+	Knowledge is the difference between 〈just thinking something is true〉 and 〈KNOWING it is true〉
+	Knowledge is a link between a person and a fact
+	p.5 Cynical view: "whether someone's idea counts as knowledge or mere opinion would be determined by his status as a leader or a loser, and not by anything in the idea itself or its relation to reality."
+	p.5 "It's not entirely crazy to think of knowledge as a status marker."
+	p.5 there's some bit of truth. More power enables you to get more knowledge, and more knowledge enables you to get more power. But let's not jump to the conclusion 'the only thing that knowledge is, is the perception of power'
+	p.7 know vs think. Embedded in saying 'He knows X' is the presumption that X is true, whereas think has the chance of being wrong.
+	p.8 Factivity: "We can know only facts, or true propositions." It applies to know, realize, see, remember, and prove, among others(?) .
+	p.9 Non-Factive: "when Bill just thinks that his door is locked, he could be right. ... Confidence matters to knowledge." It applies to think, hope, suspect, doubt, and say, among others(?) .
+	p.14 Stoic scepticism: "Knowledge is wise judgement, or the acceptance of just the right impressions ... so cllear and distinct that you couldn't be mistaken."
+	p.14 Academic scepticism: "even the sharpest and most vivid impression might be mistaken. Because impressions are always fallible, the Academic Sceptics argued, knowledge is impossible."
+	p.15 Pyrrhonian scepticism: pure doubt, making no positive claims at all
+	p.15 "Different philosophers have proposed different rules for deciding which impressions are the best ones, and if knowledge emands thoughful choice, our criterion of truth itself can't just be chosen randomly. But if we can't be arbitrary, we need some rule to select a criterion of truth."
+	p.23 the ways our words have meanings = the ways they link up to reality
+	p.24 Semantic Internalism: "words get their meanings ... from the images or descriptions that individual speakers associate with those words in their minds"
+	p.24 Semantic Externalism: "words get their meanings ... from causal chains connecting us to things in the world around us. ... we can all refer to the same substance when we say 'water' exactly because our meaningful use of the word is anchord in our common causal contact with a particular substance. ... whatever they thought about its nature, we can now say that they mean the same thing when they use the word 'water'" the meaning of words is linked to whatever caused our experiences
+	is there a difference between 〈the meaning of words〉 and 〈the meaning of concepts〉? A word is not a preposition
+	p.29 Timothy Williamson has the idea along the lines of "scepticism is like an autoimmune disease in which the protective mechanism goes too far and attacks the healthy parts of the organism"
+	p.61 Internalists: "If you really can't think of any supportive evidence, you are in trouble. ... Knowledge is grounded by your own experience and by your own capacity to reason. ... If you can't see for yourself why you should believe something, you don't actually know it. The subject's own awareness of good grounds is an essential part of what distinguishes knowing from lower states like guessing." Requiring you to 'know how you know' risks an infinite regress of justifications.
+	p.61 Externalists: "Knowledge is a relationship between a person and a fact"
+	p.61 
+
+
+2018.01.30 Tue 14h00m 〖1B〗 Lecture 2 Agrippa's Trilemma
+	knowing concepts ← epistemology focuses on this
+	knowing how / understanding operations (savoir)
+	knowing people by relation (connaître)
+
+
+	∃multiple grounds for justification, like moral, self-interest ('prudential'), which can convince us to believe something, quite independently of it acutally being true ├it is healthy/relaxing/loyal/ehtical for me to believe X┤
+
+	「Epistemic justification」		having a reason that makes a belief more likely to be true
+	「propositional justification」		iff have justification available to you ├for epistemic justification, you have EVIDENCE in favour of P┤
+	「doxastic justification」		iff have propositional justification AND you actually believe X (you formed your belief based on propositional)
+
+	
+	Gettier cases are coincidences of true beliefs.
+	Instead I will address doxastic justification; WHY we believe a proposition, what qualify as GOOD REASONS to make a belief credible.
+
+	Reliabilism:
+		A. H. Goldman pg 11 ISBN:978-9027710246
+		A belief is Justified ⇔ it is produced by reliable processes that typically give a high ratio of true to false beliefs. This is better than luck, because it gives us REASONS to predict that the beliefs generated by this process will be true.
+		A belief is knowledge ⇔ it is formed by a reliable belief-forming process
+			Challenged by the Gettier case of the barn façades. Sense perception is generally reliable, but its reliability doesn't guarantee it generates true beliefs.
+		Barn Façades A. I. Goldman pg 147-164 https://doi.org/10.2307%2F2107188
+
+
+	Nozick's (externalist) Safe and Sensitive:
+		「Safe」		
+		「Sensitive」		S knows P ⇔ P & S's belief in P 〈reliably tracks the truth〉 of P (S believes P ⇔ P)
+		Blackburn's response:
+			S' belief in P 〈reliably tracks the truth〉 of P
+			This isn't good enough. S can believe P sucessfully, consistently, and accurately ... but for BAD REASONS.
+			He wants to dismiss the person who gets epistemically lucky as 'not knowledge', and only treat beliefs formed from GOOD REASONS as 'knowledge'.
+		Nozick is forced to reject closure (?)
+
+		「Causal Theory of Knowing」		Belief in a proposition should be caused by the proposition itself, not something else. The thing ITSELF must be the source of beliefs about it. Alvin Goldman.
+
+
+	「Internalism」		Factors within mental states determine justification.
+		Descartes. Senses mediate all perception of external world, senses are fallible, so can be doubted.
+		Descartes doesn't doubt the foundations 〈I am thinking〉 and 〈to think, one must exist〉, therefore he is comfortable with inferring "I think therefore I am".
+
+
+	「Externalism」		Factors outside of mental states determine justification.
+		Belief needs to link with the state of the external world.
+
+
+
+
+
+
+2018.02.01 Thu 14h18m 〖1D〗 Lecture 3 Foundationalism & Coherentism	
+	Foundationalism:
+
+	Descartes' Cogito Ergo Sum: In order to think, my mind needs to exist. I am completely certain that IT APPEARS that I am thinking. ∴ I actually am thinking, ∴ my mind exists, ∴ I exist
+	grounds to doubt our own mental states:
+		motivation - think I'm being selfless when actually I'm not
+		character traits - think I'm kind when I'm actualy not
+		past mental states - present ones are sure, but I can easily re-write my self-narrative
+		mental states - think I'm in love when actualy not. Think I think my partner's faithful when I actually (deep down) don't believe they're faithful. My self-narrative can be that my deepest desire is for a relationship with money/a girl, when in truth it actualy isn't.
+
+	Let's relax the stringency of our foundational beliefs, permit basic beliefs to include more than stuff about my mental states, to include stuff about the external world. Letting-in categories of belief that aren't always super reliable
+		「Internalism」
+		「Externalism」
+			perception gives beliefs that truthfully match 〈the external world's state of affairs〉
+			∴ percieving that I have a hand (having that experience) justifies the belief 〈I have a hand〉
+
+	Coherentism:
+		a belief is justified ⇔ it is a member of a coherent set of beliefs
+		we do have some contradictory beliefs, that shouldn't be grounds to think our entire belief system is wrecked and should be thrown out
+		isolation objection: coherence is necessairy but not sufficient to get a reasonable view of the world - conspiracy theories are super consistent, but that doesn't protect them from being totally bonkers
+		there can be a gap between belief and experience - there are occasions where we have experiences but we just don't convert them into beliefs
+		always emphasizes making sure our beliefs fit together, critique would argue a consistent system is USELESS if it isn't connected to external reality
+
+
+
+
+2018.02.05 Mon 09h01m Tutorial 1
+	1. Why does Descartes say it is “necessary, once in the course of my life, to demolish everything completely and start again right from the foundations”?
+		Distinction between STATE and CONTENT
+		The belief 〈I have hands〉 has content 〈I have hands〉.
+		When I believe that I have hands, I am in the state of 〈believing that I have hands〉
+		Sates are caused. The whole thing about Epistemology is that they're CAUSED, 〈believing it is grey outside〉 is caused by my perception of the outside.
+		When we talk about justification, we talk about REASONS
+		What REASON do I have to believe the CONTENT of the proposition 〈someone is crossing the road〉. I can't help being in the STATE of being under the impression of that belief
+
+		Can doubt everything, could either be dreaming, or decieved.
+		Descartes is after CERTAINTY = unable to doubt, able to exclude doubt completely.
+		The problem of Epistemology is about our method of acquiring belief (Experience for empirical beliefs), what would we need to know for our Experience to be reliable?
+		There is no-one that can go outside of experience and look at the world from outside of it. You're in a car (experience) and know something is wrong
+		Social Epistemology = "we kind of exchange notes (about reliaty)"
+		「Indistinguishability」		Me in real world vs. in Matrix - From my perspective, the two experiences look the same, I can't distinguish them, weather they are caused by The World or caused by The Evil Demon.
+
+	2. How does Descartes propose to demolish all of his opinions?
+		We must keep some beliefs fixed, even if we want to doubt everything (e.g. meaning of language conventions)
+		「Coherentism」		Beliefs gang up and support each other. The problem is, you can have very coherent CONSPIRACY THEORIES. Our web of belief has no necessairy causal connection to the world.
+		Modern male youthful egoism: I am in a very deep hole, and currently don't see a way out, but tomorrow I might, maybe someone will walk by and throw me a rope. Being far away from the goal ├epistemic certainty┤ MOTIVATES ME to werk hard 2 get thar. (Walter called this wishful thinking, because it is an undefined hope)
+		The joke in Epistemology is that Descartes is doing great while he's in the dark, but then plays Deus Ex Machina to invoke God to get into the light (a being that is perfect and wouldnt' decieve you)
+
+	3. Descartes initially suggests that the fact that the senses have sometimes deceived him in the past is a reason to never trust them again. What is Descartes’s considered view of whether past sensory error means that you should never trust the senses again? What is your own view?
+		Descartes moves from 〈deception has happened SOMETIMES, at least once〉 to 〈I will NEVER trust it again〉. This argument seems too strong, it is only good if we can't tell apart 〈the case where the chair will hold me〉 and 〈the case where where the chair will break again〉 "Usually I get the duck right, but that time it was a decoy! Arrr"
+	4. Do you agree with Descartes that “there are never any sure signs by means of which being awake can be distinguished from being asleep”?
+		Yes, we must simply assume that we aren't in the Matrix. However, precisley because we couldn't measure it, we can't assume we ARE in the Matrix, so this doesn't let us off-the-hook (morally). Similar to parallel Universes.
+	5. Why does Descartes think that the possibility that one is dreaming still leaves arithmetic and geometry capable of containing something certain and indubitable, whereas disciplines such as physics, astronomy and medicine are doubtful?
+		They would be true a priori so they would be true independent of sense perception.
+	6. What additional possibilities of doubt are raised by the possibility of God, or a malicious Demon?
+		
+	My Question. Does 〈us actually being in The Matrix〉 let us off-the-hook morally?
+
+
+	「Epistemic Justification」		Having right standarding w.r.t. a belief, believing it purely connected to the evidence
+	「Practical Justification」		like 〈I've been given £1milli to believe 2+2=5〉
+	「Propositional Justification」		Justification which is availabe to you, evidence that is lying about
+	「Doxastic Justification」		Which reason we actually used to form our belief. Being 〈offered £1milli to believe the current time is 9:55〉 is what has made me believe that, rather than what the clock says (even if the clock ACTUALLY DOES say 9:55)
+
+
+
+
+
+2018.02.05 Mon 14h10m Epistemic luck and the Gettier Problem
+	Justified True Belief
+		if one believes a true proposition, but one does not have justification (good reason) for this belief, this is not counted as Knowledge (because it is not justified)
+
+		Justified & true are NECESSAIRY conditions for a belief to be knowledge, but fail to be SUFFICIENT conditions
+
+		Gettier Cases are cases of JTB that are true because of luck/coincidence ... but then that doesn't seem justified!
+
+
+2018.02.06 Tue 14h10m
+
+
+	What are we trying to do when we form beliefs? We're trying to form (get into our heads) an accurate picture about the world.
+
+	Sensitivity = 〈your belief about the preposition〉 reliably tracks 〈the truth of the preposition〉 if P is true, you believe it's true AAAANNND if P is false, you believe it's false ├on the train from England to Scotland, your belief about "which country you're in", you would stop believing "I'm in England" as soon as you stop being in England┤
+	If the belief wasn't true, I wouldn't have the belief.
+	Possible Worlds is a really mechanic to work through the semantics of possible truth conditions.
+	adherence condition
+	「tracking」 = your belief locks onto the truth of X. If ¬X, you believe ¬X, if X, you believe X.
+
+	Nozick says that, while we can't know that we're not a BiV, we CAN still be confident about everyday knowledge (without needing to defeat the sceptic).
+	modus ponens = P & (P→Q) ∴ Q , or via contraposition ¬Q & (¬Q→¬P) ∴ ¬P
+	principle of closure adds the 〈knowledge operator〉 in front of all its claims:
+	K(P) & K(P→Q) ∴ K(Q)  which is OK, but then applied to the contrapositive actually applies to BiV cases  K(¬Q) & K(¬Q→¬P) ∴ K(¬P)
+	Closure applies for LOCAL knowledge. Nocick denies the principle of closure for beliefs that are SOOO far away, inasfar as it tries to extrapolate from daily to universal knowledge (it can't be used to infer I'm ¬BiV).
+
+	Me believing I'm ¬BiV isn't SENSITIVE, but that's not something to worry about, because the possible world where BiV attains is SO FAR AWAY.
+
+	Nozick defeating 1 sceptic argument hasn't guaranteed that he's established that we have knowledge. 1 consistituent argument doesn't show all sceptic conclusions are false
+
+
+
+
+
+
+
+
+
+
+
+Tut 2? Read Nozik on sensitivity
+
+
+Tut 3? Lewis on Contextualism
+		‘Knows’ is a context-sensitive term like ‘tall’
+	1. Lewis suggests we can escape both “the rock of fallibilism and the whirlpool of scepticism” (550). Explain the rock and the whirlpool and why we want to avoid both.
+		rock = fallibilism = "He knows, yet he has not eliminated all possibilities of error"
+		whirlpool = scepticism, demands more "frequent corrections of what we want to say"
+	2. What is Lewis’s definition of knowledge? (551).
+		knowledge is infallible = able to eliminate contradictory accounts
+		S's evidence eliminates every possible world where P is false ⇔ S knows proposition P
+	3. Explain his account of what it is for a possibility to be eliminated (553).
+		possibility W is UNELIMINTATED ⇔ the subject's perceptual experienceand mereory in W exactly match his perceptual experience and memory in actuality.
+	4. Explain what it is to eliminate “every possibility in which not-p”, and how one can eliminate every possibility even though there are some un-eliminated possibilities. (553).
+	
+	5. Explain Lewis’s rule of attention (559). How does this rule explain the appeal of the sceptic’s argument while also allowing that, ordinarily, we have lots of knowledge?
+		So long as we manage to not mention the problem, the problems can be properly ignored.
+	6. Explain how Lewis’s contextualist view preserves closure for knowledge (564).
+		says THEY use a trick by changing the context
+	Know P ≡ ¬∃situation ¬P
+
+
+
+
+2018.02.20 Tue 14h06m
+	Testimony is the transfer of information, and (hopefully) knowledge
+	Lackey's view is a disjunction between
+	It's not good EPISTEMIC (relating to evidence) reason to distrust strangers, that's a PRUDENTIL reason (relating to our well-being).
+	Epistemic injustice = attributing a crediblity deficit to a testifier, because of prejudice
+	Descartes wasn't concerned with how society was structured, he was only concerned with the evidence. Feminist epistemologists contest that NEGLECT of considering hiearchy is equivalent to being COMPLICT in the hiearchy.
+
+2018.02.22 Thu 14h21m
+	Objectivity is a concept that came about at the height of the industrial revolution (18th century)
+	Feminist Epistemolgy contests that this 〈Objectivity〉 is actually 'subjectivity in disguise' - particularly MALE subjectivity ("This is where I think a lot of people get off the bus" - Walter)
+	"The (badly reified) notion of Reason that underlies epistemology is said to be a deeply gendered one, rather than gender-neutral."
+	Rationality is coercive, because there is power/authority built into the notion of VALIDITY - IF you accept premises, you are compelled, you MUST accept the conclusions.
+	ALL divisions between reason and emotion ... whatever ... are inherently political, becase they would provide grounds for social policy conclusions ├MEN should behave like this┤
+	Difference between 〈knowledge THAT〉 (of propositons) and 〈knowledge HOW〉 ├skills┤  (strong influence from Marx here)
+	The notion of KNOWLEDGE at the start of the industrial revolution was DOMINATON "knowledge is power", we use knolwedge to dominate nature (tnx Francis Bacon). Reason needs to be 'purified' of all emotions and 'feminine' elements.
+	(1603) "The Masculine Birth of Time" Francis Bacon, the industrial machine must PENETRATE Nature :o
+	〈Sensitivity〉 and 〈Safetey〉 are also sexual terms (sounds like a condom advertisement)
+	For Feminist Epistemologists, instead of knoweldge as DOMINATION, it should be knowledge as IDENTIFICATION (with)
+	In a sense, Feminism was very easy because it was 50% of the population. Feminism has moved onto race, because a large portion of the WORLD population has been 'affected' by (the oppression of) ├Imperialism┤.
+	Knowledge 
+
+
+
+2018.02.26 Mon 09h39m
+	EXAM: Must there be intention for communication to count as testimony.
+	I am wearing clothes. This is evidence (not information) that I have clothes. Propositional content is always tied to information. Testimony requies information, not evidence. Therefore, the fact that I'm wearing clothes is not testimony.
+
+
+2018.02.27 Tue 14h07m
+	See it's funny because so much of this stuff adds NO VALUE to life.
+
+	1. language communicates thoughts
+	2. thoughts are private ←this is the one we get rid of
+
+	Frege (context principle): do not ask for the meaning of words in isolation, ask how the meaning of the word connects with the meaning of the sentence
+	Principle of Compositionality: the meaning of a sentence is soley determined by the meaning and order of its constituent words
+
+
+
+2018.03.12 Mon 09h09m
+	Theory of Descriptions is about how definiate descriptions work.
+		You can be Kripkie and say that descriptions DO work like this, but denies that Definite Names are not descriptions (unlike Russell).
+		You're making a necessairy claim, so all you need is one counter-example, and it fails
+		Kripike's main flaim: all the descriptions could turn out to be false, but the proper name would still refer to the named guy.
+		Kripkie: How can we all undrstand what it means for a description to be true, when we use different descriptions to refer to the same person
+	Descriptivism is neutral on that issue, all that I care about is that Names = Abbreviated Definite Descriptions
+
+	Searle cluster theory: suppose there are 25 descriptions associatable with J.K.Rowling, they team up
+
+	Sentence = A linguistic item (string), each language has rules that definie what counts as a sentence, you can't have a valid sentence without reference to linguistic rules of a language. "The cat has four paws" = "Le chat a quatre pattes" The 2nd one is not a sentnece within English. We explain the truth value of a sentence in terms of the truth value of the proposition, they lock onto the same proposition
+	Proposition = the semantic value of a proposition, the thought of a sentence (not the truth)
+
+	Rigid Designator = is a property of expressions. Something that refers to the same object in all possible worlds in which that object exists. My name picks the property 'being me', while descriptions can pick other properties.
+
+	Empty Names = 
+
+
+
+2018.04.01 Sun 19h22m
+	Lecture 19—Monday 12 March—Indexicals
+	· John Perry, ‘Using Indexicals’, in Devitt and Hanley (eds.) (2006). Read §§ 1-2 (e-book).
+		http://ebookcentral.proquest.com/lib/st-andrews/reader.action?docID=351519&ppg=326
+
+
+	Lecture 20—Tuesday 13 March— Semantic Externalism I (Putnam)
+	· Hilary Putnam (1975), `The Meaning of ‘Meaning’’, in his Mind, Language and Reality, (1975), Cambridge: Cambridge University Press, pp. 215-71. Read only p. 215-27—main tutorial reading
+
+	Lecture 21—Thursday 15 March— Semantic Externalism II (Burge)
+	·  Tyler Burge (1989), ‘Wherein is Language Social?’, in his Foundations of Mind, (2007), Oxford: Clarendon Press, pp. 275-90.
+
+	
