@@ -63,13 +63,27 @@ Nagel, J. (2014). Knowledge: A Very Short Introduction. Oxford: Oxford Universit
 	p.15 "Different philosophers have proposed different rules for deciding which impressions are the best ones, and if knowledge emands thoughful choice, our criterion of truth itself can't just be chosen randomly. But if we can't be arbitrary, we need some rule to select a criterion of truth."
 	p.23 the ways our words have meanings = the ways they link up to reality
 	p.24 Semantic Internalism: "words get their meanings ... from the images or descriptions that individual speakers associate with those words in their minds"
-	p.24 Semantic Externalism: "words get their meanings ... from causal chains connecting us to things in the world around us. ... we can all refer to the same substance when we say 'water' exactly because our meaningful use of the word is anchord in our common causal contact with a particular substance. ... whatever they thought about its nature, we can now say that they mean the same thing when they use the word 'water'" the meaning of words is linked to whatever caused our experiences
+	p.24 Semantic Externalism: "words get their meanings ... from causal chains connecting us to things in the world around us. ... we can all refer to the same substance when we say 'water' exactly because our meaningful use of the word is anchord in our common causal contact with a particular substance. ... whatever they thought about its nature, we can now say that they mean the same thing when they use the word 'water'" the meaning of words is linked to whatever caused our experiences. Intension (i.e. sense, which is a psychological state) does NOT determine extension.
 	is there a difference between 〈the meaning of words〉 and 〈the meaning of concepts〉? A word is not a preposition
 	p.29 Timothy Williamson has the idea along the lines of "scepticism is like an autoimmune disease in which the protective mechanism goes too far and attacks the healthy parts of the organism"
 	p.61 Internalists: "If you really can't think of any supportive evidence, you are in trouble. ... Knowledge is grounded by your own experience and by your own capacity to reason. ... If you can't see for yourself why you should believe something, you don't actually know it. The subject's own awareness of good grounds is an essential part of what distinguishes knowing from lower states like guessing." Requiring you to 'know how you know' risks an infinite regress of justifications.
 	p.61 Externalists: "Knowledge is a relationship between a person and a fact"
 	p.61 
 
+Intension: The definition, the criteria that select the members of the set.
+
+Putnam
+	intension is a psychological state, XOR intension determines extension, so its never clear that we're talking about the same thing, when there is a disagreement, what settles it is what the THING is, therefore externalism
+	p.215 Extension: "the set of things the term is true of"
+	on twin earth, sense and intension are fixed, but water is refering to 2 different things (H20 and XYZ). Another way to think of it, is some dummies who can't distinguish between Mo and Au. Or, today I learn that Walter is an axe-murderer, I'm still talking about the same person, even when I learn this new knowledge. Or using 'Arthiritis' to refer to joint pain, vs. using it to refer to musscle pain. WILL BE ON EXAM
+	No matter how precise your definition, your definition is not what determines the meaning of what you say. The thing ITSELF determines the meaning.
+Linguistic deference: We defer to experts (those who can tell things apart). The division of linguistic labour, ppl who CAN'T identify what a word means, can depend on ppl who CAN.
+
+Essays
+	Meanings being private: Locke & private language argument by Wittgenstein
+
+Grice
+	What determines meaning is the intenTion to communicate
 
 2018.01.30 Tue 14h00m 〖1B〗 Lecture 2 Agrippa's Trilemma
 	knowing concepts ← epistemology focuses on this

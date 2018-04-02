@@ -105,19 +105,19 @@ If you thought it was effortless to use **Ctrl+w**, or AHK+**F1** to send **Ctrl
 #### Right-handed browsing (combines with the scrolling keys)
 
 ```
-**n** — Switch Tab to the left
-**m** — Switch Tab to the right
-**,** — Close tab
-**>** (**shift+,**) — Re-open tab
+n — Switch Tab to the left
+m — Switch Tab to the right
+, — Close tab
+> (shift+,) — Re-open tab
 ```
 
 #### Left-Handed browsing
 
 ```
-**a** — Switch Tab to the left
-**s** — Tab to the right
-**q** (Vimium++ default) — Close tab
-**Q** (**shift+q**) — Re-open tab
+a — Switch Tab to the left
+s — Tab to the right
+q (Vimium++ default) — Close tab
+Q (shift+q) — Re-open tab
 ```
 
 I find these are the hotkeys I use the most, their convenience alone justifies installing Vimium++, anything from here on is awesome extras.
@@ -136,7 +136,7 @@ You can store as many booksmarks you want with any letters, even letters that wo
 
 This feature is amazing for reading long documents. Set a bookmark at the beginning (e.g. where some important term is defined at the start of an encyclopedia page), then you're free to move around, skip back to it, and return to where you were.
 
-Even better is when you're reading a news website, and you know that the side scrollbar doesn't give a realistic estimate of 'how long is the rest of the article' (because the bottom-half of the page is comments and links). Set a bookmark, scroll-down to check what you're getting yourself into, then skip right back to were you were! This is a great example showing how our user input methods dictate our usage. You'd lose more time thant you saved (checking-ahead, then needing to scroll back) unless you could set a bookmark. Better input methods → better usage!
+Even better is when you're reading a news website, and you know that the side scrollbar doesn't give a realistic estimate of 'how long is the rest of the article' (because the bottom-half of the page is comments and links). Set a bookmark, scroll-down to check what you're getting yourself into, then skip right back to were you were! This is a great example showing how our user input methods dictate our usage. You'd lose more time than you'd save (by checking-ahead, then needing to scroll back) unless you could set a bookmark. Better input methods → better usage!
 
 ___
 
@@ -150,7 +150,7 @@ ___
 
 <h2><a id="Gmai">Gmail</a></h2>
 
-If you use Gmail (not ideal), I recommend adding that website as an exception to Vimiumm++, so that your Vimium++ commands don't screw with your inbox. Do this by clicking on the Chrome icon then `Add Rule` and `Save Changes`.
+If you use Gmail ([not ideal](https://www.theguardian.com/commentisfree/2018/mar/28/all-the-data-facebook-google-has-on-you-privacy) for your privacy), I recommend adding that website as an exception to Vimiumm++, so that your Vimium++ commands don't screw with your inbox. Do this by clicking on the Chrome icon then `Add Rule` and `Save Changes`.
 
 I also recommend tightening-up the layout of your inbox with the [Gmail Compact](https://chrome.google.com/webstore/detail/gmail-compact/ocgmlabbjbpfjcalgnhhffadjhenhlkp) extension, and also changing Gmail settings under the `Labs` tab to enable the `Preview Pane` and `Unread Message Icon` settings.
 
