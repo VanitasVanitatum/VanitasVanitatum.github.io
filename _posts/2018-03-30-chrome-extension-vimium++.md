@@ -157,10 +157,10 @@ I also recommend tightening-up the layout of your inbox with the [Gmail Compact]
 Finally, in the general settings also enable `Keyboard Shortcuts` to do the same sort of thing Vimum++ does:
 
 ```
-**c** — Compose new draft
-**gd** — Go to Drafts
-**gi** — Go to Inbox
-**gt** — Go to Sent
+c — Compose new draft
+gd — Go to Drafts
+gi — Go to Inbox
+gt — Go to Sent
 ```
 
 ___
