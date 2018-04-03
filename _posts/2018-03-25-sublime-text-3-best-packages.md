@@ -14,7 +14,7 @@ Here are all the ST3 packages I use. Any time a package needs custom settings or
 
 I recommend starting with a clean build of Sublime Text 3, and installing these packages using PackageControl. Install PackageControl through the command palette (**Ctrl+Shift+P**) command `Install Package Control`. Then type the command `Package Control: Install Package` to get a list of all the available packages, type their names to find and select them.
 
-TODO: cloning all **my** packages and settings using Git and/or Package Control itself.
+TODO: Directly cloning all **my** packages+settings using Git and/or Package Control itself.
 
 
 #### Alginment
@@ -37,6 +37,9 @@ The gutter (the vertical space between ST3's linenumbers and text) gets markers 
 
 #### LaTeXing <small><em>(Optional, only install if you're regularly working with LaTeX)</em></small>
 Better syntax highlighting, 'build' hotkey integration, and (this is the cool bit that makes it worth it) when you 'build', it jumps-to your cursor's location in the output .pdf's body. Here's my history with using LaTeX and my current workflow (TODO:) (ST3+LaTeXing, Git, ShareLatex).
+
+#### MoveTab
+Pair this with TODO:User_Master_Hotkeys.ahk to TODO:easily re-arrange tabs.
 
 #### SideBarEnhancements
 Adds more functionality to RightClicking on ST3 sidebar entries (notably `Rename`, `Delete`), but unfortunately not to entries under `Group n`, only to entries under the `Folders` section (specified in your TODO:Sublime Project settings file).
