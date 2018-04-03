@@ -19,7 +19,7 @@ I recommend starting with a clean build of Sublime Text 3, and installing these 
 Set multiple cursors, press **Alt+a**, and all the cursors will be aligned with spaces. Used to make things line-up nicely.
 
 #### Autohotkey
-AHK syntax highlighting and the ability to hotfix i.e. edit-and-instantly-implement, with **Ctrl+b* (the build system.)
+AHK syntax highlighting and the ability to hotfix i.e. edit-and-instantly-implement, with **Ctrl+b** (the build system.)
 
 #### BracketHighlighter
 Highlights paired and — importantly — unpaired brackets, can support custom braces (TODO: tutorial), I press **Ctrl+Shift+Space** (default is Ctrl+**Alt**+Shift) to select all text within the brackets, even \*\*Markdown\*\* 'brackets'. Easily strip brackets from a sentence by selecting the content, Cut, Backspace (kills bracket pair), Paste. I detail my custom hotkeys for this extension <a href="{{ site.baseurl }}/%C2%B0computers/2018/03/25/sublime-text-3-best-hotkeys.html">here</a>.
