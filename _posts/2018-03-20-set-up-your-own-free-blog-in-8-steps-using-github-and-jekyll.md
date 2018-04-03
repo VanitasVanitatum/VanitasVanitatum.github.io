@@ -105,6 +105,8 @@ E = MC<sup>2</sup>
 
 Create an endnote with this code:
 
+[^1]<
+
 [^1]: <http://en.wikipedia.org/wiki/Syntax_highlighting>
 
 

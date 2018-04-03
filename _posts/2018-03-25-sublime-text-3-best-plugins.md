@@ -14,10 +14,13 @@ I recommend getting a clean build of Sublime Text 3, and installing these plugin
 
 
 #### Alginment
+	I want to be able to describe this with no effort
 
 #### Autohotkey
+I want to be able to describe this with no effort
 
-#### BracketHighlighter
+#### BracketHighlighter<br>
+I want to be able to describe this with no effort
 
 #### ColorPicker <small><em>(Optional, only install if you're regularly working with rgb hex codes)</em></small>
 
