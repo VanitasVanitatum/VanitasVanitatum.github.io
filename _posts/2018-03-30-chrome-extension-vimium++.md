@@ -128,7 +128,7 @@ ___
 
 <h2><a id="Page">Page Navigation Bookmarks</a></h2>
 
-When you want to scroll-ahead, or quickly check the top of a page, it's easy to lose time over-shooting. This solves that. [Technically these are called `Marks`, because browser bookmarks are the same as 'saved tab addreses'.]
+When you want to scroll-ahead, or quickly check the top of a page, it's easy to lose time over-shooting. This solves that. (And <a href="{{ site.baseurl }}/%C2%B0computers/2018/03/25/sublime-text-3-best-packages.html">SublimeBookmarks</a> does the same thing in Sublime Text 3).
 
 Type **u** to set a bookmark. This will display `Create Mark ...` as a little note at the bottom right. Now type any letter you want, I usually use **i**.
 
@@ -139,6 +139,10 @@ You can store as many booksmarks you want with any letters, even letters that wo
 This feature is amazing for reading long documents. Set a bookmark at the beginning (e.g. where some important term is defined at the start of an encyclopedia page), then you're free to move around, skip back to it, and return to where you were.
 
 Even better is when you're reading a news website, and you know that the side scrollbar doesn't give a realistic estimate of 'how long is the rest of the article' (because the bottom-half of the page is comments and links). Set a bookmark, scroll-down to check what you're getting yourself into, then skip right back to were you were! This is a great example showing how our user input methods dictate our usage. You'd lose more time than you'd save (by checking-ahead, then needing to scroll back) unless you could set a bookmark. Better input methods → better usage!
+
+
+
+[Technically these are called `Marks`, because browser bookmarks are the same as 'saved tab addreses'.]
 
 ___
 
