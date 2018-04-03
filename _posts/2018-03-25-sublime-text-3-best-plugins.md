@@ -10,26 +10,26 @@ tags:
 last_modified_at: 2018-03-26T12:57:42-05:00
 ---
 
-I recommend installing these plugins (using PackageControl)
+I recommend getting a clean build of Sublime Text 3, and installing these plugins (using PackageControl)
 
 
-Alginment
+#### Alginment
 
-Autohotkey
+#### Autohotkey
 
-BracketHighlighter
+#### BracketHighlighter
 
-ColorPicker
+#### ColorPicker <small><em>(Optional, only install if you're regularly working with rgb hex codes)</em></small>
 
-GhostText
+#### GhostText
 
-GitGutter
+#### GitGutter
 
-LaTeXing
+#### LaTeXing <small><em>(Optional, only install if you're regularly working with LaTeX)</em></small>
 
-Side Bar
+#### SideBarEnhancements
 
-SublimeBookmarks
+#### SublimeBookmarks
 
 ```json
 	{"keys": ["ctrl+shift+f2"], "command": "sublime_bookmark", "args" : { "type" : "add" } },
@@ -38,6 +38,6 @@ SublimeBookmarks
 	{"keys": ["ctrl+f2"], "command": "sublime_bookmark", "args" : { "type" : "toggle_line" } },
 ```
 
-SublimeGit
+#### SublimeGit
 
-Super Calculator
+#### Super Calculator
