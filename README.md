@@ -4,6 +4,6 @@ This repository is the code for my <a href="http://vanitasvanitatum.github.io">w
   <a href="{{ site.baseurl }}/LICENSE.md">MIT License</a>
   &copy; 2018.
 
-Feel free to fork [the source code](https://github.com/VanitasVanitatum/VanitasVanitatum.github.io) to start your own blog, customizing it following <a href="{{ site.baseurl }}/computers/2018/03/20/set-up-your-own-free-blog-in-8-steps-using-github-and-jekyll.html">these easy steps</a>.
+Feel free to fork [the source code](https://github.com/VanitasVanitatum/VanitasVanitatum.github.io) to start your own blog, customizing it following <a href="{{ site.baseurl }}/%C2%B0computers/2018/03/20/set-up-your-own-free-blog-in-8-steps-using-github-and-jekyll.html">these easy steps</a>.
 
 <img alt="Saint_Jerome_Writing-Caravaggio_(1605-6)" title="‘As long as it is day, we must do the works of him who sent me. Night is coming, when no one can work.’ John 9:4" src="https://raw.githubusercontent.com/VanitasVanitatum/VanitasVanitatum.github.io/master/images/Night.png"/>

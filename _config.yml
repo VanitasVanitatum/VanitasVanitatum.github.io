@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            Vanitas Vanitatum
 tagline:          'Simple'
-description:      "Until we hear hope, we can't even <em>imagine</em> a better future"
+description:      "Until we hear hope, we can't even <em>imagine</em> the better future"
 url:              https://VanitasVanitatum.github.io
 excerpt_separator: "<!--more-->"
 baseurl:          # the optional subpath of your site, e.g. "/blog"

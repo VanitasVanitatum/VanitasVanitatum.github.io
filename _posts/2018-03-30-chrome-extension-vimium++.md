@@ -90,7 +90,9 @@ ___
 
 Hit **f** and a bunch of letters in yellow boxes will appear, one for each clickable link. Type the string of letters to click on the link. Hit **F** for the same command, but the link will open in a new tab.
 
-This is super useful to click-through repetitive forms or dialogs, provided the layout of the page is consistent, meaning the same string of commands (e.g. **fa**) will always hit the right link. You can limit which letters are used in the Vimium++ settings.
+This is super useful if you want to quickly click a link without needing to take your hands away from the keyboard. Hitting **F+your letter** spares you from needing to *Grab mouse > swing over to link > overshoot and correct > RightClick>Click 'Open in new tab'*.
+
+It's also good for clicking-through repetitive forms or dialogs, provided the layout of the page is consistent, meaning the same string of commands (e.g. **fa**) will always hit the right link. You can limit which letters are used in the Vimium++ settings.
 
 **gi** selects the page's first text field, useful for selecting 'Search' boxes.
 

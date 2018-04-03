@@ -12,4 +12,4 @@ This is a static site hosted (for free!) from its [VanitasVanitatum.GitHub.io re
   &copy; {{ site.time | date: '%Y' }}.
 
 
-Feel free to fork [the source code](https://github.com/VanitasVanitatum/VanitasVanitatum.github.io) to start your own blog, customizing it following <a href="{{ site.baseurl }}/computers/2018/03/20/set-up-your-own-free-blog-in-8-steps-using-github-and-jekyll.html">these easy steps</a>.
+Feel free to fork [the source code](https://github.com/VanitasVanitatum/VanitasVanitatum.github.io) to start your own blog, customizing it following <a href="{{ site.baseurl }}/%C2%B0computers/2018/03/20/set-up-your-own-free-blog-in-8-steps-using-github-and-jekyll.html">these easy steps</a>.
