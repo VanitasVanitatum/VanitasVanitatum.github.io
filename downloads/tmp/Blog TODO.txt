@@ -1,0 +1,17 @@
+
+Get Google to index my site, does this include Google Analytics? https://stackoverflow.com/questions/49073043/get-github-pages-site-found-in-google-search-results
+Add Like and Share buttons, even integrate Twitter or FB page if possible
+Optimize for sharing on FaceBook, including good clicky images
+write articles on Vimium++, and tabs re-ordering (AHK, chrome, ST3 plugins)
+tweak font to make it serif, in /_sass/hydeout/_base.scss line 18   with these font pairings https://www.typewolf.com/site-of-the-day/villa-feltrinelli
+
+
+change the hydeout code to make Disqus comments enabled by default (to maximise engagement chances) and document the changes in my 'Jekyll extensions + Hydeout tweaks' article, which explains all the Jekyll things I needed to customize myself (Disqus, fonts, extensions)
+take spanning images and email form from this guy's blog (and document your improvements)	https://github.com/willkoehler/my_blog/tree/open_source
+fork kramdown, remove the regex that matches INDENT blocks	https://github.com/gettalong/kramdown/blob/master/lib/kramdown/parser/kramdown.rb
+register on RubyGems.org, upload your fork of kramdown named 'kramdownvv', blog about why you deliberately DON'T write in markdown (I do, but it's not technically markdown)	http://guides.rubygems.org/make-your-own-gem/
+
+
+
+
+
