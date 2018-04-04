@@ -171,6 +171,8 @@
 	{"keys": ["shift+f2"], "command": "sublime_bookmark", "args" : { "type" : "goto_prev" } },
 	{"keys": ["ctrl+f2"], "command": "sublime_bookmark", "args" : { "type" : "toggle_line" } },
 
+	{"keys": ["shift+space"], "command": "set_mark" },
+	{"keys": ["alt+space"], "command": "select_to_mark" },
 	{"keys": ["ctrl+k", "ctrl+space"], "command": "set_mark" },
 	{"keys": ["ctrl+k", "ctrl+a"], "command": "select_to_mark" },
 	{"keys": ["ctrl+k", "ctrl+w"], "command": "delete_to_mark" },
