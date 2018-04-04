@@ -43,7 +43,9 @@
 	{"keys": ["alt+ctrl+super+i"], "command": "set_setting", "args": {"setting": "rulers", "value": [0, 0.3, 4, 20, 40, 60 ]}},		//Reading mode
 	{"keys": ["alt+ctrl+super+o"], "command": "set_setting", "args": {"setting": "font_face", "value": "PragmataPro"}},		//Coding mode
 	{"keys": ["alt+ctrl+super+p"], "command": "set_setting", "args": {"setting": "rulers", "value": [0, 0.3, 4, 80 ]}},		//Coding mode
-
+	
+	{"keys": ["ctrl+shift+l"], "command": "open_recent_project_or_workspace", "args": {"index": 0 } },
+	{"keys": ["ctrl+shift+;"], "command": "open_recent_project_or_workspace", "args": {"index": 1 } },
 
 
 // Navigation
