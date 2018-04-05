@@ -52,6 +52,7 @@ The gutter (the vertical space between ST3's linenumbers and text) gets markers 
 ___
 ## Horizontal Scroll
 I remap Font Size +/- to **Ctrl++**/**-**, so I can use **Ctrl+MouseWheel** to scroll horizontally. Install the Horizontal Scroll package, then make a file in your Data\Packages\User directory titled "`Default (Windows).sublime-mousemap`" (substitute 'Windows' for 'Linux' or 'OSX' accordingly). In it, write the following settings:
+
 ```json
 [
     { "button": "scroll_down", "modifiers": ["ctrl"], "command": "scroll_width", "args": {"amount": 30, "by_character": true }, "context": [ { "key": "setting.word_wrap", "operator": "equal", "operand": false } ] },
