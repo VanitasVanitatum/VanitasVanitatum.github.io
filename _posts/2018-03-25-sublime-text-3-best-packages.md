@@ -53,6 +53,10 @@ ___
 Pair this with TODO:User_Master_Hotkeys.ahk to TODO:easily re-arrange tabs.
 
 ___
+## Neon Color Scheme
+Color scheme with a pitch black main-window background and of different supported languages. If you want better syntax-highlighting for JSON files (handy when editing sublime-keymap files) then <a href="{{ site.baseurl }}/downloads/JSON.tmLanguage">download</a> and place this file somewhere in your ST3 install directory. I'm baffled that ST3 doesn't ship with JSON support out-of-the-box, seeing as all its settings files are in that format.
+
+___
 ## SideBarEnhancements
 Adds more functionality to RightClicking on ST3 sidebar entries (notably `Rename`, `Delete`), but unfortunately not to entries under `Group n`, only to entries under the `Folders` section (specified in your TODO:Sublime Project settings file).
 
