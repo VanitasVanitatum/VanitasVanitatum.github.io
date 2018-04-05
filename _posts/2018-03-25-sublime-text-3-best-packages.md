@@ -28,7 +28,11 @@ Adds AHK syntax highlighting and the ability to hotfix i.e. edit-and-instantly-i
 
 ___
 ## BracketHighlighter
+<<<<<<< HEAD
 This highlights paired and — importantly — unpaired brackets, it can support custom braces (TODO: tutorial), and selects all the text between some brackets (even \*\*Markdown\*\* 'brackets') by pressing **Ctrl+Shift+Space**, the default is Ctrl+**Alt**+Shift.
+=======
+This highlights paired and — importantly — unpaired brackets, it can support custom symbol-pairs (TODO: tutorial), and selects all the text between some brackets (even \*\*Markdown\*\* 'brackets', hotkeys **Ctrl+Shift+Space**, the default is Ctrl+**Alt**+Shift).
+>>>>>>> 4048820a091cca7573d78210f84dd37cd200aa2f
 
 Easily strip brackets from a sentence by selecting the content, Cut, Backspace (kills bracket pair), Paste. I detail my custom hotkeys for this extension <a href="{{ site.baseurl }}/%C2%B0computers/2018/03/25/sublime-text-3-best-hotkeys.html">here</a>.
 
@@ -47,12 +51,34 @@ ___
 The gutter (the vertical space between ST3's linenumbers and text) gets markers showing any non-committed Git changes, you can even click it for more details (e.g. see diff, revert).
 
 ___
+## Horizontal Scroll
+I remap Font Size +/- to **Ctrl++**/**-**, so I can use **Ctrl+MouseWheel** to scroll horizontally. Install the Horizontal Scroll package, then make a file in your Data\Packages\User directory title "Default (Windows).sublime-mousemap" with the following settings:
+```json
+[
+    { "button": "scroll_down", "modifiers": ["ctrl"], "command": "scroll_width", "args": {"amount": 30, "by_character": true }, "context": [ { "key": "setting.word_wrap", "operator": "equal", "operand": false } ] },
+    // { "button": "scroll_down", "modifiers": ["ctrl"], "command": "scroll_width", "args": {"amount": 30, "by_character": true }, "context": [ { "key": "setting.word_wrap", "operator": "equal", "operand": true } ] },		// IF word-wrap is enabled, make it switch back to the default behaviour of ±font_size
+    { "button": "scroll_up", "modifiers": ["ctrl"], "command": "scroll_width", "args": {"amount": -30, "by_character": true } },
+    { "button": "scroll_down", "modifiers": ["ctrl", "shift"], "command": "decrease_font_size"},
+    { "button": "scroll_up", "modifiers": ["ctrl", "shift"], "command": "increase_font_size" },
+    // fyi, this is calling the 'Horizontal Scroll' plugin (the 'scroll-width' bit), but it's in this little '.sublime-mousemap' since it's a mouse remap hotkey
+]
+```
+
+___
 ## LaTeXing <small><em>(Optional, only install if you're regularly working with LaTeX)</em></small>
 Better syntax highlighting, 'build' hotkey integration, and (this is the cool bit that makes it worth it) when you 'build', it jumps-to your cursor's location in the output .pdf's body. Here's my history with using LaTeX and my current workflow (TODO:) (ST3+LaTeXing, Git, ShareLatex).
 
 ___
 ## MoveTab
 Pair this with TODO:User_Master_Hotkeys.ahk to TODO:easily re-arrange tabs.
+
+___
+## Neon Color Scheme
+Color scheme with a pitch black main-window background and of different supported languages. If you want better syntax-highlighting for JSON files (handy when editing sublime-keymap files) then <a href="{{ site.baseurl }}/downloads/JSON.tmLanguage">download</a> and place this file somewhere in your ST3 install directory. I'm baffled that ST3 doesn't ship with JSON support out-of-the-box, seeing as all its settings files are in that format.
+
+___
+## WakaTime
+An attempt at a productivity-monitoring system, where it tracks how much you work, then gives you weekly analytics on an online dashboard. Make sure to set conservative privacy settings. Unfortunately it doesn't record time working on files which don't have a specified filepath.
 
 ___
 ## SideBarEnhancements
