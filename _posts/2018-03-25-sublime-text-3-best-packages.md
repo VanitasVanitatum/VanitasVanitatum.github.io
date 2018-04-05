@@ -1,5 +1,6 @@
 ---
 layout: post
+excerpt_separator: "<!--fla-->"
 title: "Sublime Text 3: Best Packages"
 categories:
   - °Computers
@@ -13,6 +14,8 @@ last_modified_at: 2018-03-26T12:57:42-05:00
 Here are all the ST3 packages I use. Any time a package needs custom settings or hotkeys, I list those too.
 
 I recommend starting with a clean build of Sublime Text 3, and installing these packages using PackageControl. Install PackageControl through the command palette (**Ctrl+Shift+P**) command `Install Package Control`. Then type the command `Package Control: Install Package` to get a list of all the available packages, type their names to find and select them.
+
+<!--fla-->
 
 TODO: Directly cloning all **my** packages+settings using Git and/or Package Control itself. Split ToC.
 
@@ -28,11 +31,9 @@ Adds AHK syntax highlighting and the ability to hotfix i.e. edit-and-instantly-i
 
 ___
 ## BracketHighlighter
-<<<<<<< HEAD
 This highlights paired and — importantly — unpaired brackets, it can support custom braces (TODO: tutorial), and selects all the text between some brackets (even \*\*Markdown\*\* 'brackets') by pressing **Ctrl+Shift+Space**, the default is Ctrl+**Alt**+Shift.
-=======
+
 This highlights paired and — importantly — unpaired brackets, it can support custom symbol-pairs (TODO: tutorial), and selects all the text between some brackets (even \*\*Markdown\*\* 'brackets', hotkeys **Ctrl+Shift+Space**, the default is Ctrl+**Alt**+Shift).
->>>>>>> 4048820a091cca7573d78210f84dd37cd200aa2f
 
 Easily strip brackets from a sentence by selecting the content, Cut, Backspace (kills bracket pair), Paste. I detail my custom hotkeys for this extension <a href="{{ site.baseurl }}/%C2%B0computers/2018/03/25/sublime-text-3-best-hotkeys.html">here</a>.
 
