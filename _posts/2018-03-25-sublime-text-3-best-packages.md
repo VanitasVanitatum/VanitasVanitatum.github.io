@@ -103,7 +103,7 @@ Input Git commands from the ST3 command palette, which spares you from needing t
 
 ___
 ## Super Calculator
-Perform inline arithmetic (\+ \- \* \/ sqrt() ) by highlighting the string(s) and pressing **Alt+C**. Strings with spaces need to be highlighted, but for simple strings with no spaces, simply place the cursor adjacent to any of the characters and hit **Alt+C** an extra time to select the expression (before executing the command).
+Perform inline arithmetic operations (\+ \- \* / sqrt() ) by highlighting the string(s) and pressing **Alt+C**. Strings with spaces need to be highlighted, but for simple strings with no spaces, simply place the cursor adjacent to any of the characters and hit **Alt+C** an extra time to select the expression (before executing the command).
 Answers to basic arithmetic calculations will drop-down as a suggested result from typing in Chrome's address bar, but this package is better by letting you use multiple cursors, letting you select the results (**Ctrl+d**), and letting you preserve the input and the result (duplicate the string and only perform the calculation on the duplicate expression).
 
 Change how many decimal places it rounds to with this setting (doesn't work if specified in the user settings, must be specified in the package's setting under `Preferences>Package Settings>SuperCalculator>Settings - User`).
