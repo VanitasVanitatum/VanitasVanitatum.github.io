@@ -28,17 +28,19 @@ Adds AHK syntax highlighting and the ability to hotfix i.e. edit-and-instantly-i
 
 ___
 ## BracketHighlighter
-This highlights paired and — importantly — unpaired brackets, it can support custom braces (TODO: tutorial), and selects all the text between some brackets (even \*\*Markdown\*\* 'brackets', hotkeys **Ctrl+Shift+Space**, the default is Ctrl+**Alt**+Shift).
+This highlights paired and — importantly — unpaired brackets, it can support custom braces (TODO: tutorial), and selects all the text between some brackets (even \*\*Markdown\*\* 'brackets') by pressing **Ctrl+Shift+Space**, the default is Ctrl+**Alt**+Shift.
 
 Easily strip brackets from a sentence by selecting the content, Cut, Backspace (kills bracket pair), Paste. I detail my custom hotkeys for this extension <a href="{{ site.baseurl }}/%C2%B0computers/2018/03/25/sublime-text-3-best-hotkeys.html">here</a>.
 
 ___
 ## ColorHighlighter and ColorPicker <small><em>(Optional, only install if you're regularly working with rgb hex codes)</em></small>
-ColorHighlighter syntax-highlights hex codes with their respective colo*u*r (big CPU drain). ColorPicker: when the cursor is over a hex code, press **Ctrl+Shift+C** to open your system's colorwheel window to pick the colo*u*r. Unfortunately that keybinding conflicts with `Super Calculator`, which is why I avoid installing these unless I need them.
+ColorHighlighter: syntax-highlights hex codes with their respective colo*u*r (big CPU drain).
+
+ColorPicker: when the cursor is over a hex code, press **Ctrl+Shift+C** to open your system's colorwheel window to pick the colo*u*r. Unfortunately that keybinding conflicts with `Super Calculator`, which is why I avoid installing these unless I need them.
 
 ___
 ## GhostText
-Pair for a [Chrome](https://chrome.google.com/webstore/detail/ghosttext/godiecgffnchndlihlpaajjcplehddca) (and Firefox) extension. Edit text in ST3 and it will sync it with the respective text box in your browser.
+This package is the other half of a [Chrome](https://chrome.google.com/webstore/detail/ghosttext/godiecgffnchndlihlpaajjcplehddca) (and Firefox) extension. Edit text in ST3 and it will sync it with the respective text box in your browser.
 
 ___
 ## GitGutter
