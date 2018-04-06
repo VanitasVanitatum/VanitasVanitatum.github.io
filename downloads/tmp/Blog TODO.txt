@@ -12,6 +12,10 @@ fork kramdown, remove the regex that matches INDENT blocks	https://github.com/ge
 register on RubyGems.org, upload your fork of kramdown named 'kramdownvv', blog about why you deliberately DON'T write in markdown (I do, but it's not technically markdown)	http://guides.rubygems.org/make-your-own-gem/
 
 
+%USERPROFILE%\mercurial.ini
+	remove eol=
 
-
+git config --get core.autocrlf
+	git config --edit --global
+	set autocrlf to false
 
