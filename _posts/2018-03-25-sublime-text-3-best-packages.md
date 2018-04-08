@@ -101,6 +101,14 @@ ___
 ## SublimeGit
 Input Git commands from the ST3 command palette, which spares you from needing to use your system's terminal. TODO: Takes a bit of setting-up for Windows or SSH though.
 
+
+[//]: # ___
+[//]: # ## SublimeLinter
+[//]: # for proselint install python, update settings with path-to-executable
+[//]: # for TextLint presumably its the same thing just with Node.js
+[//]: # for write-good ??
+
+
 ___
 ## Super Calculator
 Perform inline arithmetic operations (\+ \- \* / sqrt() the phrase you highlighted) by highlighting the string(s) and pressing **Alt+C**. Strings with spaces need to be highlighted, but for simple strings with no spaces, simply place the cursor adjacent to any of the characters and hit **Alt+C** an extra time to select the expression (before executing the command).

@@ -7,15 +7,25 @@ tweak font to make it serif, in /_sass/hydeout/_base.scss line 18   with these f
 
 
 change the hydeout code to make Disqus comments enabled by default (to maximise engagement chances) and document the changes in my 'Jekyll extensions + Hydeout tweaks' article, which explains all the Jekyll things I needed to customize myself (Disqus, fonts, extensions)
+add proper sub-headline excerpt text to every article, bump up the number of articles on the homepage to 10, reccomended articles WITH THEIR EXCERPT at the end of posts
 take spanning images and email form from this guy's blog (and document your improvements)	https://github.com/willkoehler/my_blog/tree/open_source
 fork kramdown, remove the regex that matches INDENT blocks	https://github.com/gettalong/kramdown/blob/master/lib/kramdown/parser/kramdown.rb
 register on RubyGems.org, upload your fork of kramdown named 'kramdownvv', blog about why you deliberately DON'T write in markdown (I do, but it's not technically markdown)	http://guides.rubygems.org/make-your-own-gem/
 
 
-%USERPROFILE%\mercurial.ini
-	remove eol=
 
-git config --get core.autocrlf
-	git config --edit --global
-	set autocrlf to false
+Fuckin BitBucket screwing up my cross-platform repository, make it stop changing your line-endings
+	%USERPROFILE%\mercurial.ini
+		remove eol=
+
+	git config --get core.autocrlf
+		git config --edit --global
+		set autocrlf to false
+
+
+website layout inspiration
+	https://jameshfisher.com/2018/04/07/the-dots-do-matter-how-to-scam-a-gmail-user
+	at the bottom of the post have a "share on twitter" button
+
+market "future writing tools" similar to opacity-webcam-view = "Tony Stark's presentation app (hologram)"
 
