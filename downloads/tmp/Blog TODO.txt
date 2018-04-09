@@ -13,8 +13,14 @@ fork kramdown, remove the regex that matches INDENT blocks	https://github.com/ge
 register on RubyGems.org, upload your fork of kramdown named 'kramdownvv', blog about why you deliberately DON'T write in markdown (I do, but it's not technically markdown)	http://guides.rubygems.org/make-your-own-gem/
 
 
+Linux Basics:
+	installing things needs sudo
+	chmod (e.g. do it to your SSH keys)
+	SSH keys
+	wildcards → baaaasic regex (use example of finding big sscait replays)
 
-Fuckin BitBucket screwing up my cross-platform repository, make it stop changing your line-endings
+Linux Basics: Line-endings. No thanks to
+	BitBucket screwing up my cross-platform repository, make it stop changing your line-endings
 	%USERPROFILE%\mercurial.ini
 		remove eol=
 
@@ -29,3 +35,45 @@ website layout inspiration
 
 market "future writing tools" similar to opacity-webcam-view = "Tony Stark's presentation app (hologram)"
 
+
+
+
+
+
+
+
+
+
+
+// SublimeLinter Settings - User
+{
+    "gutter_theme": "Default",
+
+    "debug": true,
+    "paths": {
+        "windows": ["C:\\Users\\Player1\\AppData\\Local\\Programs\\Python\\Python36\\Scripts\\proselint.exe"]
+    },
+	
+
+
+	"styles": [
+	    {
+	        "mark_style": "fill",
+	        "priority": 1,
+	        "scope": "region.yellowish markup.changed.sublime_linter markup.warning.sublime_linter",
+	        "icon": "heart-outline",
+	        "types": [
+	            "warning"
+	        ]
+	    },
+	    {
+	        "mark_style": "fill",
+	        "priority": 1,
+	        "scope": "region.redish markup.deleted.sublime_linter markup.error.sublime_linter",
+	        "icon": "heart-outline",
+	        "types": [
+	            "error"
+	        ]
+	    }
+	],
+}

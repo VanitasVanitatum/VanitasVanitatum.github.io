@@ -106,7 +106,7 @@ Input Git commands from the ST3 command palette, which spares you from needing t
 [//]: # ## SublimeLinter
 [//]: # for proselint install python, update settings with path-to-executable
 [//]: # for TextLint presumably its the same thing just with Node.js
-[//]: # for write-good ??
+[//]: # for write-good https://github.com/btford/write-good
 
 
 ___
