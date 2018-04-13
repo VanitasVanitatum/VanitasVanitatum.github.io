@@ -77,7 +77,7 @@
 	{"keys": ["alt+ctrl+shift+f6"], "command": "toggle_setting", "args": {"setting": "spell_check"} },
 	{"keys": ["ctrl+f6"], "command": "next_misspelling" },
 	{"keys": ["ctrl+shift+f6"], "command": "prev_misspelling" },
-	{"keys": ["alt+ctrl+p"], "command": "prompt_select_workspace"},
+	{"keys": ["shift+ctrl+o"], "command": "prompt_select_workspace"},
 
 
 	// Tab Mods
