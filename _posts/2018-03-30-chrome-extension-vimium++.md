@@ -12,7 +12,7 @@ tags:
   - °PowerUser
 last_modified_at: 2018-03-30T12:57:42-05:00
 ---
-Vimium++ is a Chrome extension to <em>type navigation commands</em> like you do in the text editor VIM (there's also a Beta version for Firefox). 
+Vimium++ is a Chrome extension to <em>type navigation commands</em> like you do in the text editor VIM (there's also a beta version for Firefox). 
 
 Web browsers are the future. Software and Document Storage is moving online. Soon, most Apps you run, or files you read, will be via a web browser.
 
