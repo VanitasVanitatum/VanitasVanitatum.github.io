@@ -22,7 +22,6 @@ L→O = If she loved him, she would have obligations towards him.
 
 <!--fla-->
 <img alt="Made using ShareLaTeX" title="Logical proof that his unrequieted love is invalid." src="https://raw.githubusercontent.com/VanitasVanitatum/VanitasVanitatum.github.io/master/images/Love_me_not.png"/>
-[//]: #  <img alt="Made using ShareLaTeX" title="Logical proof that his unrequieted love is invalid." src="https://raw.githubusercontent.com/VanitasVanitatum/VanitasVanitatum.github.io/master/images/Love_me_not.svg"/>
 
 See, that's PROOF that his logic leads to a contradiction. If she did actually love him, his sadness (at her neglect) be warranted. But that's not the case. She's under no obligation to love him, so it's unwarranted for him to feel sad that she doesn't.
 
