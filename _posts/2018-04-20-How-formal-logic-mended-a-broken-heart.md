@@ -12,9 +12,15 @@ tags:
 last_modified_at: 2018-04-20T12:57:42-05:00
 ---
 
-He has a broken heart, because she loves him not.
+He has a broken heart, because she loves him not. Here's logical proof that his unrequieted love is invalid.
 
-<img alt="Joos van Cleve - Saint Jerome in His Study (Princeton Art Museum, c. 1528)" title="‘Blessed are the pure in heart, for they will see God.’ Matthew 5:8" src="https://raw.githubusercontent.com/VanitasVanitatum/VanitasVanitatum.github.io/master/images/Purity.png"/>
+¬L = She doesn't love him.
+L→O = If she loved him, she would have obligations towards him.
+¬O→S = If she failed those obligations towards him, he would be sad.
+
+
+<img alt="Made using ShareLaTeX" title="Logical proof that his unrequieted love is invalid." src="https://raw.githubusercontent.com/VanitasVanitatum/VanitasVanitatum.github.io/master/images/Love%20me%20not.png"/>
+<img alt="Made using ShareLaTeX" title="Logical proof that his unrequieted love is invalid." src="https://raw.githubusercontent.com/VanitasVanitatum/VanitasVanitatum.github.io/master/images/Love%20me%20not.svg"/>
 
 
 ```latex
@@ -46,4 +52,3 @@ He has a broken heart, because she loves him not.
 ___
 
 
-And that's it, better input methods → better usage, so enjoy ultra-efficient browser navigation!
