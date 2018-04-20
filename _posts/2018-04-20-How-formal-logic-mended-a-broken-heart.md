@@ -15,7 +15,9 @@ last_modified_at: 2018-04-20T12:57:42-05:00
 He has a broken heart, because she loves him not. Here's logical proof that his unrequieted love is invalid.
 
 ¬L = She doesn't love him.
+
 L→O = If she loved him, she would have obligations towards him.
+
 ¬O→S = If she failed those obligations towards him, he would be sad.
 
 <!--fla-->
