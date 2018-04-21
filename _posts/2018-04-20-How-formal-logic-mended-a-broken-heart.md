@@ -18,7 +18,7 @@ He has a broken heart, because she loves him not. Here's logical proof that his 
 
 L→O = If she loved him, she would have obligations towards him.
 
-¬O→S = If she failed those obligations towards him, he would be sad.
+¬O→S = If she failed those obligations towards him, he would be warranted in being sad.
 
 <!--fla-->
 <img alt="Made using ShareLaTeX" title="Logical proof that his unrequieted love is invalid." src="https://raw.githubusercontent.com/VanitasVanitatum/VanitasVanitatum.github.io/master/images/Love_me_not.png"/>
@@ -26,7 +26,7 @@ L→O = If she loved him, she would have obligations towards him.
 See, that's PROOF that his logic leads to a contradiction. If she did actually love him, his sadness (at her neglect) be warranted. But that's not the case. She's under no obligation to love him, so it's unwarranted for him to feel sad that she doesn't.
 
 
-Here's the code I used to make the above tree on ShareLaTeX (then I tweaked it in Inkscape, because I still have some learning to do with Forrest).
+Here's the code I used to make the above tree on ShareLaTeX (then I tweaked it in Inkscape, because I still have some learning to do with Forest).
 
 ```latex
 \documentclass[12pt,border=5pt,varwidth=true]{standalone}
