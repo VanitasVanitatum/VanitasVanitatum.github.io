@@ -17,3 +17,4 @@ This file goes into your (Sublime Text Directory)/Data/Packages/User folder. Don
 You can also <a href="{{ site.github.repo }}/blob/master/downloads/Preferences.sublime-settings">examine this code</a> on my GitHub.
 
 You'll need to get your own copy the best Monospace Unicode font in existence, <a href="https://www.fsd.it/shop/fonts/pragmatapro/">PragmataPro</a>.
+Just for Leo
