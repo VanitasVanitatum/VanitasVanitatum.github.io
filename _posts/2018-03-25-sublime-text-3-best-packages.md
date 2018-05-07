@@ -105,7 +105,7 @@ Lets you customize ST3's packages without needing to extract the archives using 
 
 ___
 ## SideBarEnhancements
-Adds more functionality to RightClicking on ST3 sidebar entries (notably `Rename`, `Delete`), but unfortunately not to entries under `Group n`, only to entries under the `Folders` section (specified in your TODO:Sublime Project settings file).
+Adds more functionality to RightClicking on ST3 sidebar entries (notably `Rename`, `Delete`), but unfortunately not to entries under `Group [number]`, only to entries under the `Folders` section (specified in your TODO:Sublime Project settings file).
 
 ___
 ## SublimeBookmarks
@@ -134,8 +134,11 @@ Input Git commands from the ST3 command palette, which spares you from needing t
 
 ___
 ## Super Calculator
-Perform inline arithmetic operations (\+ \- \* / sqrt() the phrase you highlighted) by highlighting the string(s) and pressing **Alt+C**. Strings with spaces need to be highlighted, but for simple strings with no spaces, simply place the cursor adjacent to any of the characters and hit **Alt+C** an extra time to select the expression (before executing the command).
-Answers to basic arithmetic calculations will drop-down as a suggested result from typing in Chrome's address bar, but this package is better by letting you use multiple cursors, letting you select the results (**Ctrl+d**), and letting you preserve the input and the result (duplicate the string and only perform the calculation on the duplicate expression).
+Perform inline arithmetic operations, has reduced my need for Excel by 90%. Type \+ \- \* / sqrt() with numbers, highlighting the string(s) and press **Alt+C**. Strings with spaces need to be highlighted, but for simple strings with no spaces, simply place the cursor adjacent to any of the characters and hit **Alt+C** an extra time to select the expression (before executing the command).
+
+Answers to basic arithmetic calculations will drop-down as a suggested result from typing in Chrome's address bar, but this package gives 3 advantanges: multiple cursors performs many calculations at once, you can select the resultant values (**Ctrl+d**), and you can preserve the input _and_ result (first duplicate the string, then only perform the calculation on the secondary expression).
+
+It's really useful if you have a list of numbers and want to increment them by a certain ammount. For example, when writing this document I changed `36. 37.` to `38. 39.` by: highlight `3`, press **Alt+C** to select both 3's, **Right Right** to navigate to the end of the number, `+2` **Alt+C Alt+C**.
 
 Change how many decimal places it rounds to with this setting (doesn't work if specified in the user settings, must be specified in the package's setting under `Preferences>Package Settings>SuperCalculator>Settings - User`).
 
