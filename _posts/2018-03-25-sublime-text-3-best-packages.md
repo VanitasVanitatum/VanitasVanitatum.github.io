@@ -77,27 +77,23 @@ Pair this with TODO:User_Master_Hotkeys.ahk to TODO:easily re-arrange tabs.
 
 ___
 ## Neon Color Scheme
-Color scheme with a pitch black main-window background and of different supported languages. If you want better syntax-highlighting for JSON files (handy when editing sublime-keymap files) then <a href="{{ site.baseurl }}/downloads/JSON.tmLanguage">download</a> and place this file somewhere in your ST3 install directory. I'm baffled that ST3 doesn't ship with JSON support out-of-the-box, seeing as all its settings files are in that format.
+Color scheme with a pitch black main-window background and lots of different supported languages. If you want better syntax-highlighting for JSON files (handy when editing sublime-keymap files) then <a href="{{ site.baseurl }}/downloads/JSON.tmLanguage">download this settings file</a> and place it somewhere in your ST3 install directory. I'm baffled that ST3 doesn't ship with JSON support out-of-the-box, seeing as all its settings files are in that format.
 
-Recently I've found that an update made the whitespace marker colour ugly. Here's how to change the bright-green back to dark-grey.
+A recent update to this Color Scheme gave the whitespace marker an ugly colour. Here's how to change the bright-green back to dark-grey.
 
 Before (lines 36 & 37)
-
 ```xml
   <key>invisibles</key>
   <string>#06FF05</string>
 ```
 
 After
-
 ```xml
   <key>invisibles</key>
   <string>#545454</string>
 ```
 
 I also like making the 'select line highlight' a little brighter (lines 38 & 39)
-
-
 ```xml
   <key>lineHighlight</key>
   <string>#333333</string>
@@ -105,7 +101,7 @@ I also like making the 'select line highlight' a little brighter (lines 38 & 39)
 
 ___
 ## PackageResourceViewer
-Adds more functionality to RightClicking on ST3 sidebar entries (notably `Rename`, `Delete`), but unfortunately not to entries under `Group n`, only to entries under the `Folders` section (specified in your TODO:Sublime Project settings file).
+Lets you customize ST3's packages without needing to extract the archives using 7zip. A more convenient workflow than manually dragging-dropping files, which is feasible on Windows but gets insufferable on Linux.
 
 ___
 ## SideBarEnhancements
