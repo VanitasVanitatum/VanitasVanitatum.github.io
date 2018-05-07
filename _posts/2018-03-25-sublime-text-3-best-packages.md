@@ -79,9 +79,33 @@ ___
 ## Neon Color Scheme
 Color scheme with a pitch black main-window background and of different supported languages. If you want better syntax-highlighting for JSON files (handy when editing sublime-keymap files) then <a href="{{ site.baseurl }}/downloads/JSON.tmLanguage">download</a> and place this file somewhere in your ST3 install directory. I'm baffled that ST3 doesn't ship with JSON support out-of-the-box, seeing as all its settings files are in that format.
 
+Recently I've found that an update made the whitespace marker colour ugly. Here's how to change the bright-green back to dark-grey.
+
+Before (lines 36 & 37)
+
+```xml
+  <key>invisibles</key>
+  <string>#06FF05</string>
+```
+
+After
+
+```xml
+  <key>invisibles</key>
+  <string>#545454</string>
+```
+
+I also like making the 'select line highlight' a little brighter (lines 38 & 39)
+
+
+```xml
+  <key>lineHighlight</key>
+  <string>#333333</string>
+```
+
 ___
-## WakaTime
-An attempt at a productivity-monitoring system, where it tracks how much you work, then gives you weekly analytics on an online dashboard. Make sure to set conservative privacy settings. Unfortunately it doesn't record time working on files which don't have a specified filepath.
+## PackageResourceViewer
+Adds more functionality to RightClicking on ST3 sidebar entries (notably `Rename`, `Delete`), but unfortunately not to entries under `Group n`, only to entries under the `Folders` section (specified in your TODO:Sublime Project settings file).
 
 ___
 ## SideBarEnhancements
@@ -122,6 +146,12 @@ Change how many decimal places it rounds to with this setting (doesn't work if s
 ```json
 	"round_decimals": 4,
 ```
+
+
+
+___
+## WakaTime
+An attempt at a productivity-monitoring system, where it tracks how much you work, then gives you weekly analytics on an online dashboard. Make sure to set conservative privacy settings. Unfortunately it doesn't record time working on files which don't have a specified filepath.
 
 
 ___
