@@ -72,7 +72,7 @@ This post has been updated and should show a modified date if `last_modified_at`
 
 This post tests YouTube video embeds.
   <div class="embed-responsive embed-responsive-16by9">
-    <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/K2r4ujFeuqk?controls=0&amp;" allowfullscreen></iframe>
+    <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/K2r4ujFeuqk?controls=1&amp;" allowfullscreen></iframe>
   </div>
 
 This post tests Twitter Embeds.
