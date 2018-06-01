@@ -132,7 +132,7 @@ You can store as many booksmarks you want with any letters, even letters that wo
 
 This feature is amazing for reading long documents. Set a bookmark at the beginning (e.g. where some important term is defined at the start of an encyclopedia page), then you're free to move around, skip back to it, and return to where you were.
 
-Even better is when you're reading a news website, and you know that the side scrollbar doesn't give a realistic estimate of 'how long is the rest of the article' (because the bottom-half of the page is comments and links). Set a bookmark, scroll-down to check what you're getting yourself into, then skip right back to were you were! This is a great example showing how our user input methods dictate our usage. You'd lose more time than you'd save (by checking-ahead, then needing to scroll back) unless you could set a bookmark. Better input methods → better usage!
+Even better is when you're reading a news website, and you know that the side scrollbar doesn't give a realistic estimate of 'how long is the rest of the article' (because the bottom-half of the page is comments and links). Set a bookmark, scroll-down to check what you're getting yourself into, then skip right back to were you were! This is a great example showing how our user input methods dictate our usage. You'd lose more time than you'd save (by checking-ahead, then needing to scroll back) unless you could set a bookmark. Better usage → Better input methods!
 
 
 
