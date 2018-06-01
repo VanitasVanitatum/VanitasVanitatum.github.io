@@ -22,13 +22,7 @@ Vimium++ enables much better ways to interact with your web browser. Do basic th
 
 <h5>Table of Contents</h5>
 
-<a href="#Setu">Setup</a><br>
-<a href="#Scro">Scrolling</a><br>
-<a href="#Clic">Clicking Things</a><br>
-<a href="#Open">Open, Close, and Switch Tabs</a><br>
-<a href="#Page">Page Navigation Bookmarks</a><br>
-<a href="#Misc">Miscellaneous</a><br>
-<a href="#Gmai">Gmail</a><br>
+<a href="#Setu">Setup</a><br> // <a href="#Scro">Scrolling</a><br> // <a href="#Clic">Clicking Things</a><br> // <a href="#Open">Open, Close, and Switch Tabs</a><br> // <a href="#Page">Page Navigation Bookmarks</a><br> // <a href="#Misc">Miscellaneous</a><br> // <a href="#Gmai">Gmail</a><br>
 
 
 
