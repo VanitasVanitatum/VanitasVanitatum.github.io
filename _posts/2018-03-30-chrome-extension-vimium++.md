@@ -33,7 +33,7 @@ ___
 
 Install the Chrome extension by clicking [here](https://chrome.google.com/webstore/detail/vimium%20%20/hfjbmagddngcpeloejdejnfgbamkjaeg).
 
-Once installed, click on the extension's Chrome icon, go to `Options` and Copy+Paste these custom commands into the `Custom Key Mappings` field:
+Once installed, click on the extension's Vimium++ icon, go to `Options` and Copy+Paste these custom commands into the `Custom Key Mappings` field:
 
 ```
 map j scrollDown
