@@ -72,9 +72,8 @@ This post has been updated and should show a modified date if `last_modified_at`
 
 This post tests YouTube video embeds.
   <div class="embed-responsive embed-responsive-16by9">
-    <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/l2Of1-d5E5o?controls=0&amp;" frameborder="0" allowfullscreen></iframe>
+    <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/K2r4ujFeuqk?controls=0&amp;" frameborder="0" allowfullscreen></iframe>
   </div>
-
 
 This post tests Twitter Embeds.
   <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Oh I dunno. It&#39;s probably been over 15 years since I smudged out a face with a pencil and kneaded eraser. <a href="https://twitter.com/hashtag/WIP?src=hash">#WIP</a> <a href="https://twitter.com/hashtag/Sktchy?src=hash">#Sktchy</a> <a href="https://t.co/PwqbMddyVK">pic.twitter.com/PwqbMddyVK</a></p>&mdash; Michael Rose (@mmistakes) <a href="https://twitter.com/mmistakes/status/826644109670612997">February 1, 2017</a></blockquote>
