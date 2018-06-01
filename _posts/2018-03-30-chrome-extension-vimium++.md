@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Chrome Extension: Vimium++"
+title: "Chrome Extension: Vimium++ & Gmail Compact"
 
 excerpt_separator: "<!--fla-->"
 categories:
