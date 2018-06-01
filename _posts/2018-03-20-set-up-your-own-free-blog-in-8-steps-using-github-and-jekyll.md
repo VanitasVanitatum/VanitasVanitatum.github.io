@@ -118,3 +118,5 @@ GitHub Gist embeds can also be used:
 Which outputs as:
 <script src="https://gist.github.com/mmistakes/77c68fbb07731a456805a7b473f47841.js"></script>
 
+Lil Changelog:
+Changed the layouts/category setup, for links to come before tabs, so that my big pictures don't obscure everything and come-in at the bottom
