@@ -14,7 +14,7 @@ last_modified_at: 2018-03-30T12:57:42-05:00
 ---
 Vimium++ is a Chrome (and Firefox) extension to <em>type navigation commands</em> like you do in the text editor VIM. 
 
-Web browsers are the future. Software and Document Storage is moving online. Soon, most Apps you run, or files you read, will be via a web browser.
+Web browsers are the future. Software and Document Storage is moving online. Soon most Apps you run or files you read, will be via your web browser.
 
 Vimium++ enables much better ways to interact with your web browser. Do basic things _faster_, do _new_ things, and combine it with AHK scripts to automate repetitive tasks.
 
@@ -48,7 +48,6 @@ map v scrollPxUp
 map n previousTab
 map m nextTab
 map , removeTab
-map < restoreTab
 
 map a previousTab
 map s nextTab
@@ -104,7 +103,6 @@ If you thought it was effortless to use **Ctrl+w**, or AHK+**F1** to send **Ctrl
 n — Switch Tab to the left
 m — Switch Tab to the right
 , — Close tab
-> (shift+,) — Re-open tab
 ```
 
 #### Left-Handed browsing
