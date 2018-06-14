@@ -1,0 +1,162 @@
+Spellcraft Spellcraft_Open_Remastered_5.6.8.w3x
+For this document to display properly you need to use a monospace font like Consolas.
+
+Combine elements to make spells. Choose to be mele, support, or dps. Combine any spell layout you want! Keep in mind, the hero you choose will still have a fighter/support/spellcaster role even though everyone's primary stat is agility.
+The simplest character type is Melee or ranged character with Aura Trueshot, Aura Command and Passive Critical Strike
+More complicated will be spellcaster for DPS.
+Hardest will be support (heals) buffs/debuffs and summons.
+
+Here are the element codes:
+	W Water
+	E Earth
+	S Storm
+	D Death
+	F Fire
+	L Light
+	Y EnergY
+	T Transmuation
+	X X-Arcanum Materia
+
+
+How a listing works:
+	letter code_manacost title₋effects (cooldown or autocast)
+
+
+Sorting by function
+
+Healing
+	DXD_105mana Draw Soul₋line-aoe 230dmg and restore hp by 60% of dmg dealt (6s cooldown)
+	DDD_50mana  Death Coil₋+430hp for ally undead unit or -215hp for enemy living unit
+	LLW_9mana   Heal₋+75hp (autocast)
+	ELL_105mana Rejuvenation₋+1000hp over 20s (1s cooldown)
+	SLL_40mana  Divine Shield₋invulnerability for 11s (26s cooldown)
+	LLL_70mana  Holy Light₋+500hp or -250hp on undead (12s cooldown and at lvl3 can target self)
+	LLT_85mana  Cleansing Beam₋+600hp and debuffs (13s cooldown)
+	LLY_50mana  Healing Ward₋summon immobile Healing Ward that restores +2%hp per second for 35s (4s cooldown and good for stacking)
+	EYY_5mana   Ennervate₋+200hp +200life over 9s but cancelled if attacked (20s cooldown and no cast-time)
+	YYT_0mana   Energy Surge₋+120mana instantly (20s cooldown)
+	DXX_75mana  Nosferatu₋+100dps 100%lifesteal for 12s (20s cooldown)
+	EXX_100mana Tranquility₋aoe heal 70hp each second for 16s
+	LXX_50mana  Immortal₋fast resurect to full hp and mana (15s cooldown)
+	
+Auras
+	EWW_0mana   Brilliance Aura₋nearby allies +3 mana regen
+	WFW_0mana   Steam Aura₋nearby enemies (450range) -40%atkSpeed -20%mvSpeed
+	LWW_0mana   Devotion Aura₋nearby allies +8armor
+	EET_0mana   Thorns Aura₋nearby allies return 28dmg to melee attackers
+	FDD_0mana   Unholy Aura₋nearby allies +30%mvSpeed +500%hp regen
+	EFF_0mana   Endurance Aura₋nearby allies +25%mvSpeed +35%atkSpeed
+	WDT_0mana   Vampiric Aura₋aoe +30% melee lifesteal
+
+Passives
+	WWS_0mana   Water Strike₋+8dmg and strike with +160dmg +4s-stun every 13s
+	WWD_0mana   Slow Poison₋enemy -30%mvSpeed -15%atkSpeed for 20s
+	LYY_0mana   Evasion₋+40% chance dodge
+	XSX_0mana   Electrocute_every 5s 50%chance either to purge 3 nearby enemies or cast chain-lightning
+
+Defense
+	EES_0mana   Boulderskin₋+60%armour -50%mvSpeed for 4s (9s cooldown)
+	ETT_0mana   Spiked Carapace₋+11armour and return 33% of melee AND RANGED attacks
+	YXX_65mana  Arcane Shield₋for 23s +5mana regen +80%chance to negate damage taken (7s cooldown)
+	SEW_15mana  Mana Shield₋absorbs dmg at the cost of mana $
+	EWY_135mana Mirror Image₋4 duplicates $
+
+Buff_Ally
+	SDD_25mana  Unholy Frenzy₋+80%atkSpeed on target but -5hp per second (3s cooldown and 30s duration)
+	FFW_40mana  Bloodlust₋+50%atkSpeed +35%mvSpeed for 60s (3s cooldown and autocast)
+	FLL_40mana  Inner Fire₋+30%dmg +100%hp regen +4armour for 120s (4s cooldown and autocast)
+	LLX_165mana Divine Intervention₋aoe +850hp and mass Inner Fire
+	STT_70mana  Speed Burst₋nearby allies +70%mvSpeed for 14s (16s cooldown)
+	LTT_100mana Invisibility₋makes friendly target invisible for 30s (4s cooldown)
+
+Buff_Enemy
+	LDD_60mana  Cripple₋-75%mvSpeed -50%atkSpeed -50%dmg for 36s (12s cooldown)
+	DDY_135mana Mind Control₋control enemy mob <lvl7 for 4min (22s cooldown)
+	EEL_20mana  Abolish Magic₋-ally-curse -enemy-blessing 390dmg to enemy summons (5s cooldown at lvl3 and autocast)
+	LLD_60mana  Banish₋turn enemy ethereal (no attack and +66%dmg-taken) and -50%mvSpeed for 21s
+	DYY_30mana  Curse₋50%miss chance for 120s or 12s on heroes (autocast)
+	ELW_70mana  Dispel Magic₋removes all buffs in the area and 600dmg to summons
+	SLW_20mana  Ray of Disruption₋dispel that bounces 7 times doing 450dmg to summons
+	WDS_15mana  Web₋paralyze but doesn't prevent attack for 14s or 2.5s for heroes (autocast)
+	SFW_35mana  Slow₋-40%atkSpeed -60%mvSpeed for 18s (autocast)
+	SWY_70mana  Drunken Haze₋for 12s -30%mvSpeed +55%chance to miss and if hit with Breath of Fire will ignite
+	WDY_0mana   Devour Magic₋eat nearby buffs giving 180hp and 90mana each (300dmg to summons)
+	LWD_55mana  Netherbalm₋for 15s target can't move and takes +30%dmg but can still attack
+
+Damage
+	WWW_95mana  Crushing Wave₋200dmg per unit in a line
+	WWT_105mana Frost Nova₋100dmg 150nova-dmg and -mvSpeed -atkSpeed for 9s
+	EEF_60mana  Decompose₋260dmg and then 4*target-lvl dps for 16s and can stack
+	EEY_125mana Earthquake₋20dps -60%mvSpeed for 11s (16s cooldown and lvl3 can cast from distance)
+	SSS_105mana Chain Lightning₋210dmg 8bounces -15%dmg per bounce
+	SSW_110mana Forked Lightning₋265dmg to up to 5enemies (10s cooldown)
+	SSF_85mana  Thunder Clap₋adjacent aoe 140dmg -50%mvSpeed -50%atkSpeed (8s cooldown)
+	DDT_70mana  Shadow Strike₋115dmg and 225dmg after 15s and -70%mvSpeed and -70%atkSpeed for 3s
+	SFF_115mana Shockwave₋line-aoe 240dmg (8s cooldown and no stun)
+	FFL_80mana  Breath of Fire₋line-aoe 190dmg and Drunken Haze'd units get 17dps for 8s
+	FFF_145mana Flame Strike₋aoe 110dps for 3s (20s cooldown and no friendly-fire at lvl3)
+	FFT_8mana   Searing Attack₋+42dmg per attack but drains (negligible ammounts of) mana each time
+	FFX_100mana Flame Burst₋50-150dmg to all units within 700 range (10s cooldown)
+	WTT_7mana   Frost Arrows₋+15dmg -70%atkSpeed -60%mvSpeed for 5s (autocast)
+	WXX_90mana  Blizzard_aoe 4waves of 170dmg (1s cooldown, channeling, total dmg per wave capped to 475)
+	FXX_66mana  Rain of Hellfire₋7 aoe 72dmg waves which curse for +25dps for 9s (21s cooldown)
+	EWT_80mana  Breath of Frost₋line-aoe 145dmg and 17dps for 3s
+	SWT_70mana  Frostbomb₋aoe 185-210dmg and slow for 8s
+	SWX_235mana Monsoon₋aoe 75dps for 15s
+	FWD_55mana  Mana Burn₋1dmg per target mana up to 160dmg
+
+Damage_Adjacent
+	SSE_60mana  Lightning Shield₋35dmg to target's neighbours for 24s (4s cooldown and can cast on self/allies/enemies)
+	SSX_180mana Mass Lightning Shield₋all units in 1200 range get Lightning Shield
+	FFD_35mana  Immolation₋24dps nearby (toggle until out-of-mana)
+
+Summon
+	WWY_130mana Summon Water Elemental₋summon Water Elemental 900hp 41-49dmg for 60s (cooldown 17s)
+	WWX_105mana Sea Throw₋blast enemy 400dmg +10s-stun +knockback and summons Sea Elemental 550hp 28-37dmg
+	EEW_129mana Force of Nature₋summon 4 Treants 300hp 15-17dmg for 60s (26s cooldown)
+	EED_45mana  Tentace₋summon stationary melee Tentace 200hp 45-55dmg (6s cooldown and can cast while moving)
+	SSD_40mana  Serpent Ward₋summon stationary ranged ward 135hm 41-45dmg for 40s (5s cooldown and great for stacking)
+	SSY_60mana  Stasis Trap₋summon single-shot trap (6s deployment time) lasting 4min which stuns once for 8s (12s cooldown)
+	EDD_55mana  Raise Dead₋summon skeleton from corpse 260hp 15-17dmg (12s cooldown and autocast)
+	WYY_15mana  Slime Bolt₋+50dmg and if kill summons Slime for 70s 220hp 24-27dmg (5s cooldown and autocast)
+	SYY_140mana Summon Bear₋summons bear with 1200hp 38-40dmg and bash (40s cooldown)
+	YTT_200mana Transform₋for 25s split into invisible Shade and Dragon 2200hp 48-81dmg (30s cooldown)
+	EWD_180mana Conjure Spider Eggs₋spawn 11 260hp 10-11dmg spiders with poison asting 50s each
+	XEW_175mana Animate Treants₋summons up to 4 600hp 45-64dmg Ancient Protectors for 90s
+	WDX_145mana Acid Bomb₋aoe poison -13armour 30dps for 20s (15dps to neighbors)
+
+Interrupt
+	SSL_75mana  Strom Bolt₋300dmg stun for 8s (8s cooldown)
+	EEE_65mana  Entangling Roots₋immobolize enemy for 15s +19dmg-per-second
+	EEX_105mana Mass Entangle₋immobolize all enimies in area for 15s +19dmg-per-second (destroys trees)
+	WDD_50mana  Sleep₋paralyze mob for 32s or hero for 16s (8s cooldown)
+	FFY_65mana  Firebolt₋300dmg and 3s stun (12s cooldown)
+	YFY_70mana  Pressure Punch₋100dmg+(strength*5) and stun for 6.5s and knockback
+	YYY_80mana  Magic Tri-Missiles₋hitting up to 3 targets with 240dmg and stun for 3s (11s cooldown)
+	FTT_100mana Shackles₋35dps and paralyzes target for 20s or 6s for heroes (18s cooldown)
+	DTT_65mana  Hex₋turn enemy into random critter for 20s
+	TTT_125mana Polymorph₋turn enemy mob <lvl7 into Sheep for 50s or 7s for hero
+	TXT_100mana Meta Blast₋lvl1 is mass hex lvl2 is mass knockback lvl3 is mass polymorph
+	EFW_40mana  Cyclone₋cyclone for 15s
+
+Spellbook
+	XTX_45mana  Seal of Power₋summons invisible SoP for 150s to Call Comet (350dmg +13s stun) or Teleport or Seal (bringing 3 friends) or Summon Succubi (45s 400hp 15-17dmg)  (14s cooldown)
+	XXX_???mana Spellbook 1₋all spellbook spells share cooldown: Death & Decay (dmg based on enemy hp%), Transmute (increase kill gold when cast on weak enemies), Mass Teleport, Great Restoration (big hp and mana heal over time)
+	XXX_???mana Spellbook 2₋no more sharing cooldown: True Vision (passive, reveals invisible enemies within 300range), Spirit Link (allies share recieved-dmg)
+	XXX_???mana Spellbook 3₋Doom (big dmg over time, summons Doomguard if kill), Volcano (summon stationairy volcano, big dmg and stun to all adjacent units), Construct (summon big Shredder 500mana), Crate (craft free 40%mana regen or 40%hp regen items!)
+
+INVALID
+	SST_???mana INVALID₋
+	YXY_???mana INVALID₋
+
+	@FLW_???mana INVALID₋
+	@FWX_165mana Summon Lava Spawn₋summons 700hp 32-56dmg for 70s which clone once after doing 10 attacks
+	@FWY_30mana  Spell Steal₋remove one negative buff from ally or one positive buff from enemy (autocast)
+	@WTF_130mana Iceflash Golem₋summons 1550hp 32-38dmg golem and if you re-summon the old one will damage nearby enemies
+	@_mana ₋
+
+
+
+
+
+
