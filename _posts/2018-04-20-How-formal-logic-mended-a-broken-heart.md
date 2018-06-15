@@ -8,7 +8,6 @@ categories:
 tags:
   - Logic
   - Love
-  - Insecurity
 last_modified_at: 2018-04-20T12:57:42-05:00
 ---
 
