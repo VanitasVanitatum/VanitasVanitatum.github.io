@@ -164,7 +164,7 @@ Sorting by function then manacost
 		TXT_100mana Meta Blast₋       lvl1 is mass hex lvl2 is mass knockback lvl3 is mass polymorph
 		FTT_100mana Shackles₋         35dps and paralyzes target for 20s or 6s for heroes (18s cooldown)
 		EEX_105mana Mass Entangle₋    immobolize all enimies in area for 15s +19dmg-per-second (destroys trees)
-		TTT_125mana Polymorph₋            turn enemy mob <lvl7 into Sheep for 50s or 7s for hero
+		TTT_125mana Polymorph₋        turn enemy mob <lvl7 into Sheep for 50s or 7s for hero
 
 	INVALID
 		SST_???mana INVALID₋
@@ -172,7 +172,7 @@ Sorting by function then manacost
 		FLW_???mana INVALID₋
 
 	Passive
-		LWY_000mana Bash₋             30%chance melee attacks +55dmg and stun for 2s
+		LWY_000mana Bash₋             30%chance attacks +55dmg and stun for 2s
 		EFY_000mana Critical Strike₋  14%chance to do *5dmg on an attack
 		EFD_000mana Damage Poison₋    poisons target 13dps for 8s
 		XSX_000mana Electrocute₋      every 5s 50%chance either to purge 3 nearby enemies or cast chain-lightning
@@ -358,7 +358,7 @@ Sorting by elements then function
 	WL?
 		Defense       LWT_040mana Frost Armour₋     for 90s target gets +8armour and slows melee attackers for 5s
 		Heal          LWX_080mana Healing Spray₋    aoe heal +95hp *5 waves
-		Passive       LWY_000mana Bash₋             30%chance melee attacks +55dmg and stun for 2s
+		Passive       LWY_000mana Bash₋             30%chance attacks +55dmg and stun for 2s
 	WY?
 		Interrupt     WYT_060mana Frost Bolt₋       240dmg and freezes target for 13s (frozen targets can't move but take reduced damage)
 		Summon        WYX_240mana Super Water Elemental₋summons Super Water Elemental 1500hp 46-54dmg with bash and if you have any extra mana that gets used up to increase its hp and damage
@@ -588,7 +588,7 @@ Browse this database as a spreadsheet by importing the following as a .CSV (stri
 	INVALID,YXY,Y,X,Y,???mana,INVALID,
 	Passive,EFD,E,F,D,000mana,Damage Poison,poisons target 13dps for 8s
 	Passive,EFY,E,F,Y,000mana,Critical Strike,14%chance to do *5dmg on an attack
-	Passive,LWY,L,W,Y,000mana,Bash,30%chance melee attacks +55dmg and stun for 2s
+	Passive,LWY,L,W,Y,000mana,Bash,30%chance attacks +55dmg and stun for 2s
 	Passive,LYX,L,Y,X,000mana,Purify,+20% chance that attacks will deal +200dmg and +100dmg aoe
 	Passive,LYY,L,Y,Y,000mana,Evasion,+40% chance dodge
 	Passive,SXT,S,X,T,000mana,Kung Fu,+45%dodge chance and +30%critical chance for +110dmg (does not stack with evasion)
