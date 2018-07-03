@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "See Your Stuff's Connections With yWorks Node Graphs"
+title: "See Connections With yWorks' Node Graphs"
 
 excerpt_separator: "<!--fla-->"
 categories:
