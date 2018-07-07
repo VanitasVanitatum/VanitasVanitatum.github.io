@@ -14,7 +14,7 @@ tags:
 
 
 
-https://www.boxcryptor.com/en/download/
+https://www.boxcryptor.com/app/referral/?code=GyGPMfPfqoiTim7I
 
 https://www.dropbox.com/install
 
