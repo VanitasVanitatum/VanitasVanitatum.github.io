@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "How to Not Overthink Compulsivley"
+title: "How to Not Compulsivley Overthink Things"
 
 excerpt_separator: "<!--fla-->"
 categories:
   - Purity
 tags:
   - Purity
-  - Coping Mechanism
+  - Coping Mechanisms
 ---
 
 
