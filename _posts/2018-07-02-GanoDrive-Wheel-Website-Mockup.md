@@ -10,7 +10,7 @@ tags:
 ---
 
 
-<img alt=" title="" src="https://raw.githubusercontent.com/VanitasVanitatum/VanitasVanitatum.github.io/master/images/Concept_Cover_Photo.png"/>
+<img alt="" title="" src="https://raw.githubusercontent.com/VanitasVanitatum/VanitasVanitatum.github.io/master/images/Concept_Cover_Photo.png"/>
 Animated cover-photo of the car doing it's lateral parking (steps 2. and 5. show the wheels rotating in-place). Can showcase 3 different car variants (mini, city, van).
 
 DropBox is the most user-friendly and widley-adopted filesharing software. BoxCryptor lies on top of DropBox and encrypts the contents. DropBox can't read your stuff, they only store the jumbled files, which are encrypted on either side by Dropbox.
