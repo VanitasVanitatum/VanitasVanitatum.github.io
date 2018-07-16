@@ -69,7 +69,6 @@ This post has been updated and should show a modified date if `last_modified_at`
 	Plugins like [**jekyll-sitemap**](https://github.com/jekyll/jekyll-feed) use this field to add a `<lastmod>` tag your `sitemap.xml`.
 
 
-
 This post tests YouTube video embeds.
 	<div class="embed-responsive embed-responsive-16by9">
 		<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/K2r4ujFeuqk?controls=1&amp;list=PLqLno2B-jEzbqT7hPT2R7Th-RQfeM9b99" allowfullscreen></iframe>
