@@ -23,8 +23,8 @@ Voyd embodies diversity, being minority (superhero), female, likely queer (half-
 
 Elastagirl embodies representation, being minority (superhero), female, and bold enough to live openly as a superhero in a society that oppresses them. It isn't stated explicitly, but the fact that Elastagirl is a superhero *and female* doubles her relatability for Voyd. <sup><sub>[Inverting the gender roles from "The Incredibles" (2004) was cool and good, making all the male characters easily duped wasn't.]</sub></sup>
 
-**Diversity is Inspiring**, what Voyd says: 'You doing *you*' will 'inspire me to do me'. Other people being themselves inspires me to be myself. Yay representation and diversity, they empower everyone.  
-**Representation is Inspiring**, what Voyd means: 'You doing *me*' will 'inspire me to do me'. Elastagirl is only a role-model insofar as Voyd can relate to her. That's because:
+**'Diversity is Inspiring'**: Voyd says 'You doing *you*' will 'inspire me to do me'. Other people being themselves inspires me to be myself. Yay representation and diversity, they empower everyone.  
+**'Representation is Inspiring'**: Voyd means 'You doing *me*' will 'inspire me to do me'. Elastagirl is only a role-model insofar as Voyd can relate to her. That's because:
 
 **Representations of diversity can only inspiring when they're is relatable.** <sup><sub>[Logic:  
 I→R  If someone is inspiring, then they must be relatable.  
@@ -40,7 +40,7 @@ If what Voyd says (what I called 'Diversity is Inspiring') was true, seeing peop
 The fact is, Voyd only feels welcomed among her own people (superheroes).
 She clearly *isn't* inspired by un-relatable normie non-superheros 'doing you' (doing their normality) — they make her feel "like an outcast".
 
-Therefore what Voyd says ('Diversity is Inspiring') **is false**, 'You doing *you*' does NOT 'inspire me to do me'. <sup><sub>Hence this post's title.</sub></sup> Diversity itself isn't enough to inspire other people to confidently be themselves.
+Therefore what Voyd says ('Diversity is Inspiring') **is false**, 'You doing *you*' does NOT 'inspire me to do me' when applied to the vast majority of people. <sup><sub>Hence this post's title.</sub></sup> Diversity itself isn't enough to inspire other people to confidently be themselves.
 
 So how *do* we inspire people to be confident and dignified? Being relatable is a start. If you're too garishly obstinate, and base your identity on being proud to stand out, you pre-filter. The only people who'll get past your defenses are those who are already as outlandish as you. <sup><sub>[This deserves its own post]</sub></sup>
 
