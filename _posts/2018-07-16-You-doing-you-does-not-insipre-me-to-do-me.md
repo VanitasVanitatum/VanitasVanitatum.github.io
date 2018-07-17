@@ -15,7 +15,7 @@ tags:
 
 "Oh wow, WOW, Elastagirl there you are ... Hi, my superhero name is Voyd, I just wanna thank you for being you! I felt like an outcast, before. But now with *you* being *you*, I feel like [hug] yay me!"
 
-The simple reading of this scene from "The Incredibles 2" (2018) is that Elastagirl, by daring to be a public (female) superhero, serves as a role-model for other young (female) superheroes, inspiring them to be themselves. Sure, it's a kids' movie, yadda yadda good themes about confidence and growing up. <sup><sub>[But it needs to be taken seriously, because it has a massive audience while being very forward with its politics. For the record, overall I think the film and Voyd's contribution are valuable and positive, though a bit cliché.]</sub></sup>
+The simple reading of this scene from "The Incredibles 2" (2018) is that Elastagirl, by daring to be a public (female) superhero, serves as a role-model for other young (female) superheroes, inspiring them to be themselves. Sure, it's a kids' movie, yay good themes about confidence, growing up, and it's OK to be yourself. <sup><sub>[But it needs to be taken seriously, because it has a massive audience while being very forward with its politics. For the record, overall I think the film and Voyd's contribution are valuable and positive, though a bit cliché.]</sub></sup>
 
 Here's the problem — diversity is in conflict with representation, how we talk about them doesn't match how representation actually works. And if what we say doesn't match what we actually believe, everyone gets mislead (including ourselves), so let's be clear here.
 
