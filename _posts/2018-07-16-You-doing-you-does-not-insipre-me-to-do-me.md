@@ -8,6 +8,7 @@ categories:
 tags:
   - Social Justice
   - Diversity
+  - Logic
 ---
 
 <iframe width="560" height="315" align="middle" src="https://www.youtube.com/embed/GI8he-IbolA?controls=1&amp;start=0&amp;end=51" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -25,15 +26,14 @@ Elastagirl embodies representation, being minority (superhero), female, and bold
 **Diversity is Inspiring**, what Voyd says: 'You doing *you*' will 'inspire me to do me'. Other people being themselves inspires me to be myself. Yay representation and diversity, they empower everyone.  
 **Representation is Inspiring**, what Voyd means: 'You doing *me*' will 'inspire me to do me'. Elastagirl is only a role-model insofar as Voyd can relate to her. That's because:
 
-**Representations of diversity can only inspiring when they're is relatable.**  
-<sup><sub>[Logic:  
+**Representations of diversity can only inspiring when they're is relatable.** <sup><sub>[Logic:  
 I→R  If someone is inspiring, then they must be relatable.  
 ¬R→¬I If someone is not relatable, then they cannot be inspiring.]</sub></sup>
 
 Here's how role-models actually work: someone performing-the-role only inspires you to have confidence that you can also perform-*that*-role, if they're sufficently similar to you that you can realistically imagine yourself in their role.
 For example, plenty of 2016 presidential hopefuls were authentically 'you doing you', but the biggest (token) role-model for young girls was Hillary Clinton, not because of 'you do you' (her being a lawyer, former secretary of state, or having already lived in the White House), but simply because she's a woman.
 
-<sup><sub>[To discuss later is the obvious tokenism problem here, that focus of pop-diversity-representation is too narrow, focusing more on traits which are outside people's control (sex/ethnicity), rather than things everyone can make an effort to improve (confidence/moral integrity).]</sub></sup>
+<sup><sub>[For another post, is the obvious tokenism problem here, that focus of pop-diversity-representation is too narrow, focusing more on traits which are outside people's control (sex/ethnicity), rather than things everyone can make an effort to improve (confidence/moral integrity).]</sub></sup>
 
 
 If what Voyd says (what I called 'Diversity is Inspiring') was true, seeing people who are different from herself would inspire "yay me".
@@ -45,23 +45,16 @@ Therefore what Voyd says ('Diversity is Inspiring') **is false**, 'You doing *yo
 So how *do* we inspire people to be confident and dignified? Being relatable is a start. If you're too garishly obstinate, and base your identity on being proud to stand out, you pre-filter. The only people who'll get past your defenses are those who are already as outlandish as you. <sup><sub>[This deserves its own post]</sub></sup>
 
 Unfortunatley even 'Representation is Inspiring' isn't guaranteed to be true, someone can be relatable without being inspiring.
-<sup><sub>[Logically we only have I→R, not I⇔R, so the entailment doesn't go backwards as in R→I.]</sub></sup>
-
 If our focus is too narrow (only on the diverse differences), that will prevent us from relating to a potential role-model.
-A pro athlete may be 'doing me' (e.g. has the same sex/ethnicity as me), but if I only focus on the differences between us (how much better they are at sport), I'll be daunted and feel they're unrelatable, their prowess unattainable.
+<sup><sub>[Logically we only have I→R, not I⇔R, so the entailment backwards R→I doesn't hold.]</sub></sup>
 
-Our interpretation matters.
+A pro athlete may be 'doing me' (e.g. has the same sex/ethnicity as me), but if I only focus on the differences between us (e.g. how much better they are at sport), I'll be daunted and feel they're unrelatable, their prowess unattainable. There is some common ground, there's a *potential* to relate, but it takes some extra effort to *actually* relate.
 
+**We need to deliberately focus on what we have in common,** not define ourselves by our differences. When reconciling different groups (e.g. the French and the British) let's focus on what we have in common (e.g. both loving cheese) and the places where the channel dividing us is narrowest (the best places to build a bridge e.g. Calais and Dover), rather than how far-apart are our capitols (e.g. Paris and London).
 
-**We need to deliberately focus on what we have in common,** not define ourselves by our differences. Let's focus on the places where the channel dividing us is narrowest (the best places to build a bridge e.g. Calais and Dover), rather than how far-apart are our capitols (e.g. Paris and London).
-
-
-Pop politics says 'Diversity unities us', but this is deluded. Defining ourselves according to our diversity
-
-
-Instead we should 
 
 {% comment %}
+Pop politics says 'Diversity unities us', but this is deluded. Defining ourselves according to our diversity
 {% endcomment %}
 
 
