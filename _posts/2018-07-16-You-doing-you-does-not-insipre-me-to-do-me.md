@@ -22,8 +22,8 @@ Voyd embodies diversity, being minority (superhero), female, likely queer (half-
 
 Elastagirl embodies representation, being minority (superhero), female, and bold enough to live openly as a superhero in a society that oppresses them. It isn't stated explicitly, but the fact that Elastagirl is a superhero AND FEMALE doubles her relatability for Voyd. <sup><sub>[Inverting the gender roles from the first film was cool and good, making all the male characters inept and easily duped wasn't.]</sub></sup>
 
-**Inspirational Diversity**, what Voyd says: 'You doing *you*' will 'inspire me to do me'. Other people being themselves inspires me to be myself. Yay representation and diversity, they empower everyone.  
-**Inspirational Representation**, what Voyd means: 'You doing *me*' will 'inspire me to do me'. Elastagirl is only happens to be a role-model insofar as Voyd can relate to her. That's because:
+**Diversity is Inspiring**, what Voyd says: 'You doing *you*' will 'inspire me to do me'. Other people being themselves inspires me to be myself. Yay representation and diversity, they empower everyone.  
+**Representation is Inspiring**, what Voyd means: 'You doing *me*' will 'inspire me to do me'. Elastagirl is only happens to be a role-model insofar as Voyd can relate to her. That's because:
 
 **Representations of diversity are only inspiring when they're is relatable.**  
 <sup><sub>[Logic  
@@ -32,25 +32,23 @@ I→R  If someone is inspiring, they must be relatable.
 
 Here's how role-models actually work: someone performing-the-role inspires you to have confidence that you can also perform-*that*-role.
 Someone's only a role-model if they're sufficently similar to you that you can realistically imagine yourself in their role.
-Plenty of 2016 presidential hopefuls were authentically 'you doing you', but the biggest (token) role-model for young girls was Hillary Clinton, not because of 'you do you', but because she's a woman.
+Plenty of 2016 presidential hopefuls were authentically 'you doing you', but the biggest (token) role-model for young girls was Hillary Clinton, not because of 'you do you', but more because she's a woman.
 
-<sup><sub>[To discuss later is the obvious tokenism problem here, that diversity representation focuses on things outside people's control (sex/ethnicity) rather than things everyone can make an effort to improve (confidence/moral integrity).]</sub></sup>
+<sup><sub>[To discuss later is the obvious tokenism problem here, that pop diversity representation's focus is too narrow, focusing on traits which are outside people's control (sex/ethnicity), rather than things everyone can make an effort to improve (confidence/moral integrity).]</sub></sup>
 
 
-If what Voyd says is true, seeing people who are different from herself would inspire her to be be a self-confident superhero herself.
+If what Voyd says is true (what I called 'Inspirational Diversity'), seeing people who are different from herself would inspire her to be be a self-confident superhero herself.
 The fact is, Voyd only feels welcomed among her own people (superheroes).
-She clearly *isn't* inspired by unrelatable normie non-superheros 'doing you' (doing their normality) — they make her feel "like an Outcast".  
+She clearly *isn't* inspired by unrelatable normie non-superheros 'doing you' (doing their normality) — they make her feel "like an Outcast".
 
-Therefore
-
-Mere representation and diversity by themselves aren't enough to inspire
+Therefore what Voyd says ('Diversity is Inspiring') isn't true, 'You doing *you*' does NOT 'inspire me to do me'. <sup><sub>Hence this post's title.</sub></sup> Mere diversity by itself isn't enough to inspire other people to confidently be themselves.
 
 
 
 So how *do* we inspire people to be confident and dignified? Being relatable is a start. If you're too garishly obstinate, and base your identity on being proud to stand out, the only people who'll get past your defenses are those as outlandish as you.
 
 
-But our interpreation also matters. Someone being relatable is only the groundwork, by itself that's insufficent to be inspiring. Rather than being daunted
+But our interpretation also matters. Someone being relatable is only the groundwork, by itself that's insufficent to be inspiring. Rather than being daunted
 
 Let's presume anyone with the same race/gender/nationality as me is 'relatable', because I 
 <sup><sub>[Logically we only have I→R, not I⇔R, so the entailment doesn't go backwards as in R→I.]</sub></sup>
