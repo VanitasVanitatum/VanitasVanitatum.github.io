@@ -36,7 +36,7 @@ Here's how role-models work: someone who's *like you* manages to be successful, 
 
 For example, plenty of 2016 presidential hopefuls were authentically 'you doing you', but the biggest (token) role-model for young girls was Hillary Clinton, not because of her success (being a lawyer, former secretary of state, and having already lived in the White House), but because she was a successful woman.
 
-<sup><sub>[For another post, is the obvious tokenism problem here, that focus of pop-diversity-representation is too narrow, focusing more on traits which are outside people's control (sex/ethnicity), rather than things everyone can make an effort to improve (confidence/moral integrity). Also, it's trendy to believe that all aspects of identity are willful performances, but identity has non-performance elements too.]</sub></sup>
+<sup><sub>[For another post, is the obvious tokenism problem here. The focus of pop diversity-representation is too narrow, focusing more on traits which are outside people's control (sex/ethnicity), rather than things everyone can make an effort to improve (confidence/moral integrity). Also, it's trendy to believe that all aspects of identity are willful performances, but identity has non-performance elements too.]</sub></sup>
 
 
 If what Voyd *says* (what I called 'Diversity is Inspiring') was true, seeing people who are authentically being themselves would inspire "yay me". If simply diversity itself is what's inspiring, it souldn't matter how un-relate-able and different normies are to her.
