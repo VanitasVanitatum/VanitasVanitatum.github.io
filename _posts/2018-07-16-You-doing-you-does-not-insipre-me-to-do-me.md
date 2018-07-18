@@ -19,6 +19,8 @@ The simple reading of this scene from "The Incredibles 2" (2018) is that Elastag
 
 Here's the problem — diversity is in conflict with representation, how we talk about them doesn't match how representation actually works. And if what we say doesn't match what we actually believe, everyone gets mislead (including ourselves), so let's be clear here.
 
+<!--fla-->
+
 Voyd embodies diversity, being minority (superhero), female, likely queer (half-shaved dyed hair, masculine jaw), and speaking impeccable pop politics.
 
 Elastagirl embodies representation, being minority (superhero), female, and bold enough to live openly as a superhero in a society that oppresses them. It isn't stated explicitly, but the fact that Elastagirl is a superhero *and female* doubles her relatability for Voyd. <sup><sub>[Inverting the gender roles from "The Incredibles" (2004) was cool and good, making all the male characters easily duped wasn't.]</sub></sup>
