@@ -32,7 +32,7 @@ Elastagirl embodies representation, being minority (superhero), female, and bold
 I→R  If someone is inspiring, then they must be relatable.  
 ¬R→¬I If someone is not relatable, then they cannot be inspiring.]</sub></sup>
 
-Here's how role-models work: someone who's *like you* manages to be successful, and this encourages you to believe that you can make it too. <sup><sub>[Everyone needs positive role-models, representation is good.]</sub></sup> My point is, they're only inspiring if they're sufficiently similar to you that you can realistically empathize with them. Successful and authentic, but not relatable, does not a role-model make.
+Here's how role-models work: someone who's *like you* manages to be successful, and this encourages you to believe that you can make it too. <sup><sub>[For the record I believe everyone needs positive role-models, diverse representation is good.]</sub></sup> My point is, they're only inspiring if they're sufficiently similar to you that you can realistically empathize with them. Successful and authentic, but not relatable, does not a role-model make.
 
 For example, plenty of 2016 presidential hopefuls were authentically 'you doing you', but the biggest (token) role-model for young girls was Hillary Clinton, not because of her success (being a lawyer, former secretary of state, and having already lived in the White House), but because she was a successful woman.
 
