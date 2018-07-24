@@ -11,6 +11,7 @@ tags:
   - Logic
 ---
 
+
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src="https://www.youtube.com/embed/GI8he-IbolA?controls=1&amp;start=0&amp;end=51" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 
 "Oh wow, WOW, Elastagirl there you are ... Hi, my superhero name is Voyd, I just wanna thank you for being you! I felt like an outcast, before. But now with *you* being *you*, I feel like [hug] yay me!"
@@ -39,9 +40,9 @@ For example, plenty of 2016 presidential hopefuls were authentically 'you doing 
 <sup><sub>[For another post, is the obvious tokenism problem here. The focus of pop diversity-representation is too narrow, focusing more on traits which are outside people's control (sex/ethnicity), rather than things everyone can make an effort to improve (confidence/moral integrity). Also, it's trendy to believe that all aspects of identity are willful performances, but identity has non-performance elements too.]</sub></sup>
 
 
-If what Voyd *says* (what I called 'Diversity is Inspiring') was true, seeing people who are authentically being themselves would inspire "yay me". If simply diversity itself is what's inspiring, it souldn't matter how un-relate-able and different normies are to her.
+If what Voyd *says* ("with you being you, I feel like [hug] yay me") was literally true, seeing *anyone* authentically being themselves would inspire "yay me". If simply diversity itself is what's inspiring, it souldn't matter how un-relate-able and different normies are to her.
 
-The fact is, Voyd only feels welcomed among her own people (superheroes).
+But the fact is, Voyd only feels welcomed among her own people (superheroes).
 She clearly *isn't* inspired by non-superhero normies being normies — they make her feel "like an outcast".
 
 Therefore what Voyd says ('Diversity is Inspiring') **is false**. Normies 'You doing *you*' do NOT 'inspire me to do me', that only happens if it's a superhero doing it. <sup><sub>[Hence this post's title.]</sub></sup> Pop diversity implies "*all* authentic people inspire me", but what's meant is "only *my* people's representation inspires me".
