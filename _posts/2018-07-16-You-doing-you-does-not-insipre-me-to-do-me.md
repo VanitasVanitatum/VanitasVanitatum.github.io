@@ -56,7 +56,7 @@ A pro athlete may be 'doing me' (e.g. has the same sex/ethnicity as me), but if 
 
 **We need to deliberately focus on what we have in common,** rather than defining ourselves by our differences. When reconciling different groups (e.g. the French and the British) let's focus on what we have in common (e.g. both loving cheese) and the places where the channel dividing us is narrowest (the best places to build a bridge e.g. Calais and Dover), rather than how far-apart are our capitols (e.g. Paris and London).
 
-What links us goes deeper than the skin, we all share humanity. Everyone has a name, dream, laugh, and smile ... dignity and rights, strengths and weaknesses, a story and a future. We have so much more in common than what divides us. We can discover how to relate to each-other. Even find unlikely role-models and be inspired by people who look nothing like us. Let's surpass our differences, and be united despite them.
+The things that link us go deeper than the skin. We all share humanity. Everyone has a name, dream, laugh, and smile ... dignity and rights, strengths and weaknesses, a story and a future. We have so much more in common than what divides us. We can discover how to relate to each-other. Even find unlikely role-models and be inspired by people who look nothing like us. Let's surpass our differences, and be united despite them.
 
 {% comment %}
 {% endcomment %}

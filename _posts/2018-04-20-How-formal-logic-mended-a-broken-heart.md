@@ -6,6 +6,7 @@ excerpt_separator: "<!--fla-->"
 categories:
   - Purity
 tags:
+  - Purity
   - Logic
   - Love
 last_modified_at: 2018-04-20T12:57:42-05:00
