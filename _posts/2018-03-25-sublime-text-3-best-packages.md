@@ -150,10 +150,22 @@ Change how many decimal places it rounds to with this setting (doesn't work if s
 
 ___
 ## WakaTime
-An attempt at a productivity-monitoring system, where it tracks how much you work, then gives you weekly analytics on an online dashboard. Make sure to set conservative privacy settings. Unfortunately it doesn't record time working on files which don't have a specified filepath.
+An attempt at a productivity-monitoring system, where it tracks how much you work, then gives you weekly analytics on an online dashboard. Make sure to set conservative privacy settings. Unfortunately it doesn't record time working on files which don't have a specified filepath (are unsaved drafts stored in your sublime-workspace.
+
 
 
 ___
+## WordCount
+Displays word-count in the status bar. Works best for plain-text, for markup (e.g. Markdown, LaTeX) it over-shoots. I use these settings:
+
+```json
+{
+  "enable_count_pages": false,
+  "blacklist_syntaxes": [],
+}
+```
+
+
 
 ___
 
