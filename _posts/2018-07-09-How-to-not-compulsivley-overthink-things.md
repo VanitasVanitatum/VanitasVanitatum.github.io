@@ -4,14 +4,14 @@ title: "How to Not Compulsivley Overthink Things"
 
 excerpt_separator: "<!--fla-->"
 categories:
-  - Purity
+  - Caritas
 tags:
-  - Purity
+  - Caritas
   - Coping Mechanisms
 ---
 
 
-Stop fixating if you see these signs:
+Stop fixating if you see these signs (i.e. notice your limits):
 
 Information: You can't see your own ignorance because you are blinded by your feelings, or you havetoo little evidence to make an informed judgement.
 

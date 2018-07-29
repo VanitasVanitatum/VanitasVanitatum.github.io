@@ -4,9 +4,9 @@ title: "How Formal Logic Mended a Broken Heart"
 
 excerpt_separator: "<!--fla-->"
 categories:
-  - Purity
+  - Caritas
 tags:
-  - Purity
+  - Caritas
   - Logic
   - Love
 last_modified_at: 2018-04-20T12:57:42-05:00
