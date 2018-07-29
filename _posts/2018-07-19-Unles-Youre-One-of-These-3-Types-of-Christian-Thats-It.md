@@ -13,21 +13,27 @@ tags:
   - Woke
 ---
 
-<sup><sub>Apologies, the '3' isn't about confessions i.e. Protestant vs. Catholic vs. Orthodox. Those are important and interesting differences to discuss (namely Filioque and Apostolic Succession), but that's for another day, study that still lies before me.</sub></sup>
+<sup><sub>Apologies, the '3' isn't about confessions viz. Protestant vs. Catholic vs. Orthodox. Those are important and interesting differences to discuss (namely Filioque and Apostolic Succession), but that's for another day, study that still lies before me.</sub></sup>
 
 
 The '3' is about Christian diversity representation, and (rightly) feeling wronged if you don't fit into one of these 3 boxes.
 I'm going to be deliberately negative, edgy, and opinionated. I shudder to not include lots of caveats and apologies, and not make triple-sure to preempt and diffuse any offense I might cause. You'll see why.
+
+<br/>
 
 ### Hollow Hoaxers  
 **Religion is traditional culture.** A curiosity belonging in a museum, for refined and subtle tastes.  
 **Religion is upper-class power.** A precursor to the 'Charity Fundraiser' social bubble and benefits of rubbing shoulders with high-society.  
 **Religion is for old people.** It isn't transformative, living, vibrant, inspiring, and active. It's sterile.  
 
+<br/>
+
 ### Heated Haters  
 **Religion is traditional values.** As filtered through the mouth of its preacher, who may-or-may-not skew the message for his own benefit. Come back again to get your reward, *he sure will*.  
 **Religion is lower-class identity.** You'd better believe what the man taught, 'cause that's The Good Book's truth. Obey him too.  
 **Religion is for self-righteously 'good' people.** It's for the right people, so if you're not a church-goer, you're the wrong people, riff-raff.  
+
+<br/>
 
 ### Homley Hipsters  
 **Religion is a hypebeast.** Rustic, flannel, coffee, handwritten fonts, hashtags. Starry skies with bible verses, baking, bunting, bow-ties.  
