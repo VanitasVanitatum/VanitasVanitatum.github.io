@@ -4,14 +4,20 @@ title: "Unless You're One of These 3 Types of Christian, That's It?"
 
 excerpt_separator: "<!--fla-->"
 categories:
-  - Social Justice
+  - Caritas
 tags:
-  - Social Justice
+  - Caritas
+  - Representation
+  - Diversity
+  - Welcome
+  - Woke
 ---
 
-Sorry the '3' isn't about confessions i.e. Protestant vs. Catholic vs. Orthodox. Those are important and interesting differences to discuss (namely Filioque and Apostolic Succession), but that's study that still lies before me.
+<sup><sub>Apologies, the '3' isn't about confessions i.e. Protestant vs. Catholic vs. Orthodox. Those are important and interesting differences to discuss (namely Filioque and Apostolic Succession), but that's for another day, study that still lies before me.</sub></sup>
 
-The '3' is about Christian diversity representation, and (rightly) feeling wronged if you don't fit into one of these boxes:
+
+The '3' is about Christian diversity representation, and (rightly) feeling wronged if you don't fit into one of these 3 boxes.
+I'm going to be deliberately negative, edgy, and opinionated. I shudder to not include lots of caveats and apologies, and not make triple-sure to preempt and diffuse any offense I might cause. You'll see why.
 
 ### Hollow Hoaxers  
 **Religion is traditional culture.** A curiosity belonging in a museum, for refined and subtle tastes.  
@@ -25,18 +31,30 @@ The '3' is about Christian diversity representation, and (rightly) feeling wrong
 
 ### Homley Hipsters  
 **Religion is a hypebeast.** Rustic, flannel, coffee, handwritten fonts, hashtags. Starry skies with bible verses, baking, bunting, bow-ties.  
-**Religion is woke, modestly.** Vegetarianism, ethical fashion, carpooling, diversity. So *in* the world and forward, #relevant.  
+**Religion is woke, modestly.** Vegetarianism, ethical fashion, carpooling, diversity. So *in* the world and forward, #relevant. (Woke?)  
 **Religion is a concert.** Dramatic prayers and and droves of fans, conversion on tap. Flashing lights and crashing bands, pumping electricity.  
 
-I shudder when writing something this edgy and opinionated, without putting in lots of caveats and apologies. Without making double- and triple- sure to preempt and diffuse any offense I might cause. I'm depicting a negative attitude that I don't endorse. The negative attitude is stereotyping. My call is for you to not let these stereotypes be true.
+
+I'm depicting a negative attitude that I don't endorse. The negative attitude is stereotyping. My call is for you to not let these stereotypes be true.
+The descriptions of these 3 groups aren't my opinions, they're negative opinions I'm challenging us to identify and reject.
 
 #### Don't apply these stereotypes to other people.
 They're harsh and gross, which is why I'm naming-and-shaming them. We need to anticipate that people will be full of nuance, subtlety, contradiction, and uniqueness (e.g. dressing-up like a hipster, being lower-class, but enjoying high-church).
 
-Don't approach other people, especially not Christian brothers, with this sort of bitterness and judgmentalism. Give them a chance. You may have dis-taste for their (lack of) cultural relevance/taste, but don't permit that take root and poison your heart, building a barrier stopping you from treating them with dignity.
+Don't approach other people, especially not Christian brothers, with this sort of bitterness and judgmentalism. It's arrogant to think we can know someone by sight, before meeting them. Give them a chance. You may have dis-taste for their (lack of) cultural relevance/taste, but don't permit that take root and poison your heart, building a barrier stopping you from treating them with dignity.
 
 #### Don't apply these stereotypes to yourself.
-Don't base your Christian identity on social group conformity. (Our identity is in Christ)[https://www.youtube.com/watch?v=Y7W4I0tQZps&t=0s&list=PLqLno2B-jEzbqT7hPT2R7Th-RQfeM9b99&index=13], not in our music style, social class, style of dress, or oppulence of church building.
+Don't base your Christian identity on social group conformity. (Our identity is in Christ)[https://www.youtube.com/watch?v=Y7W4I0tQZps&t=0s&list=PLqLno2B-jEzbqT7hPT2R7Th-RQfeM9b99&index=13], not in our music style, social class, style of dress, or oppulence of church building. It's superficial, a trap, to measure our level of Christian commitment based on how-well we socially conform to our little sub-culture.
+
+Personally, I felt trapped in a University context full of Homley Hipsters I who couldn't relate to. I wanted Christian rap, Gospel, and Liturgical Chant, not guitar music. So I permitted myself to feel resentful and distant from all the nice kids around me. It was legitimate for me to feel wronged that I wasn't being culturally welcomed, but it was bad for me to use that as an excuse to become a picky prissy asshole.
+
+It's important to have representation, support, community, and feeling like you belong.
+If you don't fit into that social group because of cultural differences, try to find somewhere where you do! For me that's been Taizé and Catholic friends. Don't do what I did, and put yourself through shame and pain, pretending to enjoy it and being in denial about how little you relate.
+
+There's a tension, we want to be holy and different from The World, but at the same time, most all of us have grown up *in* the world, and internalized many of its values and practices. How should Christians relate to the world? Tricky question, these 3 groups model 3 approaches repsectivley: being haughty, isolating ourselves, or chasing trendyness. None of those are perfect.
+
+It is cruel for Christians to expect Christians to fall into neat little cultural boxes like these.
+At minimum, all churches need moral, pastoral, and doctrinal integrity being preached and practiced. But if it has that, there *is* room for legitimate cultural variances. *You are welcome to join God's community*, and thankfully, it's more broad and inclusive than those 3 groups. So Christians, let's *be the welcome* towards cultural diversity.
 
 
 
