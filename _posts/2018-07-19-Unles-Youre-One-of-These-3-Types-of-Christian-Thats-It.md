@@ -54,18 +54,19 @@ Don't approach other people, especially not Christian brothers, with this sort o
 
 TL;DR Don't let differences in class or culture divide us, don't be a superficial asshole.
 
+<br/>
 
 #### Don't apply these stereotypes to yourself.
 Don't base your Christian identity on social group conformity. [Our identity is in Christ](https://www.youtube.com/watch?v=Y7W4I0tQZps&t=0s&list=PLqLno2B-jEzbqT7hPT2R7Th-RQfeM9b99&index=13), not in our music style, social class, style of dress, or oppulence of church building. It's superficial, a trap, to measure level-of-Christian-commitment based on how-well one socially conforms to one's little sub-culture.
 
-It's important to have representation, support, community, and feeling like you belong.
+Its important to have representation, support, community, and feeling like you belong.
 If you don't fit into your local Christian social group because of cultural differences, try to find somewhere where you do! For me that's been Taizé, Catholic, and theology friends. Don't do what I did, and put yourself through shame and pain, pretending to enjoy it and being in denial about how little you relate.
 
 Personally, I felt trapped in a University context full of Homley Hipsters I who couldn't relate to. I wanted Christian rap, Gospel, and Liturgical Chant, not guitar music. So I permitted myself to feel resentful and distant from all the nice kids around me. It was legitimate for me to feel wronged that I wasn't being culturally welcomed, but it was illegitimate for me to use that as an excuse to permit myself to be picky and arrogant.
 
 There's a tension, we want to be holy and different from The World, but at the same time, most of us have grown up *in* the world, and internalized many of its values and culture. How should Christians relate to the world? Tricky question, these 3 groups model 3 approaches repsectivley: being haughty, isolating ourselves, or chasing trendyness. None of those are perfect.
 
-It is cruel for Christians to expect Christians to fall into neat little cultural boxes like these.
+Its cruel for Christians to expect Christians to fall into neat little cultural boxes like these.
 At minimum, all churches need moral, pastoral, and doctrinal integrity being preached and practiced. But if it has that, there *is* room for legitimate cultural variances. *You are [welcome](https://vanitasvanitatum.github.io/tags.html#welcome) to join God's community*, and thankfully, it's more broad and inclusive than those 3 groups. So Christians, let's *be welcoming* of cultural diversity.
 
 
