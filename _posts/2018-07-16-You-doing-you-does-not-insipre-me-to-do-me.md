@@ -8,6 +8,7 @@ categories:
 tags:
   - Social Justice
   - Diversity
+  - Representation
   - Logic
 ---
 

@@ -11,6 +11,6 @@ Similar words with different nuances give different tones and have big effects. 
 
 I like communication because its an example of applied-philosophy. Which words you use makes a big difference (and pragmatics shows that using words can have social effect e.g. silencing, self-fulfilling prophecies). So, if we invest into careful insight and planning (i.e. theorycraft and do Philosophy), we can make a positive social change!
 
-<img align="middle" alt="Joos van Cleve - Saint Jerome in His Study (Princeton Art Museum, c. 1528)" title="‘Blessed are the pure in heart, for they will see God.’ Matthew 5:8" src="https://raw.githubusercontent.com/VanitasVanitatum/VanitasVanitatum.github.io/master/images/Caritas.png"/>
+[//]: # <img align="middle" alt="Joos van Cleve - Saint Jerome in His Study (Princeton Art Museum, c. 1528)" title="‘Blessed are the pure in heart, for they will see God.’ Matthew 5:8" src="https://raw.githubusercontent.com/VanitasVanitatum/VanitasVanitatum.github.io/master/images/Communication.png"/>
 
 ___
