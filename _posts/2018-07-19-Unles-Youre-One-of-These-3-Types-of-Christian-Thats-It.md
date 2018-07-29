@@ -19,6 +19,8 @@ tags:
 The '3' is about Christian [diversity](https://vanitasvanitatum.github.io/tags.html#diversity) [representation](https://vanitasvanitatum.github.io/tags.html#representation), and (rightly) feeling wronged if you don't fit into one of these 3 boxes.
 I'm going to be deliberately negative, edgy, and opinionated. I shudder to not include lots of caveats and apologies, and not make triple-sure to preempt and diffuse any offense I might cause. You'll see why.
 
+<!--fla-->
+
 <br/>
 
 ### Hollow Hoaxers  
