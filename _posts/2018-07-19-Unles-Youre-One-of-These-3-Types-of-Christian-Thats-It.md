@@ -29,7 +29,7 @@ I'm going to be deliberately negative, edgy, and opinionated. I shudder to not i
 <br/>
 
 ### Heated Haters  
-**Religion is traditional values.** As filtered through the mouth of its preacher, who may-or-may-not skew the message for his own benefit. Come back again to get your reward, *he sure will*.  
+**Religion is traditional values.** As filtered through the mouth of its preacher, who may-or-may-not skew the message for his own benefit. Come back again to get your reward, *he sure will* <sup><sub>(money)</sub></sup>.  
 **Religion is lower-class identity.** You'd better believe what the man taught, 'cause that's The Good Book's truth. Obey him too.  
 **Religion is for self-righteously 'good' people.** It's for the right people, so if you're not a church-goer, you're the wrong people, riff-raff.  
 
