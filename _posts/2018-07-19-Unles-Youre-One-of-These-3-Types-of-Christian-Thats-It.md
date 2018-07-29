@@ -7,16 +7,16 @@ categories:
   - Caritas
 tags:
   - Caritas
-  - Representation
   - Diversity
+  - Representation
   - Welcome
   - Woke
 ---
 
-<sup><sub>Apologies, the '3' isn't about confessions viz. Protestant vs. Catholic vs. Orthodox. Those are important and interesting differences to discuss (namely Filioque and Apostolic Succession), but that's for another day, study that still lies before me.</sub></sup>
+<sup><sub>Sorry the '3' isn't about confessions viz. Protestant vs. Catholic vs. Orthodox. Those are important and interesting differences to discuss (namely Filioque and Apostolic Succession), but that's for another day, study that still lies before me.</sub></sup>
 
 
-The '3' is about Christian diversity representation, and (rightly) feeling wronged if you don't fit into one of these 3 boxes.
+The '3' is about Christian [diversity](https://vanitasvanitatum.github.io/tags.html#diversity) [representation](https://vanitasvanitatum.github.io/tags.html#representation), and (rightly) feeling wronged if you don't fit into one of these 3 boxes.
 I'm going to be deliberately negative, edgy, and opinionated. I shudder to not include lots of caveats and apologies, and not make triple-sure to preempt and diffuse any offense I might cause. You'll see why.
 
 <br/>
@@ -37,7 +37,7 @@ I'm going to be deliberately negative, edgy, and opinionated. I shudder to not i
 
 ### Homley Hipsters  
 **Religion is a hypebeast.** Rustic, flannel, coffee, handwritten fonts, hashtags. Starry skies with bible verses, baking, bunting, bow-ties.  
-**Religion is woke, modestly.** Vegetarianism, ethical fashion, carpooling, diversity. So *in* the world and forward, #relevant. (Woke?)  
+**Religion is [woke](https://vanitasvanitatum.github.io/tags.html#woke), modestly.** Vegetarianism, ethical fashion, carpooling, diversity. So *in* the world and forward, #relevant.  
 **Religion is a concert.** Dramatic prayers and and droves of fans, conversion on tap. Flashing lights and crashing bands, pumping electricity.  
 
 <br/>
@@ -66,7 +66,7 @@ Personally, I felt trapped in a University context full of Homley Hipsters I who
 There's a tension, we want to be holy and different from The World, but at the same time, most of us have grown up *in* the world, and internalized many of its values and culture. How should Christians relate to the world? Tricky question, these 3 groups model 3 approaches repsectivley: being haughty, isolating ourselves, or chasing trendyness. None of those are perfect.
 
 It is cruel for Christians to expect Christians to fall into neat little cultural boxes like these.
-At minimum, all churches need moral, pastoral, and doctrinal integrity being preached and practiced. But if it has that, there *is* room for legitimate cultural variances. *You are welcome to join God's community*, and thankfully, it's more broad and inclusive than those 3 groups. So Christians, let's *be welcoming* of cultural diversity.
+At minimum, all churches need moral, pastoral, and doctrinal integrity being preached and practiced. But if it has that, there *is* room for legitimate cultural variances. *You are [welcome](https://vanitasvanitatum.github.io/tags.html#welcome) to join God's community*, and thankfully, it's more broad and inclusive than those 3 groups. So Christians, let's *be welcoming* of cultural diversity.
 
 
 
