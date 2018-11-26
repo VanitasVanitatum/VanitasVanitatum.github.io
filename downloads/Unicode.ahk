@@ -66,12 +66,13 @@
 	SendInput {U+1d47}		;;			ᵇ
 	Return
 
-:*?:~ltr::		;;			áàêèçôñöü
+:*?:~ltr::		;;			áàêèçÎôñöüù
 	SendInput {U+e1}		;;			á
 	SendInput {U+e0}		;;			à
 	SendInput {U+ea}		;;			ê
 	SendInput {U+e8}		;;			è
 	SendInput {U+e7}		;;			ç
+	SendInput {U+ce}		;;			î
 	SendInput {U+f4}		;;			ô
 	SendInput {U+f1}		;;			ñ
 	SendInput {U+f6}		;;			ö
