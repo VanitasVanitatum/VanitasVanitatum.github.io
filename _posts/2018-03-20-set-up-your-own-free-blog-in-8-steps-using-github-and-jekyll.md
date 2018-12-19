@@ -11,6 +11,7 @@ last_modified_at: 2018-03-20T12:57:42-05:00
 ---
 
 
+
 Here's where I'm dumping all the how-to customization info.
 Instead of having lots of code in quotes, I'm going to expect you to <a href="{{ site.github.repo }}/blob/master/_posts/2018-03-20-set-up-your-own-free-blog-in-8-steps-using-github-and-jekyll">examine this page's code</a> on my GitHub.
 
